@@ -3,109 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Companion page for a systematic review of deep reinforcement learning in construction robotics.">
-  <title>From Learned Decisions to Continued Operation</title>
+  <meta name="description" content="Learning to Shape the World: a systematic review of deep reinforcement learning for construction robotics. 136 reports, 100 executing configurations, five construction regimes.">
+  <title>Learning to Shape the World | DRL4CONBOTS</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <nav>
-      <a class="brand" href="https://github.com/ZekaiJ/DRL4CONBOTS/tree/v2">DRL4CONBOTS · v2</a>
-      <a class="nav-link" href="https://github.com/ZekaiJ/DRL4CONBOTS/tree/v2">GitHub repository</a>
-    </nav>
-    <div class="hero-copy">
-      <p class="eyebrow">Systematic review · construction robotics · deep reinforcement learning</p>
-      <h1>From Learned Decisions to<br><span>Continued Operation</span></h1>
-      <p class="lead">A learned action matters beyond the motion it completes. Construction work must leave a machine, workpiece, payload, and site state from which the next action remains possible.</p>
-      <div class="actions">
-        <a class="button primary" href="#evidence">Explore the evidence</a>
-        <a class="button secondary" href="https://github.com/ZekaiJ/DRL4CONBOTS/tree/v2">View the v2 branch</a>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="metrics" aria-label="Review counts">
-      <article><strong>6,255</strong><span>database records</span></article>
-      <article><strong>136</strong><span>eligible reports</span></article>
-      <article><strong>101</strong><span>quantitative configurations</span></article>
-      <article><strong>5</strong><span>construction regimes</span></article>
-    </section>
-
-    <section class="section split" id="question">
-      <div>
-        <p class="eyebrow">The scientific object</p>
-        <h2>The complete command path</h2>
-      </div>
-      <div class="prose">
-        <p>A task score does not show whether a learned component directly commands actuators, proposes a bounded reference, selects a skill, or advises an operator. Nor does it show what can intervene when execution departs from plan.</p>
-        <p>The review therefore compares each robot–task–learning–control configuration as a whole: failure physics, learned interface, execution authority, active protection, test conditions, and recovery.</p>
-      </div>
-    </section>
-
-    <section class="section pathway" aria-labelledby="path-title">
-      <p class="eyebrow">Operational continuity</p>
-      <h2 id="path-title">What must survive a learned action?</h2>
-      <div class="steps">
-        <article><span>01</span><h3>Work changes</h3><p>Motion alters material, geometry, dynamics, access, or workflow state.</p></article>
-        <article><span>02</span><h3>A proposal forms</h3><p>The learned component produces a command, reference, skill, or plan.</p></article>
-        <article><span>03</span><h3>Execution is mediated</h3><p>Controllers, constraints, supervisors, or people authorize physical action.</p></article>
-        <article><span>04</span><h3>A viable state remains</h3><p>The machine and work state remain usable or are restored after disturbance.</p></article>
-        <article><span>05</span><h3>Work continues</h3><p>The next task action can proceed without an unreported reset or rescue.</p></article>
-      </div>
-    </section>
-
-    <section class="section" id="evidence">
-      <p class="eyebrow">Current evidence</p>
-      <h2>Physical exposure is increasing. Recovery evidence remains sparse.</h2>
-      <div class="findings">
-        <article>
-          <strong>53 / 101</strong>
-          <p>configurations remain simulation-only without a reported execution-time mechanism able to alter a command.</p>
-        </article>
-        <article>
-          <strong>8 / 23</strong>
-          <p>construction-representative or near-operational configurations report command intervention or formal enforcement.</p>
-        </article>
-        <article>
-          <strong>7 / 23</strong>
-          <p>more extensively tested configurations enact a response after detecting or inferring a failure-relevant state.</p>
-        </article>
-        <article>
-          <strong>0</strong>
-          <p>configurations demonstrate the full recovery sequence after a realized failure or sustained workflow-integrated deployment.</p>
-        </article>
-      </div>
-      <p class="boundary">These counts describe published configurations and test conditions. They are not maturity scores, autonomy levels, certification claims, or estimates of the undisclosed industrial population.</p>
-    </section>
-
-    <section class="section">
-      <p class="eyebrow">Construction regimes</p>
-      <h2>Different work creates different failure pathways</h2>
-      <div class="regimes">
-        <article><strong>43</strong><h3>Earthwork and material processing</h3><p>Resistance history, overload, traction, terrain stability, and evolving material state.</p></article>
-        <article><strong>22</strong><h3>Structural assembly and installation</h3><p>Tolerance, contact transitions, jamming, wedging, and surface damage.</p></article>
-        <article><strong>16</strong><h3>Material placement and lifting</h3><p>Delayed oscillation, swept volume, payload variability, and suspended motion.</p></article>
-        <article><strong>4</strong><h3>Additive and surface processing</h3><p>Rheology, tool wear, cumulative geometry error, and irreversible defects.</p></article>
-        <article><strong>16</strong><h3>Navigation, layout, and logistics</h3><p>Human co-presence, occlusion, congestion, communication, and changing access.</p></article>
-      </div>
-    </section>
-
-    <section class="section release">
-      <div>
-        <p class="eyebrow">Repository release</p>
-        <h2>Reader-facing now; reproducibility package after final freeze</h2>
-      </div>
-      <div class="prose">
-        <p>The <code>v2</code> branch tracks the revised manuscript. Final search strategies, PRISMA-S records, eligibility and lineage tables, configuration-level extraction, analysis scripts, and figure-source data will be released together after cross-file consistency checks.</p>
-        <p>Superseded coding snapshots and reviewer deliberation files are not treated as scientific outputs. The public package will expose the final source-linked decisions needed to reproduce the reported counts.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p><strong>From Learned Decisions to Continued Operation</strong></p>
-    <p>Manuscript in revision for <em>Automation in Construction</em> · <a href="mailto:zekai.jin@mail.mcgill.ca">Contact</a> · <a href="https://github.com/ZekaiJ/DRL4CONBOTS/tree/v2">Source</a></p>
-  </footer>
+<header>
+  <nav aria-label="Main navigation"><a class="brand" href="https://github.com/ZekaiJ/DRL4CONBOTS">DRL4CONBOTS</a><div><a href="#framework">Framework</a><a href="#evidence">Evidence</a><a href="#agenda">Research directions</a></div></nav>
+  <p class="eyebrow">Deep reinforcement learning · Construction robotics</p>
+  <h1>Learning to<br><span>Shape the World</span></h1>
+  <p class="subtitle">A Systematic Review of Deep Reinforcement Learning<br>for Construction Robotics</p>
+  <p class="authors">Zekai Jin · Huiguang Wang · Yihong Tang · Zhen Dong · Chen Feng · Yi Shao</p>
+  <p class="affiliations">McGill · Mila · UC Santa Barbara · NVIDIA · NYU · UBC</p>
+  <a class="button" href="https://github.com/ZekaiJ/DRL4CONBOTS">Explore the repository</a>
+</header>
+<main>
+  <div class="metrics" aria-label="Review scope"><div><strong>136</strong><span>eligible reports</span></div><div><strong>100</strong><span>executing configurations</span></div><div><strong>5</strong><span>construction regimes</span></div></div>
+  <section id="framework">
+    <p class="eyebrow">The review question</p>
+    <h2>What does learning improve?</h2>
+    <p class="lead">Construction robots change the materials and workspaces in which they operate. A learned decision can affect both current execution and the conditions for subsequent work.</p>
+    <p>The review asks what experience can improve, how learned decisions are executed, and which construction outcomes are measured. DRL can connect earlier decisions to later consequences when those consequences are represented in the observations, objective, and decision horizon.</p>
+    <figure><a href="../Assets/overview/framework.pdf"><img src="../Assets/overview/framework.png" alt="The five analysis dimensions: task physics, learned interface, execution architecture, execution-time protection, and validation exposure."></a><figcaption>Interpreting the complete executing configuration. Select any figure to open its vector PDF.</figcaption></figure>
+  </section>
+  <section id="evidence">
+    <p class="eyebrow">Evidence at a glance</p>
+    <h2>Five task families. Different physical demands.</h2>
+    <p>Of 136 eligible reports, 101 support structured comparison of 100 configurations after consolidating one companion-report pair. The remaining 35 reports provide contextual evidence.</p>
+    <figure><a href="../Assets/overview/evidence.pdf"><img loading="lazy" src="../Assets/overview/evidence.png" alt="42 earthwork, 21 assembly, 17 lifting, 4 additive and surface processing, and 16 navigation configurations. Thirty reach L3 to L5."></a><figcaption>Within-regime percentages use each regime's configuration count, not the total corpus.</figcaption></figure>
+    <div class="callout"><h3>Testing conditions are not a maturity score.</h3><p>Seventy configurations were evaluated in simulation or controlled laboratories. Thirty reached construction-representative or broader conditions, including three at workflow-integrated repeated operation. These distributions do not establish industry-wide prevalence or causal effects of testing.</p></div>
+    <details><summary>Validation exposure levels</summary><div class="table-wrap"><table><thead><tr><th>Level</th><th>Highest demonstrated exposure</th><th>Count</th></tr></thead><tbody><tr><td>L0</td><td>Simulation-only evaluation</td><td>61</td></tr><tr><td>L1</td><td>Isolated laboratory hardware</td><td>3</td></tr><tr><td>L2</td><td>Systematically varied laboratory hardware</td><td>6</td></tr><tr><td>L3</td><td>Construction-representative testbed</td><td>22</td></tr><tr><td>L4</td><td>Near-operational field trial</td><td>5</td></tr><tr><td>L5</td><td>Workflow-integrated repeated operation</td><td>3</td></tr></tbody></table></div></details>
+  </section>
+  <section id="agenda">
+    <p class="eyebrow">Research directions</p>
+    <h2>From learning measures to construction outcomes.</h2>
+    <p>Align observations, objectives, and experience with changing work states. Evaluate decision models, delayed consequences, conditions for subsequent work, and transfer across machines and sites.</p>
+    <figure><a href="../Assets/overview/agenda.pdf"><img loading="lazy" src="../Assets/overview/agenda.png" alt="Five research directions and the distinction between learned decisions, execution systems, and test conditions."></a><figcaption>A research agenda, not a claim that these capabilities have been demonstrated across the corpus.</figcaption></figure>
+  </section>
+  <section id="resources">
+    <p class="eyebrow">Resources and contributions</p>
+    <h2>Read, inspect, and contribute.</h2>
+    <p>The repository provides the figures shown here and a concise reading guide. Source-linked supplementary data and reproducibility scripts are not yet included in this repository. A verified paper record will be linked when available.</p>
+    <p><a class="button" href="https://github.com/ZekaiJ/DRL4CONBOTS#citation">Citation and resources</a> <a href="https://github.com/ZekaiJ/DRL4CONBOTS/issues">Suggest a correction</a></p>
+  </section>
+</main>
+<footer><p>DRL4CONBOTS · <a href="mailto:zekai.jin@mail.mcgill.ca">Contact</a> · <a href="../LICENSE">License</a></p><p>Third-party images and papers remain subject to their original terms.</p></footer>
 </body>
 </html>
