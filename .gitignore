@@ -8,3 +8,4 @@ Thumbs.db
 .ruff_cache/
 *.tmp
 *.bak
+_site/

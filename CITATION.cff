@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this companion repository when using its materials. A verified manuscript citation will be added when available."
+title: "DRL4CONBOTS: Companion repository for a systematic review of deep reinforcement learning for construction robotics"
+authors:
+  - family-names: Jin
+    given-names: Zekai
+  - family-names: Wang
+    given-names: Huiguang
+  - family-names: Tang
+    given-names: Yihong
+  - family-names: Dong
+    given-names: Zhen
+  - family-names: Feng
+    given-names: Chen
+  - family-names: Shao
+    given-names: Yi
+url: "https://github.com/ZekaiJ/DRL4CONBOTS"
+repository-code: "https://github.com/ZekaiJ/DRL4CONBOTS"

@@ -1,0 +1,16 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const {matches, csv} = require('../docs/library.js');
+const rows = JSON.parse(fs.readFileSync(path.join(__dirname, '../_site/reports.json'), 'utf8'));
+const base = {query:'',task:'',year:'',role:''};
+assert.equal(rows.filter(r=>matches(r,base)).length,136);
+assert.equal(rows.filter(r=>matches(r,{...base,role:'Structured'})).length,101);
+assert.equal(rows.filter(r=>matches(r,{...base,role:'Contextual'})).length,35);
+assert.equal(rows.filter(r=>matches(r,{...base,query:'r063'})).length,1);
+assert.equal(rows.filter(r=>matches(r,{...base,query:'no-match-987654'})).length,0);
+const example=rows[0];
+assert(rows.filter(r=>matches(r,{query:example.id,task:example.task,year:example.year,role:example.role})).length===1);
+assert(csv([{id:'=cmd',title:'a,"b"'}]).includes("\"'=cmd\""));
+assert(csv(rows).startsWith('\ufeffid,title,year,role,task,url,note'));
+console.log('PASS: filters, combined filters, empty result, report ID search, CSV escaping');

@@ -50,7 +50,7 @@ Papers are organized using the five construction task regimes in the review. **S
 
 ### Earthwork and Material Processing
 
-**52 reports** · 44 structured · 8 contextual
+**51 reports** · 43 structured · 8 contextual
 
 - [Solving robotics tasks with prior demonstration via exploration-efficient deep reinforcement learning](https://doi.org/10.3389/frobt.2025.1682200). **2026** · Structured · `R037`.
 - [Reinforcement learning-driven adaptive 3D simulation and visualization of excavator operations](https://doi.org/10.1016/j.autcon.2025.106626). **2026** · Contextual · `R053`.
@@ -75,7 +75,7 @@ Papers are organized using the five construction task regimes in the review. **S
 - [Cooperative Work Simulation of Construction Equipment using Multi-Agent Deep Reinforcement Learning](https://doi.org/10.1109/aihcir67580.2025.11405210). **2025** · Contextual · `R045`.
 - [Autonomous loading of ore piles with Load-Haul-Dump machines using deep reinforcement learning](https://doi.org/10.1016/j.eswa.2024.125770). **2025** · Contextual · `R047`.
 - [Adaptive Excavation Automation in Complex Soil Environments Using Reinforcement Learning](https://doi.org/10.1109/tase.2025.3611032). **2025** · Structured · `R032`.
-- [Task Space Control of Hydraulic Construction Machines Using Reinforcement Learning](https://doi.org/10.1007/978-3-031-55000-3_13). **2024** · Structured · `R019`. Also mapped to Structural Assembly and Installation.
+- [Task Space Control of Hydraulic Construction Machines Using Reinforcement Learning](https://doi.org/10.1007/978-3-031-55000-3_13). **2024** · Structured · `R019`.
 - [Simulation of Coherent Excavator Operations in Earthmoving Tasks Based on Reinforcement Learning](https://doi.org/10.3390/buildings14103270). **2024** · Structured · `R144`.
 - [Reinforcement Learning-Based Bucket Filling for Autonomous Excavation](https://doi.org/10.1109/tfr.2024.3432508). **2024** · Structured · `R016`.
 - [Reinforcement Learning Control for Autonomous Hydraulic Material Handling Machines with Underactuated Tools](https://doi.org/10.1109/iros58592.2024.10802199). **2024** · Structured · `R044`.
@@ -87,7 +87,6 @@ Papers are organized using the five construction task regimes in the review. **S
 - [Automatic Loading of Unknown Material with a Wheel Loader Using Reinforcement Learning](https://doi.org/10.1109/icra57147.2024.10610221). **2024** · Structured · `R017`.
 - [Automated position control of tunnel boring machine during excavation using deep reinforcement learning](https://doi.org/10.1016/j.asoc.2024.112234). **2024** · Structured · `R021`.
 - [3d operation of autonomous excavator based on reinforcement learning through independent reward for individual joints](https://doi.org/10.48550/arxiv.2406.19848). **2024** · Structured · `R024`.
-- [Reinforcement Learning-based Virtual Fixtures for Teleoperation of Hydraulic Construction Machine∗](https://doi.org/10.1109/ro-man57019.2023.10309417). **2023** · Structured · `R063`. Also mapped to Structural Assembly and Installation.
 - [Learning excavation of rigid objects with offline reinforcement learning](https://doi.org/10.48550/arxiv.2303.16427). **2023** · Structured · `R012`.
 - [Learning Adaptive Policies for Autonomous Excavation under Various Soil Conditions by Adversarial Domain Sampling](https://doi.org/10.1109/lra.2023.3296933). **2023** · Structured · `R013`.
 - [Coordinated Tuning of Slurry Shield Control Parameters based on Reinforcement Learning](https://doi.org/10.1109/icrae59816.2023.10458482). **2023** · Structured · `R151`.
@@ -109,12 +108,11 @@ Papers are organized using the five construction task regimes in the review. **S
 
 ### Structural Assembly and Installation
 
-**27 reports** · 20 structured · 7 contextual
+**27 reports** · 21 structured · 6 contextual
 
 - [Sample-Efficient Robot Skill Learning for Construction Tasks: Benchmarking Hierarchical Reinforcement Learning and Vision-Language-Action Model](https://doi.org/10.1061/jccee5.cpeng-7696). **2026** · Structured · `R136`.
 - [Mixed reality and machine learning-guided cable robot framework (MMCR) for real-time prefabricated construction automation](https://doi.org/10.1016/j.aei.2026.104580). **2026** · Structured · `R072`.
 - [Harnessing human expertise for high-precision robotic assembly in industrialized construction: A sample-efficient installer-in-the-loop interactive reinforcement learning framework](https://doi.org/10.1016/j.aei.2026.104823). **2026** · Structured · `R071`.
-- [Digital twin-enabled synchronous jacking control of an aerial building machine using a scale model](https://doi.org/10.1016/j.autcon.2026.107076). **2026** · Contextual · `R082`.
 - [Visual–tactile learning of robotic cable-in-duct installation skills](https://doi.org/10.1016/j.autcon.2024.105905). **2025** · Structured · `R067`.
 - [Training of construction robots using imitation learning and environmental rewards](https://doi.org/10.1111/mice.13394). **2025** · Structured · `R066`.
 - [Teaching Robot End Effectors to Grasp Construction Tools Based on Deep Reinforcement Learning](https://doi.org/10.29007/ft8h). **2025** · Structured · `R070`.
@@ -127,6 +125,7 @@ Papers are organized using the five construction task regimes in the review. **S
 - [Substructure-Preserving Generalization for on-site robotic construction planning](https://doi.org/10.1109/iscipt61983.2024.10672942). **2024** · Contextual · `R076`.
 - [Visual Spatial Attention and Proprioceptive Data-Driven Reinforcement Learning for Robust Peg-in-Hole Task Under Variable Conditions](https://doi.org/10.1109/lra.2023.3243526). **2023** · Structured · `R065`.
 - [To imitate or not to imitate: Boosting reinforcement learning-based construction robotic control for long-horizon tasks using virtual demonstrations](https://doi.org/10.1016/j.autcon.2022.104691). **2023** · Structured · `R062`.
+- [Reinforcement Learning-based Virtual Fixtures for Teleoperation of Hydraulic Construction Machine∗](https://doi.org/10.1109/ro-man57019.2023.10309417). **2023** · Structured · `R063`.
 - [Experimental Digital Twin of a Tunnel Ring Building Erector](https://doi.org/10.1109/eurocon56442.2023.10198935). **2023** · Contextual · `R075`.
 - [Enhancing construction robot learning for collaborative and long-horizon tasks using generative adversarial imitation learning](https://doi.org/10.1016/j.aei.2023.102140). **2023** · Structured · `R064`.
 - [Dexterous manipulation of construction tools using anthropomorphic robotic hand](https://doi.org/10.1016/j.autcon.2023.105133). **2023** · Structured · `R061`.
@@ -216,6 +215,7 @@ These eligible contextual reports are retained in full. Their task-regime mappin
 - [Stable Equivariant Reinforcement Learning for High-Precision Wheel Loader Unloading](https://doi.org/10.1109/tie.2026.3697451). **2026** · Contextual · `R143`.
 - [Learning Humanoid Loco-Manipulation for Transporting Unwieldy Construction Objects](https://doi.org/10.22260/isarc2026/0003). **2026** · Contextual · `R134`.
 - [Expert-guided reinforcement learning for tower crane control under wind disturbances](https://doi.org/10.1109/ecitech69277.2026.11601270). **2026** · Contextual · `R107`.
+- [Digital twin-enabled synchronous jacking control of an aerial building machine using a scale model](https://doi.org/10.1016/j.autcon.2026.107076). **2026** · Contextual · `R082`.
 - [Autonomous Unloading Control of a Wheel Loader Based on Dump-Truck Bed Perception](https://doi.org/10.3390/app16104811). **2026** · Contextual · `R049`.
 - [A Curved Mortise-Tenon Timber Joint for Robotic Non-sequential Assembly with Reinforcement Learning](https://doi.org/10.22260/isarc2026/0070). **2026** · Contextual · `R081`.
 - [Comparative Study of Reinforcement Learning-Enhanced Control Strategies for Nonlinear Multidimensional Systems](https://doi.org/10.1109/metroxraine66377.2025.11340573). **2025** · Contextual · `R147`.
