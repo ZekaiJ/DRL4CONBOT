@@ -1,0 +1,137 @@
+﻿report_id,record_id,citation_key,title,synthesis_role,report_lineage_id,reports_in_lineage
+R001,A0533,nakatani2018grading_dqn,Autonomous grading work using deep reinforcement learning based control,Structured comparative,L001_GRADING_DQN_2018,2
+R002,U01513,matsumoto2020simulation,Simulation-based reinforcement learning approach towards construction machine automation,Structured comparative,SINGLETON_R002,1
+R003,U01438,Osaka2021,Route optimization for autonomous bulldozer by distributed deep reinforcement learning,Structured comparative,SINGLETON_R003,1
+R004,U01017,egli2022_soil,Soil-Adaptive Excavation Using Reinforcement Learning,Structured comparative,L004_HEAP_EXCAVATOR_EGLI_PLATFORM,4
+R005,U01476,egli2022general,A general approach for the automation of hydraulic excavator arms using reinforcement learning,Structured comparative,L004_HEAP_EXCAVATOR_EGLI_PLATFORM,4
+R006,U01029,lu2022excavation,Excavation reinforcement learning using geometric representation,Structured comparative,L016_LU_ZHU_FRANKA_EXCAVATION_PLATFORM,3
+R007,U01037,osa2022deep,Deep reinforcement learning with adversarial training for automated excavation using depth images,Structured comparative,L007_OSA_KOMATSU_EXCAVATION_SIMULATOR,2
+R008,R008,ross2021agpnet,AGPNet -- Autonomous Grading Policy Network,Structured comparative,SINGLETON_R008,1
+R009,U01411,zhang_towards_2022,Towards Autonomous and Optimal Excavation of Shield Machine: A Deep Reinforcement Learning-Based Approach,Structured comparative,SINGLETON_R009,1
+R011,U01044,ishmatuka2023autonomous,Autonomous pick-and-place using excavator based on deep reinforcement learning,Structured comparative,SINGLETON_R011,1
+R012,R012,jin2023learning,Learning excavation of rigid objects with offline reinforcement learning,Structured comparative,L016_LU_ZHU_FRANKA_EXCAVATION_PLATFORM,3
+R013,U01005,osa2023learning,Learning adaptive policies for autonomous excavation under various soil conditions by adversarial domain sampling,Structured comparative,L007_OSA_KOMATSU_EXCAVATION_SIMULATOR,2
+R016,U02315,egli2024reinforcement,Reinforcement learning-based bucket filling for autonomous excavation,Structured comparative,L004_HEAP_EXCAVATOR_EGLI_PLATFORM,4
+R017,U00969,eriksson2024automatic,Automatic loading of unknown material with a wheel loader using reinforcement learning,Structured comparative,L005_ERIKSSON_WHEEL_LOADER_BUCKET_FILLING,2
+R018,U00676,eriksson2024optimizing,Optimizing bucket-filling strategies for wheel loaders inside a dream environment,Structured comparative,L005_ERIKSSON_WHEEL_LOADER_BUCKET_FILLING,2
+R019,U01095,Lee2024181,Task Space Control of Hydraulic Construction Machines Using Reinforcement Learning,Structured comparative,L010_LEE_BROKK_170_DATA_MODEL,2
+R020,U00595,Lin2024,Physics-informed deep reinforcement learning for enhancement on tunnel boring machine's advance speed and stability,Structured comparative,SINGLETON_R020,1
+R021,U00746,LinPosition2024,Automated position control of tunnel boring machine during excavation using deep reinforcement learning,Structured comparative,L011_T308_TBM_PROJECT,2
+R023,U01440,shen2024generalized,Generalized Framework for Wheel Loader Automatic Shoveling Task with Expert Initialized Reinforcement Learning,Structured comparative,L008_SHEN_MUSTANG_2040_LOADING,1
+R024,R024,yoo20243d,3d operation of autonomous excavator based on reinforcement learning through independent reward for individual joints,Structured comparative,SINGLETON_R024,1
+R025,U00328,chen2025safe,Safe reinforcement learning for tracking control of uncertain hydraulic excavators,Structured comparative,SINGLETON_R025,1
+R026,R026,gruetter2025towards,Towards Learning Boulder Excavation with Hydraulic Excavators,Structured comparative,SINGLETON_R026,1
+R027,U00905,helian2025reinforcement,Reinforcement Learning-Based Autonomous Control Methodology of Hydraulic Excavators,Structured comparative,SINGLETON_R027,1
+R028,U00661,kadokawa2025progressive,Progressive-resolution policy distillation: Leveraging coarse-resolution simulations for time-efficient fine-resolution policy learning,Structured comparative,SINGLETON_R028,1
+R029,U00633,Kim2025896,Enhanced Hydraulic Excavator Control via Semi-automatic Grading Control Using Reinforcement Learning,Structured comparative,SINGLETON_R029,1
+R030,U00773,mori2025human,Human-in-the-Loop Reinforcement Learning to Track Excavation Paths for a Hydraulic Excavator in a Short Period of Time,Structured comparative,SINGLETON_R030,1
+R032,U00627,shin2025adaptive,Adaptive Excavation Automation in Complex Soil Environments Using Reinforcement Learning,Structured comparative,SINGLETON_R032,1
+R033,U00260,tan2025reinforcement,Reinforcement learning-based trajectory planning for continuous digging of excavator working devices in trenching tasks,Structured comparative,SINGLETON_R033,1
+R034,U00083,Zhang2025,Time-optimal online trajectory planning for excavator robotics based on reinforcement learning,Structured comparative,SINGLETON_R034,1
+R035,U00169,cho2026collaborative,Collaborative learning architecture for autonomous excavator planning and execution,Structured comparative,SINGLETON_R035,1
+R037,U00065,shen2026solving,Solving robotics tasks with prior demonstration via exploration-efficient deep reinforcement learning,Structured comparative,SINGLETON_R037,1
+R038,U02092,spinelli2026large,"Large-Scale Robotic Material Handling: Learning, Planning, and Control",Structured comparative,L006_SPINELLI_MATERIAL_HANDLER_PLATFORM,2
+R039,U00230,Sun2026,Digital twin--enabled real-time control of tunnel boring machines using deep reinforcement learning for cumulative settlement management,Structured comparative,SINGLETON_R039,1
+R040,U00061,wang2025intelligent,Intelligent attitude control in tunnel boring machine considering uncertain underground environment using deep reinforcement learning,Structured comparative,L011_T308_TBM_PROJECT,2
+R041,A3800,sun2018grading_dqn,Optimal routing control of a construction machine by deep reinforcement learning,Structured comparative,L001_GRADING_DQN_2018,2
+R042,U01522,kurinov2020automatedexcavator,Automated Excavator Based on Reinforcement Learning and Multibody System Dynamics,Eligible contextual,SINGLETON_R042,1
+R043,U01441,Azulay202124145,Wheel loader scooping controller using deep reinforcement learning,Eligible contextual,SINGLETON_R043,1
+R044,U00719,spinelli2024reinforcement,Reinforcement learning control for autonomous hydraulic material handling machines with underactuated tools,Structured comparative,L006_SPINELLI_MATERIAL_HANDLER_PLATFORM,2
+R045,U00664,CoopWorkSim2025,Cooperative Work Simulation of Construction Equipment using Multi-Agent Deep Reinforcement Learning,Eligible contextual,SINGLETON_R045,1
+R046,U00200,morais2025reinforcement,Reinforcement Learning with World Models for Autonomous Excavation Optimization in Wheel Loaders,Eligible contextual,SINGLETON_R046,1
+R047,U00682,salas2025autonomous,Autonomous loading of ore piles with Load-Haul-Dump machines using deep reinforcement learning,Eligible contextual,SINGLETON_R047,1
+R048,U00337,hu2026bayesian,Bayesian reinforcement learning for adaptive control of energy recuperation in hydraulic excavator arms,Eligible contextual,SINGLETON_R048,1
+R049,U00365,liu2026wheel_loader_unloading,Autonomous Unloading Control of a Wheel Loader Based on Dump-Truck Bed Perception,Eligible contextual,SINGLETON_R049,1
+R050,U00233,molaei2026data,Data-driven rock capture with a standard excavator via model-free reinforcement learning,Structured comparative,SINGLETON_R050,1
+R051,U00445,Wei2026POMDP,A hierarchical partially observable Markov decision process framework for tunnel boring machine trajectory navigation,Eligible contextual,SINGLETON_R051,1
+R053,U00067,yoon_reinforcement_2026,Reinforcement learning-driven adaptive {3D} simulation and visualization of excavator operations,Eligible contextual,SINGLETON_R053,1
+R054,U01403,liang2020teaching,Teaching robots to perform quasi-repetitive construction tasks through human demonstration,Structured comparative,SINGLETON_R054,1
+R055,U01275,apolinarska2021robotic,Robotic assembly of timber joints using reinforcement learning,Structured comparative,SINGLETON_R055,1
+R056,U01200,belousov2022robotic,Robotic architectural assembly with tactile skills: Simulation and optimization,Structured comparative,SINGLETON_R056,1
+R057,R057,cai2022reinforcement,A reinforcement learning based approach for conducting multiple tasks using robots in virtual construction environments,Structured comparative,L020_CAI_UNITY_CONSTRUCTION_ROBOT_PPO,2
+R059,R059,huang2022deep,Deep reinforcement learning-based construction robots collaboration for sequential tasks,Structured comparative,L013_HUANG_LI_WINDOW_COLLABORATION_SIMULATION,2
+R060,R060,kalousdian2022learning,Learning robotic manipulation of natural materials with variable properties for construction tasks,Structured comparative,SINGLETON_R060,1
+R061,U01046,huang2023dexterous,Dexterous manipulation of construction tools using anthropomorphic robotic hand,Structured comparative,SINGLETON_R061,1
+R062,U01078,huang2023imitate,To imitate or not to imitate: Boosting reinforcement learning-based construction robotic control for long-horizon tasks using virtual demonstrations,Structured comparative,SINGLETON_R062,1
+R063,U01164,lee2023reinforcement,Reinforcement learning-based virtual fixtures for teleoperation of hydraulic construction machine,Structured comparative,L010_LEE_BROKK_170_DATA_MODEL,2
+R064,U01141,li2023enhancing,Enhancing construction robot learning for collaborative and long-horizon tasks using generative adversarial imitation learning,Structured comparative,L013_HUANG_LI_WINDOW_COLLABORATION_SIMULATION,2
+R065,U01422,yasutomi2023visual,Visual spatial attention and proprioceptive data-driven reinforcement learning for robust peg-in-hole task under variable conditions,Structured comparative,SINGLETON_R065,1
+R066,R066,duan2025training,Training of construction robots using imitation learning and environmental rewards,Structured comparative,SINGLETON_R066,1
+R067,U00980,duan2025visual,Visual--tactile learning of robotic cable-in-duct installation skills,Structured comparative,SINGLETON_R067,1
+R068,A0733,li2025cutaway_crane,Cutaway View Learning for Visually-Guided Assembly with Crane,Structured comparative,SINGLETON_R068,1
+R069,U00780,Navazani2026622,Reinforcement learning-based motion planning for robotic bricklaying in construction environments,Structured comparative,SINGLETON_R069,1
+R070,R070,yu_teaching_2025,Teaching Robot End Effectors to Grasp Construction Tools Based on Deep Reinforcement Learning,Structured comparative,SINGLETON_R070,1
+R071,U00226,jin2026harnessing,Harnessing Human Expertise for High-Precision Robotic Assembly in Industrialized Construction: A Sample-Efficient Installer-in-the-Loop Interactive Reinforcement Learning Framework,Structured comparative,SINGLETON_R071,1
+R072,U00215,Wang2026104580,Mixed reality and machine learning-guided cable robot framework (MMCR) for real-time prefabricated construction automation,Structured comparative,SINGLETON_R072,1
+R073,U01650,liu2019slabstone,Slabstone installation skill acquisition for dual-arm robot based on reinforcement learning,Eligible contextual,SINGLETON_R073,1
+R075,U01470,gannouni2023tunnelring,Experimental Digital Twin of a Tunnel Ring Building Erector,Eligible contextual,SINGLETON_R075,1
+R076,U00681,yi2024substructure,Substructure-Preserving Generalization for on-site robotic construction planning,Eligible contextual,SINGLETON_R076,1
+R077,R077,chandramouli_construction_2025,Construction Robot Skill Learning for Fragile Object Installation with Low-Effort Demonstration and Sample-Efficient Hierarchical Reinforcement Learning Models,Eligible contextual,L018_CHANDRAMOULI_PANEL_INSTALLATION_HRL_VLA,2
+R078,U00960,trovinger2025vision,Reinforcement Learning with Vision-based State Estimation for Generalized Robotic Assembly,Eligible contextual,SINGLETON_R078,1
+R079,R079,zeng2025reinforcement,Reinforcement Learning Assisted Robotic Construction for Masonry Block Dry-Stacking in Simulation Environments,Eligible contextual,SINGLETON_R079,1
+R080,U00485,zhang2025abm_td3,Synchronous Control of Multiple Hydraulic Cylinders in Aerial Building Machine Using Improved Deep Reinforcement Learning,Structured comparative,L012_ZHANG_ABM_SYNCHRONOUS_JACKING,2
+R081,U00145,wu2026curved_timber,A Curved Mortise-Tenon Timber Joint for Robotic Non-sequential Assembly with Reinforcement Learning,Eligible contextual,SINGLETON_R081,1
+R082,U00157,zhang2026abm_digital_twin,Digital twin-enabled synchronous jacking control of an aerial building machine using a scale model,Eligible contextual,L012_ZHANG_ABM_SYNCHRONOUS_JACKING,2
+R083,U01633,tarutani2020accuracy,Accuracy and Generality of Trained Models for Lift Planning Using Deep Reinforcement Learning-Optimization of the Crane Hook Movement between Two Points,Structured comparative,SINGLETON_R083,1
+R084,U01098,cho2022reinforcement,Reinforcement learning-based simulation and automation for tower crane {3D} lift planning,Structured comparative,SINGLETON_R084,1
+R087,U00804,wang2024integrated,Integrated reinforcement and imitation learning for tower crane lift path planning,Structured comparative,SINGLETON_R087,1
+R088,U00690,cheng2025deep,Deep Reinforcement Learning for Tower Crane Layout Planning in Dense Multi-Building Sites,Structured comparative,SINGLETON_R088,1
+R089,U00281,xiao2025_modular,Autonomous modular construction strategy using robotized crane based on deep learning and reinforcement learning,Structured comparative,SINGLETON_R089,1
+R090,U00171,xiao2025autonomous,Autonomous construction framework for crane control with enhanced soft actor--critic algorithm and real-time progress monitoring,Structured comparative,L002_XIAO_ROBOTIZED_CRANE_PLATFORM,5
+R091,A0411,xiao2026remote_5g_backstepping,A reinforcement learning and nonlinear adaptive backstepping hierarchical control for autonomous remote construction using 5G network,Structured comparative,L002_XIAO_ROBOTIZED_CRANE_PLATFORM,5
+R092,U01212,Guo2021210,Real-time obstacles avoidance for crawler crane based on DQN,Eligible contextual,SINGLETON_R092,1
+R093,U01489,Chun20221430,Automation of crane control for block lifting based on deep reinforcement learning,Eligible contextual,SINGLETON_R093,1
+R094,U01226,kim2022reinforcement,Reinforcement learning-based transportation and sway suppression methods for gantry cranes in simulated environment,Eligible contextual,SINGLETON_R094,1
+R095,U01371,Yin202288,A Real-time Smooth Lifting Path Planning for Tower Crane Based on {TD3} with Discrete-Continuous Hybrid Action Space,Structured comparative,L014_YIN_WANG_TOWER_CRANE_HYBRID_TD3,2
+R096,U01282,mohiuddin2023zero,Zero-shot Sim2Real transfer of Deep reinforcement learning controller for tower crane system,Structured comparative,SINGLETON_R096,1
+R097,U00576,wu2023deep,Deep reinforcement learning-based control for asynchronous motor-actuated triple pendulum crane systems with distributed mass payloads,Eligible contextual,SINGLETON_R097,1
+R099,U00871,wang2024deep,Deep reinforcement learning based online lifting path planning for tower cranes in unknown dynamic environments,Structured comparative,L014_YIN_WANG_TOWER_CRANE_HYBRID_TD3,2
+R100,U00963,zamfirache2024adaptive,Adaptive reinforcement learning-based control using proximal policy optimization and slime mould algorithm with experimental tower crane system validation,Structured comparative,L003_ZAMFIRACHE_LAB_TOWER_CRANE_PLATFORM,2
+R103,U00639,zamfirache2025safe,Safe reinforcement learning-based control using deep deterministic policy gradient algorithm and slime mould algorithm with experimental tower crane system validation,Structured comparative,L003_ZAMFIRACHE_LAB_TOWER_CRANE_PLATFORM,2
+R107,U00287,wang2026tower_crane_wind,Expert-guided reinforcement learning for tower crane control under wind disturbances,Eligible contextual,SINGLETON_R107,1
+R108,A1413,xiao2026llm_rl_progress,Large Language Model and Reinforcement Learning Based Autonomous Construction and Progress Updates,Structured comparative,L002_XIAO_ROBOTIZED_CRANE_PLATFORM,5
+R109,U00074,xiao2026retaining_wall_crane,Development and Implementation of Machine Learning–Based Hierarchical Approach for Autonomous Retaining Wall Construction Using a Robotized Crane,Structured comparative,L002_XIAO_ROBOTIZED_CRANE_PLATFORM,5
+R110,R110,felbrich2022autonomous,Autonomous robotic additive manufacturing through distributed model-free deep reinforcement learning in computational design environments,Structured comparative,SINGLETON_R110,1
+R111,U00318,wang_reinforcement_2025,Reinforcement learning-based continuous path planning and automated concrete {3D} printing of complex hollow components,Structured comparative,SINGLETON_R111,1
+R112,U00908,parisi2024new,A New Concept for Large Additive Manufacturing in Construction: Tower Crane-Based {3D} Printing Controlled by Deep Reinforcement Learning,Structured comparative,SINGLETON_R112,1
+R113,U00087,gao2026spraying_sac,Trajectory Planning for a Spraying Robotic Arm Using a Digital Twin and an Improved SAC Algorithm,Structured comparative,SINGLETON_R113,1
+R114,U01048,babu2021terrain,Terrain adaption controller for a walking excavator robot using deep reinforcement learning,Structured comparative,L009_ARTER_WALKING_EXCAVATOR_SIMULATION,2
+R115,U01326,lee2022digital,Digital Twin-Driven Deep Reinforcement Learning for Adaptive Task Allocation in Robotic Construction,Structured comparative,SINGLETON_R115,1
+R116,U01019,cai2023prediction,Prediction-based path planning for safe and efficient human--robot collaboration in construction via deep reinforcement learning,Structured comparative,SINGLETON_R116,1
+R117,R117,xu_deep_2023,Deep Reinforcement Learning-based Task Assignment and Path Planning for Multi-agent Construction Robots,Structured comparative,SINGLETON_R117,1
+R118,U00575,Wang2024105538,Synchronized path planning and tracking for front and rear axles in articulated wheel loaders,Structured comparative,SINGLETON_R118,1
+R119,A0073,zhao2024adaptive_navigation,Adaptive Intelligence for Robot Navigation Efficiency with a Deep Reinforcement Learning-Based Cyber-Physical System,Structured comparative,SINGLETON_R119,1
+R120,U00663,babu2025stepping,Stepping Locomotion for a Walking Excavator Robot using Hierarchical Reinforcement Learning and Action Masking,Structured comparative,L009_ARTER_WALKING_EXCAVATOR_SIMULATION,2
+R121,U00400,duan2025enhancing,Enhancing construction robot collaboration via multiagent reinforcement learning,Structured comparative,SINGLETON_R121,1
+R122,U00113,duan2025safety,Safety-constrained Deep Reinforcement Learning control for human--robot collaboration in construction,Structured comparative,SINGLETON_R122,1
+R123,U00547,muafi2025vision,Vision-based Control for Excavator Navigation Using Deep Reinforcement Learning,Structured comparative,L015_MUAFI_LAKSANA_WEBOTS_EXCAVATOR_NAVIGATION,2
+R124,R124,wu2025robot,Robot in the loop: a human-centered approach to contextualizing {AI} and robotics in construction,Structured comparative,SINGLETON_R124,1
+R125,A1891,duan2026uav_tower_crane,Path planning for UAV-based construction safety inspection under spatiotemporal interference from tower cranes,Structured comparative,SINGLETON_R125,1
+R126,U00069,gao2026deep,Deep reinforcement learning coupled with topological scene graph for dynamic path planning of autonomous bulldozer in complex earthwork construction,Structured comparative,SINGLETON_R126,1
+R127,A2415,ren2026human_uav,Safety-aware predictive motion planning for close-range human-UAV collaboration in construction,Structured comparative,SINGLETON_R127,1
+R128,U01655,zhu_robot_2020,Robot construction simulation using deep reinforcement learning,Eligible contextual,SINGLETON_R128,1
+R129,U01490,lee2021autonomous,Autonomous construction hoist system based on deep reinforcement learning in high-rise building construction,Eligible contextual,SINGLETON_R129,1
+R130,U01332,Borngrund2023,Autonomous navigation of wheel loaders using task decomposition and reinforcement learning,Eligible contextual,SINGLETON_R130,1
+R131,U00610,laksana2025navigating,Navigating Vision-based Autonomous Excavator Robot Using Deep Reinforcement Learning,Structured comparative,L015_MUAFI_LAKSANA_WEBOTS_EXCAVATOR_NAVIGATION,2
+R132,U00515,MakiPenttila2025,Autonomous wheel loader navigation using goal-conditioned actor-critic MPC,Eligible contextual,SINGLETON_R132,1
+R133,U00751,poudel2025slam,SLAM-Assisted Transformer-Based {TD3} Deep Reinforcement Learning for Adaptive Navigation and Mapping and Dynamic Obstacle Avoidance in Autonomous Construction Robotics,Eligible contextual,SINGLETON_R133,1
+R134,U00355,pan2026humanoid_locomani,Learning Humanoid Loco-Manipulation for Transporting Unwieldy Construction Objects,Eligible contextual,SINGLETON_R134,1
+R135,U00282,wang2026roboinspect,Toward next-generation autonomous structural health monitoring and inspection with humanoid robots,Eligible contextual,SINGLETON_R135,1
+R136,U00024,hu2026sampleefficient,Sample-Efficient Robot Skill Learning for Construction Tasks: Benchmarking Hierarchical Reinforcement Learning and Vision-Language-Action Model,Structured comparative,L018_CHANDRAMOULI_PANEL_INSTALLATION_HRL_VLA,2
+R138,U00080,hybrid_tbm_2026,Hybrid deep reinforcement learning with generative data augmentation for TBM trajectory deviation control,Structured comparative,L022_PAN_TBM_DEVIATION_CTGAN_DDPG,1
+R139,U00186,adaptive_tbm_2026,Adaptive TBM deviation correction with deep reinforcement learning considering physical constraints,Structured comparative,L023_LIN_TBM_DUBINS_DDPG,1
+R141,U00434,td3_mpc_crane_2026,TD3-Enhanced MPC for Safe Braking of Overhead Cranes with Safety-Critical Region Prediction,Structured comparative,L025_ZHANG_CRANE_TD3_MPC_BRAKING,1
+R142,U00478,ren2026surfacefinishing,A perception-to-control computational pipeline for humanoid robot-based construction surface finishing via attention-based normal refinement and residual reinforcement learning,Structured comparative,L026_REN_JEBELLI_HUMANOID_FINISHING,1
+R143,U00493,equivariant_loader_2026,Stable Equivariant Reinforcement Learning for High-Precision Wheel Loader Unloading,Eligible contextual,L027_SEARL_WHEEL_LOADER_UNLOADING,1
+R144,U00540,coherent_excavator_2024,Simulation of Coherent Excavator Operations in Earthmoving Tasks Based on Reinforcement Learning,Structured comparative,L028_LIU_COHERENT_EXCAVATOR_SIM,1
+R147,U00973,nonlinear_rl_comparison_2025,Comparative Study of Reinforcement Learning-Enhanced Control Strategies for Nonlinear Multidimensional Systems,Eligible contextual,L031_BALAZY_CRANE_CONTROL_STRATEGIES,1
+R148,U00990,shield_hierarchical_2024,Autonomous collaborative optimization control of earth pressure balance shield machine based on hierarchical control architecture,Structured comparative,L032_LIU_EPB_SHIELD_HIERARCHICAL,1
+R149,U00997,gantry_timeoptimal_2024,Learning Time-Optimal Control of Gantry Cranes,Eligible contextual,L033_ZHONG_GANTRY_CRANE_SAC,1
+R150,U01008,crane_ddpg_collision_2023,Enhancing Crane Handling Safety: A Deep Deterministic Policy Gradient Approach to Collision-Free Path Planning,Eligible contextual,L017_MACHADO_CRANE_DDPG_PATH_PLANNING,1
+R151,U01040,SlurryShield2023,Coordinated Tuning of Slurry Shield Control Parameters based on Reinforcement Learning,Structured comparative,L034_WU_SLURRY_SHIELD_SAC,1
+R153,U01170,passivity_crane_2022,Passivity-Based Online Reinforcement Learning for Real Time Model-Free Overhead Crane System Control,Eligible contextual,L019_ZHANG_PASSIVITY_ONLINE_RL_CRANE,1
+R154,U01377,cai2023integrated,An Integrated Approach Combining Virtual Environments and Reinforcement Learning to Train Construction Robots for Conducting Tasks Under Uncertainties,Structured comparative,L020_CAI_UNITY_CONSTRUCTION_ROBOT_PPO,2
+R156,U01418,zhao2022lhd,Study on the Autonomous Walking of an Underground Definite Route LHD Machine Based on Reinforcement Learning,Structured comparative,L037_ZHAO_LHD_TCB_DQN,1
+R158,U01485,crane_trajectory_2024,A real-time trajectory planning method for overhead crane based on deep reinforcement learning,Eligible contextual,L038_LIU_OVERHEAD_CRANE_TD3_TRAJECTORY,1
+R159,U159,xiao2023crane_ppo,A reinforcement learning based construction material supply strategy using robotic crane and computer vision for building reconstruction after an earthquake,Structured comparative,L002_XIAO_ROBOTIZED_CRANE_PLATFORM,5
+R160,U00532,nan2024adaptive,Learning Adaptive Controller for Hydraulic Machinery Automation,Structured comparative,L004_HEAP_EXCAVATOR_EGLI_PLATFORM,4

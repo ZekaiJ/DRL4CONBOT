@@ -29,8 +29,13 @@
 - [📊 Evidence at a Glance](#evidence-at-a-glance)
 - [💡 Research Directions](#research-directions)
 - [Resources](#resources)
+- [Review Data and Reproducibility](#review-data-and-reproducibility)
 - [Citation](#citation)
 - [Contributing and Contact](#contributing-and-contact)
+
+## Review Data and Reproducibility
+
+The [supplementary data and analysis package](Supplementary/README.md) provides search strategies, screening decisions, report and configuration data, recovery source pointers, and a script for reproducing the descriptive statistics. It covers **136 eligible reports and 100 executing configurations**. Original database exports and abstracts are not redistributed. The package documents the scope and limitations of the available records.
 
 <a id="news-updates"></a>
 
