@@ -1,0 +1,23 @@
+# Physical outcome evidence in 30 construction-robotics configurations
+
+This supplement documents three outcome indicators for the 30 configurations evaluated under construction-representative, field or workflow-integrated conditions in the DRL4CONBOT review. The unit of analysis is an executing configuration, not a trial, robot or independent deployment.
+
+## Indicators
+
+- **E (endpoint)**: explicit physical task success, completion or attainment of a stated terminal condition. Tracking alone is insufficient. A declared local endpoint need not represent completion of an entire construction operation.
+- **W (work output)**: evaluation of actual material, component or work output beyond robot-motion metrics. Qualitative physical-output comparisons and reported estimates qualify. Quantities inferred solely from robot motion do not automatically qualify.
+- **D (subsequent state)**: characterization of the physical condition left by an operation with an explicit connection to subsequent work, planning or execution. Repeated operation alone is insufficient. Recovery indicators are assessed separately.
+
+Y denotes qualifying evidence in the inspected physical evaluation. N denotes that qualifying evidence was not identified, not that the system lacks the capability. These indicators are assessed separately and are not assumed to form nested sets. Their proportions are reporting frequencies, not task success rates.
+
+## Files and reproduction
+
+`physical_outcomes.csv` contains configuration identifiers, source links, locations and evidence-scope notes. PDF page numbers refer to the inspected PDF sequence and may differ from printed pagination. R109 uses publisher HTML section and figure references. Bibliographic details should be read with the linked source.
+
+Run `python reproduce.py` from this directory. Only the Python standard library is required. The script validates identifiers and labels and prints counts, percentages and exposure-stratified counts. It does not infer labels or verify source interpretations. These files cover E/W/D only, not the other five reporting features or the separate recovery assessment.
+
+## Review process and scope
+
+Source checking and preparation of evidence notes were AI-assisted. The authors checked and accepted the 30 outcome records. This supplement does not claim independent duplicate coding or a pre-discussion agreement statistic. Internal revision notes and confirmation history are retained separately. Linked supplementary media were not exhaustively reviewed.
+
+No publisher full texts, reproduced figures, restricted database exports or local filesystem paths are distributed in this package.

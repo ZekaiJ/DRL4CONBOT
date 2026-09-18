@@ -15,6 +15,7 @@ This package supports the review of deep reinforcement learning for construction
 | data/S5_recovery_transitions.csv | Recovery assessments for 30 configurations |
 | data/S12_recovery_source_locations.csv | Source pointers and explicit limitations of indicator-specific anchors |
 | reproduce.py | Regenerates descriptive counts and cross-tabulations |
+| [physical_outcomes/](physical_outcomes/README.md) | Source-linked E/W/D outcome records and a separate reproduction script for the 30 higher-exposure configurations |
 
 ## Reproduction
 
@@ -25,6 +26,10 @@ The database route assessed 159 reports and included 121; supplementary searchin
 Assessments designated A/B were conducted independently by human reviewers. This statement does not imply duplicate assessment at every stage for every record. Source limitations and incomplete indicator anchors are retained. Undemonstrated recovery does not establish absence of the capability.
 
 Original database exports, abstracts, and third-party full texts are not redistributed. The package supports tracing the recorded decisions and reproducing aggregate statistics, not repeating the full database-export and deduplication workflow. Third-party rights remain with their owners; no additional rights in those sources are granted here. Detailed review records remain in the research archive.
+
+## Physical outcome evidence
+
+The additional physical-outcome supplement can be reproduced with `python physical_outcomes/reproduce.py` from this directory. It reports 28 configurations with physical task-endpoint evidence, 12 with physical work-output evaluation, and 3 with a characterized post-operation state explicitly connected to subsequent work (denominator 30 for each). These are separately assessed reporting indicators, not nested categories or success rates. Work-output evidence includes qualitative comparisons of physical outputs. The supplement does not reassess the other five reporting features or the recovery indicators.
 
 ## Screening fields
 
