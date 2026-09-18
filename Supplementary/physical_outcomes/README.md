@@ -18,6 +18,6 @@ Run `python reproduce.py` from this directory to calculate the counts and percen
 
 ## Review process and scope
 
-The authors checked and approved all 30 outcome records. AI tools assisted with locating source evidence and preparing explanatory notes. This process was not independent duplicate assessment, and no agreement statistic was calculated before discussion. Supplementary videos and other media were not reviewed exhaustively.
+The authors checked and approved all 30 outcome records. This process was not independent duplicate assessment, and no agreement statistic was calculated before discussion. Supplementary videos and other media were not reviewed exhaustively.
 
 The supplement provides bibliographic links and evidence summaries rather than reproducing publisher full texts, figures or restricted database records.
