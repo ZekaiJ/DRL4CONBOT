@@ -8,7 +8,7 @@
 
 > A curated collection of papers and research resources related to **Deep Reinforcement Learning for Construction Robotics (DRL4CONBOT)**.
 >
-> This repository serves as the online companion to our survey **Learning to Shape the World: A Systematic Review of Deep Reinforcement Learning for Construction Robotics**. The review synthesizes 136 eligible reports and compares 100 executing configurations across five construction task regimes.
+> This repository serves as the online companion to our survey **Learning to Shape the World: A Systematic Review of Deep Reinforcement Learning for Construction Robotics**. The review synthesizes 136 eligible reports and compares 103 executing configurations across five construction task regimes.
 >
 > 📢 Deep reinforcement learning offers opportunities to improve construction decisions through experience with materials, machines, and changing workspaces. This repository brings together research on learning formulations, robot execution, and construction outcomes, serving as a resource for researchers, practitioners, and students interested in construction robot learning. Contributions and suggestions are welcome!
 >
@@ -35,7 +35,7 @@
 
 ## Review Data and Reproducibility
 
-The [supplementary data and analysis package](Supplementary/README.md) provides search strategies, screening decisions, report and configuration data, recovery source pointers, and a script for reproducing the descriptive statistics. It covers **136 eligible reports and 100 executing configurations**. Original database exports and abstracts are not redistributed. The package documents the scope and limitations of the available records.
+The [supplementary data and analysis package](Supplementary/README.md) provides search strategies, screening decisions, report and configuration data, recovery source pointers, and a script for reproducing the descriptive statistics. It covers **136 eligible reports and 103 executing configurations**. Original database exports and abstracts are not redistributed. The package documents the scope and limitations of the available records.
 
 <a id="news-updates"></a>
 
@@ -47,7 +47,7 @@ The [supplementary data and analysis package](Supplementary/README.md) provides 
 
 ## 📚 Papers by Category
 
-The complete eligible corpus is listed below: **136 reports**, comprising **101 structured-comparison reports** and **35 contextual reports**. The structured reports describe **100 executing configurations**, after consolidating one companion-report pair.
+The complete eligible corpus is listed below: **136 reports**, comprising **103 structured-comparison reports** and **33 contextual reports**. The structured reports describe **103 executing configurations**, with one companion-report pair counted together and two distinct configurations reported in one study.
 
 Papers are organized using the five construction task regimes in the review. **Structured** and **Contextual** identify their evidence roles; contextual reports do not enter the configuration-level statistics. Each report appears once. Cross-regime references retain a note, and reports without an explicit regime mapping in the extraction or appendix are listed separately rather than assigned a new classification.
 
@@ -147,7 +147,7 @@ Papers are organized using the five construction task regimes in the review. **S
 
 ### Material Placement and Lifting
 
-**21 reports** · 17 structured · 4 contextual
+**21 reports** · 19 structured · 2 contextual
 
 - [TD3-Enhanced MPC for Safe Braking of Overhead Cranes with Safety-Critical Region Prediction](https://doi.org/10.3390/act15060334). **2026** · Structured · `R141`.
 - [Large Language Model and Reinforcement Learning Based Autonomous Construction and Progress Updates](https://doi.org/10.1109/acdsa67686.2026.11468021). **2026** · Structured · `R108`.
@@ -159,13 +159,13 @@ Papers are organized using the five construction task regimes in the review. **S
 - [AUTONOMOUS MODULAR CONSTRUCTION STRATEGY USING ROBOTIZED CRANE BASED ON DEEP LEARNING AND REINFORCEMENT LEARNING](https://doi.org/10.3846/jcem.2025.24043). **2025** · Structured · `R089`.
 - [Integrated reinforcement and imitation learning for tower crane lift path planning](https://doi.org/10.1016/j.autcon.2024.105568). **2024** · Structured · `R087`.
 - [Deep reinforcement learning based online lifting path planning for tower cranes in unknown dynamic environments](https://doi.org/10.1177/17298806241283176). **2024** · Structured · `R099`.
-- [Deep Reinforcement Learning-Based Control for Asynchronous Motor-Actuated Triple Pendulum Crane Systems with Distributed Mass Payloads](https://doi.org/10.1109/tie.2023.3262891). **2024** · Contextual · `R097`.
+- [Deep Reinforcement Learning-Based Control for Asynchronous Motor-Actuated Triple Pendulum Crane Systems with Distributed Mass Payloads](https://doi.org/10.1109/tie.2023.3262891). **2024** · Structured · `R097`.
 - [Adaptive reinforcement learning-based control using proximal policy optimization and slime mould algorithm with experimental tower crane system validation](https://doi.org/10.1016/j.asoc.2024.111687). **2024** · Structured · `R100`.
 - [A new concept for large additive manufacturing in construction: tower crane-based 3D printing controlled by deep reinforcement learning](https://doi.org/10.1108/ci-10-2022-0278). **2024** · Structured · `R112`.
 - [Zero-Shot Sim2Real Transfer of Deep Reinforcement Learning Controller for Tower Crane System](https://doi.org/10.1016/j.ifacol.2023.10.867). **2023** · Structured · `R096`.
 - [A reinforcement learning based construction material supply strategy using robotic crane and computer vision for building reconstruction after an earthquake](https://doi.org/10.48550/arXiv.2308.16280). **2023** · Structured · `R159`.
 - [Reinforcement learning-based simulation and automation for tower crane 3D lift planning](https://doi.org/10.1016/j.autcon.2022.104620). **2022** · Structured · `R084`.
-- [Reinforcement Learning-Based Transportation and Sway Suppression Methods for Gantry Cranes in Simulated Environment](https://doi.org/10.1109/wsc57314.2022.10015415). **2022** · Contextual · `R094`.
+- [Reinforcement Learning-Based Transportation and Sway Suppression Methods for Gantry Cranes in Simulated Environment](https://doi.org/10.1109/wsc57314.2022.10015415). **2022** · Structured · `R094`.
 - [Automation of crane control for block lifting based on deep reinforcement learning](https://doi.org/10.1093/jcde/qwac063). **2022** · Contextual · `R093`.
 - [A Real-time Smooth Lifting Path Planning for Tower Crane Based on TD3 with Discrete-Continuous Hybrid Action Space](https://doi.org/10.1145/3547578.3547592). **2022** · Structured · `R095`.
 - [Real-time Obstacles Avoidance for Crawler Crane based on DQN](https://doi.org/10.1145/3474963.3474993). **2021** · Contextual · `R092`.
@@ -214,7 +214,7 @@ Papers are organized using the five construction task regimes in the review. **S
 
 ### Additional Contextual Reports
 
-These eligible contextual reports are retained in full. Their task-regime mapping is not explicit in the current extraction or appendix; this list does not introduce new coding.
+These eligible contextual reports are retained in full. The available records do not assign these reports to a specific task category, so they are listed separately.
 
 - [Toward next-generation autonomous structural health monitoring and inspection with humanoid robots](https://doi.org/10.1016/j.cacaie.2026.100007). **2026** · Contextual · `R135`.
 - [Stable Equivariant Reinforcement Learning for High-Precision Wheel Loader Unloading](https://doi.org/10.1109/tie.2026.3697451). **2026** · Contextual · `R143`.
@@ -255,7 +255,7 @@ The useful question is not which algorithm is universally best. It is which deci
 | :--- | ---: | :--- |
 | **Earthwork and Material Processing** | 42 | Changing terrain, resistance, machine load, and traction |
 | **Structural Assembly and Installation** | 21 | Geometric tolerances, contact transitions, and insertion conditions |
-| **Material Placement and Lifting** | 17 | Suspended-load motion, clearance, and placement constraints |
+| **Material Placement and Lifting** | 20 | Suspended-load motion, clearance, and placement constraints |
 | **Additive Manufacturing and Surface Processing** | 4 | Deposition, tool interaction, and resulting material or surface quality |
 | **Navigation, Layout, and Logistics Support** | 16 | Site access, obstacles, people, and material transport |
 
@@ -264,7 +264,7 @@ These are task groupings, not a ranking of autonomy or readiness. Configurations
 ## Evidence at a glance
 
 <p align="center">
-  <a href="Assets/overview/evidence.pdf"><img src="Assets/overview/evidence.png" width="100%" alt="Distribution of 100 executing configurations across five task regimes and their reported validation exposure."></a>
+  <a href="Assets/overview/evidence.pdf"><img src="Assets/overview/evidence.png" width="100%" alt="Distribution of 103 executing configurations across five task regimes and their reported validation exposure."></a>
 </p>
 
 *Evidence distribution from the manuscript. Percentages within each regime use that regime's configuration count.*
@@ -285,8 +285,8 @@ These are task groupings, not a ranking of autonomy or readiness. Configurations
 
 | Level | Highest demonstrated exposure | Configurations |
 | :--- | :--- | ---: |
-| L0 | Simulation-only evaluation | 61 |
-| L1 | Isolated laboratory hardware | 3 |
+| L0 | Simulation-only evaluation | 63 |
+| L1 | Isolated laboratory hardware | 4 |
 | L2 | Systematically varied laboratory hardware | 6 |
 | L3 | Construction-representative testbed | 22 |
 | L4 | Near-operational field trial | 5 |
@@ -324,9 +324,9 @@ The distributions describe the retained configurations. They do not estimate ind
 | [Framework figure](Assets/overview/framework.pdf) | Vector PDF of the five analysis dimensions |
 | [Evidence distribution](Assets/overview/evidence.pdf) | Vector PDF of regime counts and validation exposure |
 | [Research agenda](Assets/overview/agenda.pdf) | Vector PDF of the synthesis and future directions |
-| [Project-page source](docs/index.html) | Lightweight, responsive companion page |
+| [Project overview](docs/index.html) | An illustrated introduction to the review |
 
-The manuscript's supplementary package contains source-linked coding and reproducibility materials. It is **not yet included in this repository**. No download or reproduction command is advertised here until the corresponding files are released and checked. Older assets retained elsewhere in the repository are not the source of the counts shown above.
+The [supplementary materials](Supplementary/README.md) provide search methods, study classifications and supporting data. The [physical outcome evidence](Supplementary/physical_outcomes/README.md) includes source references and explanations for all 30 higher-exposure configurations, together with instructions for reproducing the counts.
 
 ## Citation
 
@@ -338,12 +338,12 @@ The companion manuscript is titled *Learning to Shape the World: A Systematic Re
   title = {{DRL4CONBOTS}: Companion repository for a systematic review of deep reinforcement learning for construction robotics},
   year = {2026},
   howpublished = {GitHub repository},
-  url = {https://github.com/ZekaiJ/DRL4CONBOTS}
+  url = {https://github.com/ZekaiJ/DRL4CONBOT}
 }
 ```
 
 ## Contributing and contact
 
-Corrections and relevant papers are welcome through [GitHub issues](https://github.com/ZekaiJ/DRL4CONBOTS/issues). Please provide a paper link and the specific passage supporting a proposed correction. New suggestions do not automatically change the frozen review corpus or its counts.
+Corrections and relevant papers are welcome through [GitHub issues](https://github.com/ZekaiJ/DRL4CONBOT/issues). Please provide a paper link and the specific passage supporting a proposed correction. Suggestions are reviewed against the study's eligibility criteria before the collection and reported counts are updated.
 
 Contact [Zekai Jin](mailto:zekai.jin@mail.mcgill.ca). The repository [MIT license](LICENSE) does not grant rights to third-party images or papers, which remain subject to their original terms.

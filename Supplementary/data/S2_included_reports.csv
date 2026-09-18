@@ -42,7 +42,7 @@ U00515,R132,Autonomous Wheel Loader Navigation Using Goal-Conditioned Actor-Crit
 U00540,R144,Simulation of Coherent Excavator Operations in Earthmoving Tasks Based on Reinforcement Learning,10.3390/buildings14103270,2024,database retrieved,Structured comparative
 U00547,R123,Vision-based Control for Excavator Navigation Using Deep Reinforcement Learning,10.1109/aims66189.2025.11229794,2025,database retrieved,Structured comparative
 U00575,R118,Synchronized path planning and tracking for front and rear axles in articulated wheel loaders,10.1016/j.autcon.2024.105538,2024,database retrieved,Structured comparative
-U00576,R097,Deep Reinforcement Learning-Based Control for Asynchronous Motor-Actuated Triple Pendulum Crane Systems with Distributed Mass Payloads,10.1109/tie.2023.3262891,2024,database retrieved,Eligible contextual
+U00576,R097,Deep Reinforcement Learning-Based Control for Asynchronous Motor-Actuated Triple Pendulum Crane Systems with Distributed Mass Payloads,10.1109/tie.2023.3262891,2024,database retrieved,Structured comparative
 U00595,R020,Physics-informed deep reinforcement learning for enhancement on tunnel boring machine's advance speed and stability,10.1016/j.autcon.2023.105234,2024,database retrieved,Structured comparative
 U00610,R131,Navigating Vision-based Autonomous Excavator Robot Using Deep Reinforcement Learning,10.1109/eecsi67060.2025.11290309,2025,database retrieved,Structured comparative
 U00627,R032,Adaptive Excavation Automation in Complex Soil Environments Using Reinforcement Learning,10.1109/tase.2025.3611032,2025,database retrieved,Structured comparative
@@ -91,7 +91,7 @@ U01164,R063,Reinforcement Learning-based Virtual Fixtures for Teleoperation of H
 U01170,R153,Passivity-Based Online Reinforcement Learning for Real Time Model-Free Overhead Crane System Control,10.1109/ccdc55256.2022.10034123,2022,database retrieved,Eligible contextual
 U01200,R056,Robotic architectural assembly with tactile skills: Simulation and optimization,10.1016/j.autcon.2021.104006,2022,database retrieved,Structured comparative
 U01212,R092,Real-time Obstacles Avoidance for Crawler Crane based on DQN,10.1145/3474963.3474993,2021,database retrieved,Eligible contextual
-U01226,R094,Reinforcement Learning-Based Transportation and Sway Suppression Methods for Gantry Cranes in Simulated Environment,10.1109/wsc57314.2022.10015415,2022,database retrieved,Eligible contextual
+U01226,R094,Reinforcement Learning-Based Transportation and Sway Suppression Methods for Gantry Cranes in Simulated Environment,10.1109/wsc57314.2022.10015415,2022,database retrieved,Structured comparative
 U01275,R055,Robotic assembly of timber joints using reinforcement learning,10.1016/j.autcon.2021.103569,2021,database retrieved,Structured comparative
 U01282,R096,Zero-Shot Sim2Real Transfer of Deep Reinforcement Learning Controller for Tower Crane System,10.1016/j.ifacol.2023.10.867,2023,database retrieved,Structured comparative
 U01326,R115,Digital twin-driven deep reinforcement learning for adaptive task allocation in robotic construction,10.1016/j.aei.2022.101710,2022,database retrieved,Structured comparative

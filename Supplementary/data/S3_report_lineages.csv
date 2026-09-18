@@ -1,4 +1,4 @@
-﻿report_id,record_id,citation_key,title,synthesis_role,report_lineage_id,reports_in_lineage
+report_id,record_id,citation_key,title,synthesis_role,report_lineage_id,reports_in_lineage
 R001,A0533,nakatani2018grading_dqn,Autonomous grading work using deep reinforcement learning based control,Structured comparative,L001_GRADING_DQN_2018,2
 R002,U01513,matsumoto2020simulation,Simulation-based reinforcement learning approach towards construction machine automation,Structured comparative,SINGLETON_R002,1
 R003,U01438,Osaka2021,Route optimization for autonomous bulldozer by distributed deep reinforcement learning,Structured comparative,SINGLETON_R003,1
@@ -81,10 +81,10 @@ R090,U00171,xiao2025autonomous,Autonomous construction framework for crane contr
 R091,A0411,xiao2026remote_5g_backstepping,A reinforcement learning and nonlinear adaptive backstepping hierarchical control for autonomous remote construction using 5G network,Structured comparative,L002_XIAO_ROBOTIZED_CRANE_PLATFORM,5
 R092,U01212,Guo2021210,Real-time obstacles avoidance for crawler crane based on DQN,Eligible contextual,SINGLETON_R092,1
 R093,U01489,Chun20221430,Automation of crane control for block lifting based on deep reinforcement learning,Eligible contextual,SINGLETON_R093,1
-R094,U01226,kim2022reinforcement,Reinforcement learning-based transportation and sway suppression methods for gantry cranes in simulated environment,Eligible contextual,SINGLETON_R094,1
+R094,U01226,kim2022reinforcement,Reinforcement learning-based transportation and sway suppression methods for gantry cranes in simulated environment,Structured comparative,SINGLETON_R094,1
 R095,U01371,Yin202288,A Real-time Smooth Lifting Path Planning for Tower Crane Based on {TD3} with Discrete-Continuous Hybrid Action Space,Structured comparative,L014_YIN_WANG_TOWER_CRANE_HYBRID_TD3,2
 R096,U01282,mohiuddin2023zero,Zero-shot Sim2Real transfer of Deep reinforcement learning controller for tower crane system,Structured comparative,SINGLETON_R096,1
-R097,U00576,wu2023deep,Deep reinforcement learning-based control for asynchronous motor-actuated triple pendulum crane systems with distributed mass payloads,Eligible contextual,SINGLETON_R097,1
+R097,U00576,wu2023deep,Deep reinforcement learning-based control for asynchronous motor-actuated triple pendulum crane systems with distributed mass payloads,Structured comparative,SINGLETON_R097,1
 R099,U00871,wang2024deep,Deep reinforcement learning based online lifting path planning for tower cranes in unknown dynamic environments,Structured comparative,L014_YIN_WANG_TOWER_CRANE_HYBRID_TD3,2
 R100,U00963,zamfirache2024adaptive,Adaptive reinforcement learning-based control using proximal policy optimization and slime mould algorithm with experimental tower crane system validation,Structured comparative,L003_ZAMFIRACHE_LAB_TOWER_CRANE_PLATFORM,2
 R103,U00639,zamfirache2025safe,Safe reinforcement learning-based control using deep deterministic policy gradient algorithm and slime mould algorithm with experimental tower crane system validation,Structured comparative,L003_ZAMFIRACHE_LAB_TOWER_CRANE_PLATFORM,2

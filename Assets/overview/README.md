@@ -1,6 +1,6 @@
 # Reader-facing figures
 
-These files were synchronized from the manuscript figure PDFs on 15 September 2026. PDFs are unmodified copies; PNGs are 1,800-pixel-wide previews rendered from those PDFs.
+These figures accompany the review. The configuration-count figure was updated from the manuscript on 18 September 2026 and describes 103 configurations. The other figures were synchronized on 15 September 2026. PDFs are copies of the manuscript figures; PNGs provide browser previews.
 
 | Repository asset | Manuscript source | Purpose |
 | --- | --- | --- |

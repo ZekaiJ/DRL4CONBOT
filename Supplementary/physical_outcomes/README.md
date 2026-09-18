@@ -14,10 +14,10 @@ Y denotes qualifying evidence in the inspected physical evaluation. N denotes th
 
 `physical_outcomes.csv` contains configuration identifiers, source links, locations and evidence-scope notes. PDF page numbers refer to the inspected PDF sequence and may differ from printed pagination. R109 uses publisher HTML section and figure references. Bibliographic details should be read with the linked source.
 
-Run `python reproduce.py` from this directory. Only the Python standard library is required. The script validates identifiers and labels and prints counts, percentages and exposure-stratified counts. It does not infer labels or verify source interpretations. These files cover E/W/D only, not the other five reporting features or the separate recovery assessment.
+Run `python reproduce.py` from this directory to calculate the counts and percentages, both overall and by validation exposure. No additional software packages are needed. The calculation uses the classifications in the table; it does not replace reading the original studies. This supplement covers E/W/D only. The other five reporting features and recovery assessment are reported separately.
 
 ## Review process and scope
 
-Source checking and preparation of evidence notes were AI-assisted. The authors checked and accepted the 30 outcome records. This supplement does not claim independent duplicate coding or a pre-discussion agreement statistic. Internal revision notes and confirmation history are retained separately. Linked supplementary media were not exhaustively reviewed.
+The authors checked and approved all 30 outcome records. AI tools assisted with locating source evidence and preparing explanatory notes. This process was not independent duplicate assessment, and no agreement statistic was calculated before discussion. Supplementary videos and other media were not reviewed exhaustively.
 
-No publisher full texts, reproduced figures, restricted database exports or local filesystem paths are distributed in this package.
+The supplement provides bibliographic links and evidence summaries rather than reproducing publisher full texts, figures or restricted database records.

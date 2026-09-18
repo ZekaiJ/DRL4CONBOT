@@ -3,22 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Learning to Shape the World: a systematic review of deep reinforcement learning for construction robotics. 136 reports, 100 executing configurations, five construction regimes.">
+  <meta name="description" content="Learning to Shape the World: a systematic review of deep reinforcement learning for construction robotics. 136 reports, 103 executing configurations, five construction regimes.">
   <title>Learning to Shape the World | DRL4CONBOTS</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
-  <nav aria-label="Main navigation"><a class="brand" href="https://github.com/ZekaiJ/DRL4CONBOTS">DRL4CONBOTS</a><div><a href="#framework">Framework</a><a href="#evidence">Evidence</a><a href="#agenda">Research directions</a></div></nav>
+  <nav aria-label="Main navigation"><a class="brand" href="https://github.com/ZekaiJ/DRL4CONBOT">DRL4CONBOTS</a><div><a href="#framework">Framework</a><a href="#evidence">Evidence</a><a href="#agenda">Research directions</a></div></nav>
   <p class="eyebrow">Deep reinforcement learning · Construction robotics</p>
   <h1>Learning to<br><span>Shape the World</span></h1>
   <p class="subtitle">A Systematic Review of Deep Reinforcement Learning<br>for Construction Robotics</p>
   <p class="authors">Zekai Jin · Huiguang Wang · Yihong Tang · Zhen Dong · Chen Feng · Yi Shao</p>
   <p class="affiliations">McGill · Mila · UC Santa Barbara · NVIDIA · NYU · UBC</p>
-  <a class="button" href="https://github.com/ZekaiJ/DRL4CONBOTS">Explore the repository</a>
+  <a class="button" href="https://github.com/ZekaiJ/DRL4CONBOT">Explore the repository</a>
 </header>
 <main>
-  <div class="metrics" aria-label="Review scope"><div><strong>136</strong><span>eligible reports</span></div><div><strong>100</strong><span>executing configurations</span></div><div><strong>5</strong><span>construction regimes</span></div></div>
+  <div class="metrics" aria-label="Review scope"><div><strong>136</strong><span>eligible reports</span></div><div><strong>103</strong><span>executing configurations</span></div><div><strong>5</strong><span>construction regimes</span></div></div>
   <section id="framework">
     <p class="eyebrow">The review question</p>
     <h2>What does learning improve?</h2>
@@ -29,10 +29,10 @@
   <section id="evidence">
     <p class="eyebrow">Evidence at a glance</p>
     <h2>Five task families. Different physical demands.</h2>
-    <p>Of 136 eligible reports, 101 support structured comparison of 100 configurations after consolidating one companion-report pair. The remaining 35 reports provide contextual evidence.</p>
-    <figure><a href="../Assets/overview/evidence.pdf"><img loading="lazy" src="../Assets/overview/evidence.png" alt="42 earthwork, 21 assembly, 17 lifting, 4 additive and surface processing, and 16 navigation configurations. Thirty reach L3 to L5."></a><figcaption>Within-regime percentages use each regime's configuration count, not the total corpus.</figcaption></figure>
-    <div class="callout"><h3>Testing conditions are not a maturity score.</h3><p>Seventy configurations were evaluated in simulation or controlled laboratories. Thirty reached construction-representative or broader conditions, including three at workflow-integrated repeated operation. These distributions do not establish industry-wide prevalence or causal effects of testing.</p></div>
-    <details><summary>Validation exposure levels</summary><div class="table-wrap"><table><thead><tr><th>Level</th><th>Highest demonstrated exposure</th><th>Count</th></tr></thead><tbody><tr><td>L0</td><td>Simulation-only evaluation</td><td>61</td></tr><tr><td>L1</td><td>Isolated laboratory hardware</td><td>3</td></tr><tr><td>L2</td><td>Systematically varied laboratory hardware</td><td>6</td></tr><tr><td>L3</td><td>Construction-representative testbed</td><td>22</td></tr><tr><td>L4</td><td>Near-operational field trial</td><td>5</td></tr><tr><td>L5</td><td>Workflow-integrated repeated operation</td><td>3</td></tr></tbody></table></div></details>
+    <p>Of 136 eligible reports, 103 support comparison of 103 executing configurations. One companion-report pair is considered together, while one study contributes two distinct configurations. The remaining 33 reports inform the contextual synthesis.</p>
+    <figure><a href="../Assets/overview/evidence.pdf"><img loading="lazy" src="../Assets/overview/evidence.png" alt="42 earthwork, 21 assembly, 20 lifting, 4 additive and surface processing, and 16 navigation configurations. Thirty reach L3 to L5."></a><figcaption>Within-regime percentages use each regime's configuration count, not the total corpus.</figcaption></figure>
+    <div class="callout"><h3>Testing conditions are not a maturity score.</h3><p>Seventy-three configurations were evaluated in simulation or controlled laboratories. Thirty reached construction-representative or broader conditions, including three at workflow-integrated repeated operation. These distributions do not establish industry-wide prevalence or causal effects of testing.</p></div>
+    <details><summary>Validation exposure levels</summary><div class="table-wrap"><table><thead><tr><th>Level</th><th>Highest demonstrated exposure</th><th>Count</th></tr></thead><tbody><tr><td>L0</td><td>Simulation-only evaluation</td><td>63</td></tr><tr><td>L1</td><td>Isolated laboratory hardware</td><td>4</td></tr><tr><td>L2</td><td>Systematically varied laboratory hardware</td><td>6</td></tr><tr><td>L3</td><td>Construction-representative testbed</td><td>22</td></tr><tr><td>L4</td><td>Near-operational field trial</td><td>5</td></tr><tr><td>L5</td><td>Workflow-integrated repeated operation</td><td>3</td></tr></tbody></table></div></details>
   </section>
   <section id="agenda">
     <p class="eyebrow">Research directions</p>
@@ -43,8 +43,8 @@
   <section id="resources">
     <p class="eyebrow">Resources and contributions</p>
     <h2>Read, inspect, and contribute.</h2>
-    <p>The repository provides the figures shown here and a concise reading guide. Source-linked supplementary data and reproducibility scripts are not yet included in this repository. A verified paper record will be linked when available.</p>
-    <p><a class="button" href="https://github.com/ZekaiJ/DRL4CONBOTS#citation">Citation and resources</a> <a href="https://github.com/ZekaiJ/DRL4CONBOTS/issues">Suggest a correction</a></p>
+    <p>The repository provides a reading guide, review figures and <a href="../Supplementary/README.md">supplementary materials</a>. The <a href="../Supplementary/physical_outcomes/README.md">physical outcome evidence</a> documents 30 configurations, including 28 with task-endpoint evidence, 12 with work-output evaluation and 3 with a characterized state connected to subsequent work. Each indicator is assessed separately. A verified paper record will be linked when available.</p>
+    <p><a class="button" href="https://github.com/ZekaiJ/DRL4CONBOT#citation">Citation and resources</a> <a href="https://github.com/ZekaiJ/DRL4CONBOT/issues">Suggest a correction</a></p>
   </section>
 </main>
 <footer><p>DRL4CONBOTS · <a href="mailto:zekai.jin@mail.mcgill.ca">Contact</a> · <a href="../LICENSE">License</a></p><p>Third-party images and papers remain subject to their original terms.</p></footer>

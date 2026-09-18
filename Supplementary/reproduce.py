@@ -12,8 +12,10 @@ eligibility = read("S1_fulltext_eligibility_decisions.csv")
 lineages = read("S3_report_lineages.csv")
 locations = read("S12_recovery_source_locations.csv")
 screening = read("title_abstract_screening.csv")
-assert len(reports) == 136 and len(configs) == 100 and len(recovery) == 30
-assert len({r["configuration_id"] for r in configs}) == 100
+assert len(reports) == 136 and len(configs) == 103 and len(recovery) == 30
+assert len({r["configuration_id"] for r in configs}) == 103
+assert Counter(r["representative_report_id"] for r in configs)["R094"] == 2
+assert Counter(r["representative_report_id"] for r in configs)["R097"] == 1
 report_ids = {r["report_id"] for r in reports}
 assert len(report_ids) == 136
 assert len(eligibility) == 175 and len(screening) == 3138
@@ -21,7 +23,7 @@ assert Counter(r["eligibility_decision"] for r in eligibility) == {"include": 13
 assert {r["report_id"] for r in eligibility if r["eligibility_decision"] == "include"} == report_ids
 assert len(lineages) == 136 and {r["report_id"] for r in lineages} == report_ids
 assert {r["representative_report_id"] for r in configs} <= report_ids
-assert Counter(r["synthesis_role"] for r in reports) == {"Structured comparative": 101, "Eligible contextual": 35}
+assert Counter(r["synthesis_role"] for r in reports) == {"Structured comparative": 103, "Eligible contextual": 33}
 high_ids = {r["representative_report_id"] for r in configs if r["validation_exposure_code"] in ("L3", "L4", "L5")}
 assert len(high_ids) == 30 and {r["report_id"] for r in recovery} == high_ids
 assert len(locations) == 30 and {r["report_id"] for r in locations} == high_ids
@@ -30,7 +32,23 @@ counts = {s: sum(r[s + "_status"] == "Enacted in the final evaluation" for r in 
 assert list(counts.values()) == [13, 4, 2, 2]
 def cross(a, b):
     return {v: dict(Counter(r[b] for r in configs if r[a] == v)) for v in sorted({r[a] for r in configs})}
+def grouping_scenarios():
+    scenarios = []
+    for include_l2, include_monitoring in [(False, False), (True, False), (False, True), (True, True)]:
+        levels = {"L3", "L4", "L5"} | ({"L2"} if include_l2 else set())
+        mechanisms = {"Command intervention", "Formal runtime enforcement"} | ({"Boundary monitoring"} if include_monitoring else set())
+        high = [r for r in configs if r["validation_exposure_code"] in levels]
+        low = [r for r in configs if r["validation_exposure_code"] not in levels]
+        h = sum(r["execution_time_protection"] in mechanisms for r in high)
+        l = sum(r["execution_time_protection"] in mechanisms for r in low)
+        scenarios.append({"include_L2_in_higher_group": include_l2, "include_boundary_monitoring": include_monitoring,
+                          "higher": [h, len(high)], "lower": [l, len(low)],
+                          "difference_percentage_points": 100 * (h / len(high) - l / len(low))})
+    assert [(s["higher"], s["lower"]) for s in scenarios] == [([13, 30], [9, 73]), ([15, 36], [7, 67]), ([16, 30], [13, 73]), ([19, 36], [10, 67])]
+    return scenarios
+
 result = {
+    "alternative_grouping_scenarios": grouping_scenarios(),
     "eligible_reports": len(reports),
     "report_roles": dict(Counter(r["synthesis_role"] for r in reports)),
     "configurations": len(configs),
