@@ -44,7 +44,7 @@ def grouping_scenarios():
         scenarios.append({"include_L2_in_higher_group": include_l2, "include_boundary_monitoring": include_monitoring,
                           "higher": [h, len(high)], "lower": [l, len(low)],
                           "difference_percentage_points": 100 * (h / len(high) - l / len(low))})
-    assert [(s["higher"], s["lower"]) for s in scenarios] == [([13, 30], [9, 73]), ([15, 36], [7, 67]), ([16, 30], [13, 73]), ([19, 36], [10, 67])]
+    assert [(s["higher"], s["lower"]) for s in scenarios] == [([13, 30], [9, 73]), ([15, 36], [7, 67]), ([16, 30], [12, 73]), ([19, 36], [9, 67])]
     return scenarios
 
 result = {

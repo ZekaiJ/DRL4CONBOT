@@ -41,8 +41,8 @@ The main reproduction script also recomputes the descriptive protection comparis
 |---|---|---|---|
 | Original groups and criterion | 13/30 (43.3%) | 9/73 (12.3%) | 31.0 |
 | Include L2 in the higher-exposure group | 15/36 (41.7%) | 7/67 (10.4%) | 31.2 |
-| Include boundary monitoring in the protection criterion | 16/30 (53.3%) | 13/73 (17.8%) | 35.5 |
-| Apply both changes | 19/36 (52.8%) | 10/67 (14.9%) | 37.9 |
+| Include boundary monitoring in the protection criterion | 16/30 (53.3%) | 12/73 (16.4%) | 36.9 |
+| Apply both changes | 19/36 (52.8%) | 9/67 (13.4%) | 39.3 |
 
 Differences are calculated from unrounded fractions. The direction is retained under these specified alternatives. These calculations do not measure inter-reviewer agreement or resolve uncertainty in individual classifications.
 

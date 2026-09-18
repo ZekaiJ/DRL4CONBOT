@@ -19,8 +19,8 @@ def validate():
     text=(ROOT/'README.md').read_text(encoding='utf-8')
     ids=re.findall(r'`(R\d+)`',text)
     assert len(ids)==len(set(ids))==136, 'Report membership count/duplicates'
-    assert len(re.findall(r'· Structured ·',text))==101
-    assert len(re.findall(r'· Contextual ·',text))==35
+    assert len(re.findall(r'· Structured ·',text))==103
+    assert len(re.findall(r'· Contextual ·',text))==33
     sections=text.split('### ')
     assert any(s.startswith('Structural Assembly') and '`R063`' in s for s in sections)
     assert any(s.startswith('Earthwork') and '`R019`' in s for s in sections)
@@ -42,10 +42,10 @@ def validate():
         exported=list(csv.DictReader(stream))
     assert len(exported)==136
     assert {r['id'] for r in exported}==set(ids)
-    assert sum(r['role']=='Structured' for r in exported)==101
-    assert sum(r['role']=='Contextual' for r in exported)==35
+    assert sum(r['role']=='Structured' for r in exported)==103
+    assert sum(r['role']=='Contextual' for r in exported)==33
     library=Links(); library.feed((OUTPUT/'papers.html').read_text(encoding='utf-8'))
     assert set(ids).issubset(library.ids)
-    print('PASS: 136 unique reports, 101/35 roles, corrected mappings, deployable internal links')
+    print('PASS: 136 unique reports, 103/33 roles, corrected mappings, deployable internal links')
 
 if __name__=='__main__': validate()
