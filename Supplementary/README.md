@@ -17,6 +17,7 @@ The configuration table includes two configurations from R094 (horizontal transp
 | data/S5_recovery_transitions.csv | Recovery assessments for 30 configurations |
 | data/S12_recovery_source_locations.csv | Source pointers and explicit limitations of indicator-specific anchors |
 | reproduce.py | Regenerates descriptive counts and cross-tabulations |
+| [publication_versions.md](publication_versions.md) | Cited publication versions and sensitivity to excluding arXiv reports |
 | [physical_outcomes/](physical_outcomes/README.md) | Source-linked E/W/D outcome records and a separate reproduction script for the 30 higher-exposure configurations |
 
 ## Reproduction
@@ -27,9 +28,13 @@ Run `python reproduce.py` with Python 3.10 or later. No third-party packages are
 
 The database route assessed 159 reports and included 121; supplementary searching assessed 16 and included 15. Four database reports could not be retrieved. Search results comprised 6,255 records before deduplication, 3,138 screened records, and 2,975 screening exclusions.
 
-One author extracted the data and classified each configuration. Two coauthors verified all extracted information and configuration classifications against the source reports. Discrepancies were resolved through discussion until consensus was reached. This verification process was not independent duplicate extraction and coding. Source limitations and incomplete indicator anchors are retained. Undemonstrated recovery does not establish absence of the capability.
+## Study selection and assessment
 
-Original database exports, abstracts, and third-party full texts are not redistributed. The package supports tracing the recorded decisions and reproducing aggregate statistics, not repeating the full database-export and deduplication workflow. Third-party rights remain with their owners; no additional rights in those sources are granted here. Detailed review records remain in the research archive.
+Three investigators participated in title-and-abstract screening and full-text eligibility assessment. One investigator extracted the data and assigned configuration categories; two investigators checked the information and assignments against the source reports. Disagreements were resolved through discussion and consensus.
+
+Separately, two investigators independently reassessed validation exposure and execution-time protection in a reproducibly selected subset of 20 configurations. Before discussion, agreement was 80% (16/20; unweighted Cohen's kappa 0.684) for exposure and 90% (18/20; kappa 0.818) for protection. These estimates apply only to these two dimensions in the subset, not to full-sample extraction or the recovery and physical-outcome assessments. Detailed review records remain in the research archive.
+
+Original database exports, abstracts, and third-party full texts are not redistributed. The package supports tracing the recorded decisions and reproducing aggregate statistics, not repeating the full database-export and deduplication workflow. Third-party rights remain with their owners; no additional rights in those sources are granted here.
 
 ## Physical outcome evidence
 
@@ -50,7 +55,7 @@ Differences are calculated from unrounded fractions. The direction is retained u
 
 ## Screening fields
 
-The screening table retains descriptions of how each screening decision was recorded. They describe how entries were generated or inherited, rather than reviewer identities. The available screening script assigns decisions using metadata rules or carries forward earlier screening records. These codes alone do not establish subsequent human checking of every rule-generated decision. The extraction and classification verification described above does not specify the personnel or coverage of title and abstract screening.
+The screening table distinguishes decisions generated from metadata rules from those carried forward from earlier screening. These fields describe the origin of each entry, not who reviewed it or how many investigators assessed it. They do not establish that every rule-generated decision received subsequent human review.
 
 <details>
 <summary>Descriptions of screening-table fields</summary>
