@@ -272,10 +272,10 @@ These are task groupings, not a ranking of autonomy or readiness. Configurations
 | Evidence base | Count |
 | :--- | ---: |
 | Eligible reports | 136 |
-| Reports supporting structured comparison | 101 |
-| Executing configurations after consolidating one companion-report pair | 100 |
-| Contextual reports outside the quantitative distributions | 35 |
-| Configurations evaluated in simulation or controlled laboratories, L0–L2 | 70 |
+| Reports supporting structured comparison | 103 |
+| Executing configurations | 103 |
+| Contextual reports outside the quantitative distributions | 33 |
+| Configurations evaluated in simulation or controlled laboratories, L0–L2 | 73 |
 | Configurations reaching construction-representative or broader conditions, L3–L5 | 30 |
 
 **Read the evidence along separate dimensions.** Validation exposure describes where and under what operating conditions a configuration was evaluated. Execution-time protection describes mechanisms that monitor or intervene during execution. Neither is a safety certification or a general maturity score.

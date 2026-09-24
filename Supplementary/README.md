@@ -18,6 +18,7 @@ The configuration table includes two configurations from R094 (horizontal transp
 | data/S12_recovery_source_locations.csv | Source pointers and explicit limitations of indicator-specific anchors |
 | reproduce.py | Regenerates descriptive counts and cross-tabulations |
 | [publication_versions.md](publication_versions.md) | Cited publication versions and sensitivity to excluding arXiv reports |
+| [reassessment_subset.md](reassessment_subset.md) | Selection procedure and configuration identifiers for the independent reassessment |
 | [physical_outcomes/](physical_outcomes/README.md) | Source-linked E/W/D outcome records and a separate reproduction script for the 30 higher-exposure configurations |
 
 ## Reproduction
