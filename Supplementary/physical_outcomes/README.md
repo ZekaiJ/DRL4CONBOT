@@ -16,13 +16,13 @@ Y denotes qualifying evidence in the inspected physical evaluation. N denotes th
 
 Run `python reproduce.py` from this directory to calculate E/W/D counts and percentages, both overall and by validation exposure. No additional software packages are needed. The calculation uses the classifications in the table; it does not replace reading the original studies.
 
-`additional_measures.csv` contains candidate assessments for the other five reporting features in Table 8. Their source review is incomplete. Run `python reproduce_additional.py` to list positive, negative and unresolved assessments separately. These results must not be used as finalized reporting frequencies. Source notes are retained in their original English or Chinese wording.
+`additional_measures.csv` documents the other five reporting features in Table 8: motion results (14 configurations), physical time or throughput (10), human effort or enacted intervention (6), repeated-evaluation denominators (17), and reported or uniquely determinable unsuccessful counts (10). Run `python reproduce_additional.py` to reproduce the counts and percentages. Source notes are retained in their original English or Chinese wording.
 
 Measured trajectories with numerical coordinates qualify as motion results; commands and planned paths alone do not. Evaluation denominators retain their original units, including cycles within workflows and participants in comparisons. Unsuccessful counts may be derived only when reported outcomes and denominators uniquely determine them. Approximate counts remain approximate. Evidence from a lower-exposure test is not transferred to the highest-exposure evaluation.
 
-For these additional measures, U means that assessment remains unresolved. N retains an earlier negative assessment, not absence of a system capability. Candidate counts remain provisional until source review and scope decisions are complete.
+Human-effort evidence includes qualitative assessments of actual operator involvement or workload; it does not necessarily quantify labor savings. Preparation and adaptation alone do not establish an intervention outcome in the final evaluation. N means that qualifying evidence was not identified, not zero failures, zero human involvement, or absence of a capability.
 
-Correction, 24 September 2026: an earlier export converted unresolved source notes to N. Those records have been restored to U. Three proposed changes from earlier positive assessments also remain U pending adjudication. This correction does not change the separately assessed E/W/D records.
+Update, 24 September 2026: previously unresolved assessments were checked against the source papers. All 150 assessments now have a Y or N decision. Uncertainties about actors or exact trial counts remain in the notes. This update does not change the separately assessed E/W/D records and is not an additional independent human reassessment.
 
 ## Review process and scope
 

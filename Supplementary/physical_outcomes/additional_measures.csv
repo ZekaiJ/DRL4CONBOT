@@ -1,127 +1,127 @@
 report_id,indicator,evidence_identified,source_location,evidence_summary,interpretation,evidence_form
-R004,failed_aborted_count,U,PDF p.7; Fig.7,人工深挖对照试验因机器抬起而中止,人工深挖对照试验因机器抬起而中止 不把人工对照的中止计入学习配置失败计数；未完成全文及补充核查,Unresolved source assessment
-R004,human_effort_intervention,U,PDF pp.6–7; III.C and Fig.7,每次启动前人工放置铲斗；人工对照因抬起机器而中止,每次启动前人工放置铲斗；人工对照因抬起机器而中止 准备动作不等于报告人工投入指标；人工对照中止不等于学习控制器接管,Unresolved source assessment
+R004,failed_aborted_count,N,PDF pp.6–7; III.C; Figs.6–7,人工对照因机体抬起中止，学习控制器没有该类事件，不等于完整任务失败数为零。实体评价未给完整失败计数或匹配成功数和总数。,人工对照因机体抬起中止，学习控制器没有该类事件，不等于完整任务失败数为零。实体评价未给完整失败计数或匹配成功数和总数。,Not reported in the assessed primary physical evaluation
+R004,human_effort_intervention,N,PDF p.6; III.C,激活控制器前人工放置铲斗是初始化；未报告任务执行期间实际人工干预或劳动负担结果。,激活控制器前人工放置铲斗是初始化；未报告任务执行期间实际人工干预或劳动负担结果。,Not reported in the assessed primary physical evaluation
 R004,motion_metric,Y,PDF pp.6–7; III.C and Fig.6,报告实测及期望关节速度、桶速度和轨迹；明确指出实测桶速度短暂超过0.4m/s,报告实测及期望关节速度、桶速度和轨迹；明确指出实测桶速度短暂超过0.4m/s 采用实体Fig.6，不以仿真Fig.5或人工对照Fig.7代替,Reported outcome
-R004,repeated_evaluation_denominator,U,PDF pp.6–7; III.C and Fig.6,文字说明每种实验重复多次，图中有多条轨迹,文字说明每种实验重复多次，图中有多条轨迹 尚未找到明确重复试验总数，不按可见曲线条数代填分母,Unresolved source assessment
+R004,repeated_evaluation_denominator,N,PDF pp.6–7; III.C; Figs.6–7,III.C及Figs.6–7说明实验重复多次，但未给明确重复总数。曲线条数不反推试次，人工对照也不补学习配置分母；不要求另有视频才能判断报告中未给出次数。,III.C及Figs.6–7说明实验重复多次，但未给明确重复总数。曲线条数不反推试次，人工对照也不补学习配置分母；不要求另有视频才能判断报告中未给出次数。,Not reported for the assessed physical excavation evaluation
 R004,time_throughput,Y,PDF p.7; Fig.6 captions,三个实体场景报告总耗时均值和标准差，分别9.6/0.53、6.4/0.46、12.0/0.17秒,三个实体场景报告总耗时均值和标准差，分别9.6/0.53、6.4/0.46、12.0/0.17秒 这是真实挖掘时间；轨迹推算填充量不能因此变成实测产出,Reported outcome
-R005,failed_aborted_count,U,PDF p.7,解释最大跟踪误差及接地干扰,解释最大跟踪误差及接地干扰 未确认失败或中止次数,Unresolved source assessment
-R005,human_effort_intervention,U,PDF p.6,Leica半自动控制作为基线,Leica半自动控制作为基线 控制分工不是人工投入测量,Unresolved source assessment
+R005,failed_aborted_count,N,PDF pp.7–8; III.C; Figs.6–7; Table VII; Conclusion,报告接地引起的跟踪误差，没有失败或中止计数。,III.C、Figs.6–7及结论报告整平与铲斗接地造成的跟踪误差，未报告失败或中止次数，亦未给可唯一反推该数的成功数和试验总数。接地误差不自动算一次失败，成功演示不等于零失败。,Not reported for the assessed grading evaluation
+R005,human_effort_intervention,N,PDF pp.7–8; III.C; Conclusion,接土整平评价报告轨迹表现，没有实际人工接管或劳动负担结果。Leica半自动对照属于前面的空中跟踪，不转入此整平评价。,接土整平评价报告轨迹表现，没有实际人工接管或劳动负担结果。Leica半自动对照属于前面的空中跟踪，不转入此整平评价。,Not reported in the assessed primary physical evaluation
 R005,motion_metric,Y,PDF pp.6–7; Tables V–VII,实体铲刃位置、方向误差与速度,实体铲刃位置、方向误差与速度 跟踪结果不等于成品地形测量,Reported outcome
-R005,repeated_evaluation_denominator,U,PDF pp.6–7,五条水平轨迹、两速度，结果按轨迹平均,Five air-tracking trajectories and two speeds describe another test condition. The grading evaluation on PDF p. 7 does not give a repeated-trial denominator; four waypoints are not four trials.,Unresolved source assessment
-R005,time_throughput,U,PDF pp.6–7,给运动速度和参考轨迹,给运动速度和参考轨迹 速度指标不直接代替整任务耗时,Unresolved source assessment
+R005,repeated_evaluation_denominator,N,"PDF pp.6–8; Section III.B–C; Tables IV,VI–VII; Figs.6–7",整平评价报告轨迹误差与运行图像，但未给重复试验次数；已检查第7页表格及图注。,III.C、Fig.6–7及Table VII未明确接土整平的重复试验次数。四个waypoints是轨迹目标，Table IV的N是轨迹采样数，Table VI的J是关节数；空中跟踪的五条轨迹不能转作整平分母。N限于本次核对的报告，不表示没有重复试验。,Not reported for the assessed physical grading evaluation
+R005,time_throughput,N,PDF pp.7–8; III.C; Fig.6; Table VII,整平轨迹按预设速度缩放，结果报告跟踪误差。时间轴及预设20厘米/秒不单独构成实测完成时长或吞吐指标；rho为归一化跟踪表现而非任务耗时。,整平轨迹按预设速度缩放，结果报告跟踪误差。时间轴及预设20厘米/秒不单独构成实测完成时长或吞吐指标；rho为归一化跟踪表现而非任务耗时。,Not reported in the assessed primary physical evaluation
 R006,failed_aborted_count,Y,PDF p.6,RL-rep-exv有11/25次轨迹卡住执行失败,RL-rep-exv有11/25次轨迹卡住执行失败 不混入另一方法8次规划失败,"Reported count, with original precision retained"
-R006,human_effort_intervention,U,PDF pp.6–7,描述实体卡住,描述实体卡住 未确认人工处理量,Unresolved source assessment
-R006,motion_metric,U,PDF pp.6–7,报告攻击角度均值和标准差,报告攻击角度均值和标准差 计划动作参数与执行运动指标需区分,Unresolved source assessment
+R006,human_effort_intervention,N,PDF pp.6–7; VI.D; Figs.9–10,摇匀并倒入物料是场景准备，挖后倒料由机器人完成。该评价没有人工劳动负担或实际人工接管结果；不由此宣称无需人工。,摇匀并倒入物料是场景准备，挖后倒料由机器人完成。该评价没有人工劳动负担或实际人工接管结果；不由此宣称无需人工。,Not reported in the assessed primary physical evaluation
+R006,motion_metric,N,PDF pp.6–7; VI.D; Figs.9–10; Table III,攻击点及角度为选定的挖掘位姿，实体结果为产出、规划和执行成功数。攻击位姿分布不替代执行轨迹或运动误差测量。,攻击点及角度为选定的挖掘位姿，实体结果为产出、规划和执行成功数。攻击位姿分布不替代执行轨迹或运动误差测量。,Not reported in the assessed primary physical evaluation
 R006,repeated_evaluation_denominator,Y,PDF p.6; physical experiments,每种方法25次实体挖掘,每种方法25次实体挖掘 与模拟每episode次数分开,Reported outcome
-R006,time_throughput,U,PDF pp.6–7,报告每次挖掘体积,报告每次挖掘体积 未确认实体耗时或单位时间产量,Unresolved source assessment
-R012,failed_aborted_count,U,PDF pp.6–7; V.C.1–2 and Fig.8,讨论卡住及按最大接触力阈值计算的无卡住比例,讨论卡住及按最大接触力阈值计算的无卡住比例 未直接确定实际失败或中止次数；阈值后验曲线与实际中止记录须区分,Unresolved source assessment
-R012,human_effort_intervention,U,PDF p.6; data collection,收集轨迹后人工整平材料表面,收集轨迹后人工整平材料表面 数据收集准备不等于最终评价的人工投入或接管结果,Unresolved source assessment
-R012,motion_metric,U,PDF pp.6–7; Figs.7–8 and Tables II–III,报告接触力、穿入时间和组合奖励,Measured contact force is not itself a motion metric. Penetration time is assessed separately as a time outcome.,Unresolved source assessment
+R006,time_throughput,N,PDF pp.6–7; VI.D; Table III; Conclusion,实体评价列挖掘体积和成功数，没有物理作业时间或吞吐量。训练时间降低的结论不能移作实体效率结果。,实体评价列挖掘体积和成功数，没有物理作业时间或吞吐量。训练时间降低的结论不能移作实体效率结果。,Not reported in the assessed primary physical evaluation
+R012,failed_aborted_count,N,PDF pp.6–7; V.C; Tables II–III; Fig.8,特定离线策略无卡阻、一般策略出现卡齿颗粒，以及改变阈值后重算的无卡阻率，不构成最终评价完整任务失败枚举。保留卡齿负面事实，不跨策略推算失败总数。,特定离线策略无卡阻、一般策略出现卡齿颗粒，以及改变阈值后重算的无卡阻率，不构成最终评价完整任务失败枚举。保留卡齿负面事实，不跨策略推算失败总数。,Not reported in the assessed primary physical evaluation
+R012,human_effort_intervention,N,PDF p.6; dataset collection and V.C,人工重置地面属于示范数据采集；最终测试未报告人工劳动负担或实际接管。,人工重置地面属于示范数据采集；最终测试未报告人工劳动负担或实际接管。,Not reported in the assessed primary physical evaluation
+R012,motion_metric,N,PDF pp.6–7; V.C; Figs.7–8,最终实体结果为回报、穿入时间和接触力。接触力不属于本表狭义运动指标，原语速度范围是动作参数，不是运动测量结果。,最终实体结果为回报、穿入时间和接触力。接触力不属于本表狭义运动指标，原语速度范围是动作参数，不是运动测量结果。,Not reported in the assessed primary physical evaluation
 R012,repeated_evaluation_denominator,Y,PDF p.6; V.C.1,各场景策略评价10次试验,各场景策略评价10次试验 训练采集轨迹数与评价分母分开,Reported outcome
 R012,time_throughput,Y,PDF p.6; Fig.7,分材料报告实体平均穿入时间,分材料报告实体平均穿入时间 已视觉核对；与在线微调交互量分开,Reported outcome
-R016,failed_aborted_count,U,PDF pp.16–18; workflow evaluation,所读段落报告完成沟槽及动作适应，未定位独立失败或中止次数,所读段落报告完成沟槽及动作适应，未定位独立失败或中止次数 不从展示成功沟槽推断全部尝试零失败,Unresolved source assessment
+R016,failed_aborted_count,N,PDF pp.16–19; trench performance; Table 9; Figs.8–13,沟槽评价报告循环次数、时间、几何质量与体积；scoop 14地图误差并未被判为失败。没有完整失败/中止总数，完成沟槽也不能推出零失败。,沟槽评价报告循环次数、时间、几何质量与体积；scoop 14地图误差并未被判为失败。没有完整失败/中止总数，完成沟槽也不能推出零失败。,Not reported in the assessed primary physical evaluation
 R016,human_effort_intervention,Y,PDF pp.16–18; manual benchmark and duration breakdown,人工基线由操作员与测量员两人完成；操作员9%时间用于等待测量，自动监测约0.5%,人工基线由操作员与测量员两人完成；操作员9%时间用于等待测量，自动监测约0.5% 支持人工参与和等待投入比较，不等于自动系统完全无人监督；图8说明舱内有人负责安全,Reported outcome
 R016,motion_metric,Y,PDF pp.16–18; Figs.8–11,图8报告逐铲桶路径；图11报告成品沟槽精度,"PDF pp. 16–17, Fig. 8 records bucket-edge paths for individual scoops on numerical coordinates. These are measured tool trajectories; trench accuracy remains a separate work-output outcome.",Reported outcome
 R016,repeated_evaluation_denominator,Y,PDF pp.16–18; Performance Evaluation and Table 9,三个自主沟槽条件对应25/19/16次铲挖循环；人工沟槽20次；Table 9明确列出Num. Scoops,三个自主沟槽条件对应25/19/16次铲挖循环；人工沟槽20次；Table 9明确列出Num. Scoops 循环数是沟槽内操作单位而非独立完整沟槽重复次数；不能将三个阈值说成同条件三次重复,Reported outcome
 R016,time_throughput,Y,PDF pp.16–18; Performance Evaluation and Table 9,报告沟槽作业总时间、各阶段时间及循环时间均值和标准差,报告沟槽作业总时间、各阶段时间及循环时间均值和标准差 属于完整系统表现，不单独归因于学习控制器,Reported outcome
-R017,failed_aborted_count,U,PDF pp.5–6,采样时间训练比较讨论卡住情况；最终评价给重量与时间,采样时间训练比较讨论卡住情况；最终评价给重量与时间 训练卡住描述不是最终实体评价失败次数,Unresolved source assessment
-R017,human_effort_intervention,U,PDF p.6; Fig.9,比较人工操作员的装载重量与时间,比较人工操作员的装载重量与时间 人类基线表现不等于人工投入或实际接管量,Unresolved source assessment
-R017,motion_metric,U,PDF pp.5–6; Figs.7 and 9,报告执行器延迟及装载重量和时间,报告执行器延迟及装载重量和时间 执行器辨识延迟不直接当作最终策略的运动表现,Unresolved source assessment
+R017,failed_aborted_count,N,PDF pp.5–6; V.A–B; Figs.8–10,负训练回报与卡住有关，但最终无噪声评价只给重量和时间的均值及标准差，没有匹配的失败枚举或成功整数。训练曲线负点不能计为最终评价的失败次数。,负训练回报与卡住有关，但最终无噪声评价只给重量和时间的均值及标准差，没有匹配的失败枚举或成功整数。训练曲线负点不能计为最终评价的失败次数。,Not reported in the assessed primary physical evaluation
+R017,human_effort_intervention,N,PDF pp.5–6; V.B; Fig.9,人类操作员提供重量与时间基线，没有报告学习配置实际接管、人工用时或劳动负担。安全驾驶员可中止的职责不表示评价中实际发生接管。,人类操作员提供重量与时间基线，没有报告学习配置实际接管、人工用时或劳动负担。安全驾驶员可中止的职责不表示评价中实际发生接管。,Not reported in the assessed primary physical evaluation
+R017,motion_metric,N,PDF pp.5–6; V.A–B; Figs.7–10,Fig.7的240毫秒延迟属于机器校准；V.B最终无噪声装载评价报告重量和时间，不报告相应的实测运动结果。传感器输入与更高油门命令不替代运动测量。,Fig.7的240毫秒延迟属于机器校准；V.B最终无噪声装载评价报告重量和时间，不报告相应的实测运动结果。传感器输入与更高油门命令不替代运动测量。,Not reported in the assessed primary physical evaluation
 R017,repeated_evaluation_denominator,Y,PDF pp.5–6; V.B and Fig.9 caption,各控制器评价采用10次铲装；评价时不加噪声且不进行梯度更新,各控制器评价采用10次铲装；评价时不加噪声且不进行梯度更新 不将训练episode数作为评价分母,Reported outcome
 R017,time_throughput,Y,PDF p.6; Fig.9 and results,报告各控制器平均装载时间；岩石预训练策略适配后由7.0秒降至6.4秒,报告各控制器平均装载时间；岩石预训练策略适配后由7.0秒降至6.4秒 与约40分钟适配训练时间分开；已视觉核对图文,Reported outcome
 R018,failed_aborted_count,Y,PDF p.11; Fig.14,图中三种控制器成功率均为100.00%；每组10次，因此各组零失败,图中三种控制器成功率均为100.00%；每组10次，因此各组零失败 候选依据为明确分母与全部成功的结局，不是原文单独列出的失败次数；与R055统一裁决,Derived uniquely from successful outcomes and denominator
-R018,human_effort_intervention,U,PDF pp.9–11; Fig.14,提供操作员装载表现基线,提供操作员装载表现基线 未据此判定人工投入量或实际干预结果,Unresolved source assessment
-R018,motion_metric,U,PDF p.11; Fig.15 and text,给出倾斜与举升命令曲线并讨论平滑性,给出倾斜与举升命令曲线并讨论平滑性 命令曲线不直接当作测得的机器人运动指标,Unresolved source assessment
+R018,human_effort_intervention,N,PDF pp.11–12; Fig.14; Conclusions,人类专家基线比较装载表现，没有学习配置实际人工干预或劳动负担结果。模型训练数据由操作员产生不构成部署时人工投入评价。,人类专家基线比较装载表现，没有学习配置实际人工干预或劳动负担结果。模型训练数据由操作员产生不构成部署时人工投入评价。,Not reported in the assessed primary physical evaluation
+R018,motion_metric,N,PDF pp.10–12; 6.3; Figs.14–15,Fig.15明确是控制器输出命令，不是实际运动测量。此前世界模型预测验证属于另一测试。最终装载结果报告重量、时间与成功率，未提供合格的实体运动指标。,Fig.15明确是控制器输出命令，不是实际运动测量。此前世界模型预测验证属于另一测试。最终装载结果报告重量、时间与成功率，未提供合格的实体运动指标。,Not reported in the assessed primary physical evaluation
 R018,repeated_evaluation_denominator,Y,PDF pp.9–11; Fig.14 caption,三种控制器各在同一料堆进行10次实体试验,三种控制器各在同一料堆进行10次实体试验 分母为每个控制器10次，不将三组混为单策略30次,Reported outcome
 R018,time_throughput,Y,PDF pp.9–11; sections 5.4 and 6.3; Fig.14,实体比较报告装载时间及与操作员的相对差异,实体比较报告装载时间及与操作员的相对差异 不使用模拟训练耗时；已视觉核对Fig.14,Reported outcome
 R023,failed_aborted_count,Y,PDF pp.6–7; Table IV,砾石落下引起底盘倾斜，两次任务终止,砾石落下引起底盘倾斜，两次任务终止 直接实体次数,"Reported count, with original precision retained"
-R023,human_effort_intervention,U,PDF p.7,两次安全终止,两次安全终止 原文未在此说明终止由人工实施，不自动记人工干预,Unresolved source assessment
+R023,human_effort_intervention,N,PDF p.7; Table IV and adjacent text,原文明示两次因落石导致倾斜而终止，但未说明由人还是自动机制终止。缺少明确人工干预结果，故不计入此指标；保留两次中止，不推断无人参与。,原文明示两次因落石导致倾斜而终止，但未说明由人还是自动机制终止。缺少明确人工干预结果，故不计入此指标；保留两次中止，不推断无人参与。,Not reported in the assessed primary physical evaluation
 R023,motion_metric,Y,PDF p.7; Fig.10,比较实体与模拟关节位置轨迹,比较实体与模拟关节位置轨迹 量化坐标曲线，不是唯一汇总误差,Reported outcome
 R023,repeated_evaluation_denominator,Y,PDF p.7; Table IV,两种材料各5次实验,两种材料各5次实验 包含失败的两次砾石实验,Reported outcome
-R023,time_throughput,U,PDF pp.6–7,两小时为训练时间,两小时为训练时间 不当作实体铲装时间,Unresolved source assessment
-R025,failed_aborted_count,U,PDF pp.13–14,展示跟踪与约束表现,展示跟踪与约束表现 未确认失败或中止枚举,Unresolved source assessment
-R025,human_effort_intervention,U,PDF pp.13–14,描述实体控制实验,描述实体控制实验 未确认人工投入结果,Unresolved source assessment
+R023,time_throughput,N,PDF p.7; VI.C; Fig.10; VII,实体评价报告填充率和关节轨迹，没有明确作业时长或吞吐结果。两小时是训练时间，图10轨迹横轴不作为完成时间指标。,实体评价报告填充率和关节轨迹，没有明确作业时长或吞吐结果。两小时是训练时间，图10轨迹横轴不作为完成时间指标。,Not reported in the assessed primary physical evaluation
+R025,failed_aborted_count,N,PDF pp.13–15; Figs.12–13; Conclusion,达到跟踪目标和状态约束是连续控制结果，没有完整成功失败枚举或可唯一确定未成功次数的匹配分母，不能据示例轨迹记零失败。,达到跟踪目标和状态约束是连续控制结果，没有完整成功失败枚举或可唯一确定未成功次数的匹配分母，不能据示例轨迹记零失败。,Not reported in the assessed primary physical evaluation
+R025,human_effort_intervention,N,PDF pp.12–15; physical evaluation; Fig.11–13,平台及上位机命令接口为系统说明，实体结果未报告实际人工干预或劳动负担。接口允许人工输入不等于已测量人工投入。,平台及上位机命令接口为系统说明，实体结果未报告实际人工干预或劳动负担。接口允许人工输入不等于已测量人工投入。,Not reported in the assessed primary physical evaluation
 R025,motion_metric,Y,PDF pp.13–14; Figs.12–13,实体铲尖、动臂和斗杆跟踪及误差曲线,实体铲尖、动臂和斗杆跟踪及误差曲线 保持command intervention原分类，不改理论解释,Reported outcome
-R025,repeated_evaluation_denominator,U,PDF pp.13–14,展示跟踪实验,展示跟踪实验 未确认重复试验数,Unresolved source assessment
-R025,time_throughput,U,PDF pp.13–14,参考轨迹时间区间0至5秒,参考轨迹时间区间0至5秒 预设时域不是测得的作业效率,Unresolved source assessment
+R025,repeated_evaluation_denominator,N,PDF pp.12–15; physical evaluation; Figs.12–13,实体试验段及Figs.12–13报告动臂和斗杆跟踪，未明确重复试验次数。0–5秒为参考轨迹时间范围，不是重复数。N限于原文的实体评价。,实体试验段及Figs.12–13报告动臂和斗杆跟踪，未明确重复试验次数。0–5秒为参考轨迹时间范围，不是重复数。N限于原文的实体评价。,Not reported for the assessed physical excavator evaluation
+R025,time_throughput,N,PDF pp.12–15; physical evaluation; Figs.12–13,xd=5−0.2t的0–5秒是预设参考轨迹范围。结果检验跟踪及状态约束，没有独立报告实测任务完成时长或吞吐量。,xd=5−0.2t的0–5秒是预设参考轨迹范围。结果检验跟踪及状态约束，没有独立报告实测任务完成时长或吞吐量。,Not reported in the assessed primary physical evaluation
 R026,failed_aborted_count,Y,PDF p.6; Table V and Comparative Failure Analysis,四条件各10次；本方法成功率90/80/50/60%；可分别推得1/2/5/4次未成功共12次,四条件各10次；本方法成功率90/80/50/60%；可分别推得1/2/5/4次未成功共12次 可唯一推导但不是单列失败次数；必须与R067的百分比加分母采用同一规则；候选U不表示没有结局证据,Derived uniquely from successful outcomes and denominator
-R026,human_effort_intervention,U,PDF p.6; Table V,提供人类操作员成功率比较,提供人类操作员成功率比较 人类基线成功率不是人工投入量或实际接管结果,Unresolved source assessment
+R026,human_effort_intervention,N,PDF pp.5–7; Fig.4; IV.B–E,Fig.4用户初始化分割为感知初始化；300小时是对照操作员经验。没有部署运行中的实际接管或人工负担结果，不把初始化描述当作人工投入评价。,Fig.4用户初始化分割为感知初始化；300小时是对照操作员经验。没有部署运行中的实际接管或人工负担结果，不把初始化描述当作人工投入评价。,Not reported in the assessed primary physical evaluation
 R026,motion_metric,Y,PDF pp.6–7; Figs.5–6,报告实体铲斗轨迹及硬土水平路径约长40%；Fig.6含速度命令与实测扭矩,"PDF p. 6, IV.C/Fig. 5 reports physical bucket trajectories and approximately 40% longer horizontal travel in hard soil. Inclusion does not depend on treating velocity commands as measurements.",Reported outcome
 R026,repeated_evaluation_denominator,Y,PDF p.6; IV.B and Table V,40次硬件试验；四种条件各10次,40次硬件试验；四种条件各10次 此处对应实体评价，不采用仿真试验数量,Reported outcome
-R026,time_throughput,U,PDF pp.6–7,本轮所读实体结果段未确认时间或吞吐量结果,本轮所读实体结果段未确认时间或吞吐量结果 未覆盖全文所有位置，不判N,Unresolved source assessment
+R026,time_throughput,N,PDF pp.5–7; Table III; IV.B–E; Fig.6,29秒为终止上限。硬件结果给成功比例、路径与控制时序，没有明确的实测任务耗时或吞吐结果；不将超时设置或普通时序图作为完成时间。,29秒为终止上限。硬件结果给成功比例、路径与控制时序，没有明确的实测任务耗时或吞吐结果；不将超时设置或普通时序图作为完成时间。,Not reported in the assessed primary physical evaluation
 R028,failed_aborted_count,Y,PDF p.10; Table V,逐条件列整数成功数，每项分母20；如Ours第一组19、19、20,逐条件列整数成功数，每项分母20；如Ours第一组19、19、20 完整整数结局可确定未成功次数；与R055采用同一候选规则，不另称中止次数,Derived uniquely from successful outcomes and denominator
-R028,human_effort_intervention,U,PDF p.10; VI.G,实体比较未在该节给人工投入或实际接管量,实体比较未在该节给人工投入或实际接管量 本轮核查范围内未确认，不判N,Unresolved source assessment
-R028,motion_metric,U,PDF p.10; VI.G and Table V,实体结果主要为岩块挖掘成功数,实体结果主要为岩块挖掘成功数 初始位置和岩块尺寸不是测得的运动误差,Unresolved source assessment
+R028,human_effort_intervention,N,PDF pp.10–11; VI.G; Table V,实体迁移评价按策略、位置和材料报告成功数，没有实际人工干预、用时或负担结果。五个策略不是五位操作者。,实体迁移评价按策略、位置和材料报告成功数，没有实际人工干预、用时或负担结果。五个策略不是五位操作者。,Not reported in the assessed primary physical evaluation
+R028,motion_metric,N,PDF pp.10–11; VI.G; Table V,实体结果为岩块挖掘成功数。四个角度和100毫米半径描述初始位置，岩块尺度描述测试条件，均不是实测机器人运动结果。,实体结果为岩块挖掘成功数。四个角度和100毫米半径描述初始位置，岩块尺度描述测试条件，均不是实测机器人运动结果。,Not reported in the assessed primary physical evaluation
 R028,repeated_evaluation_denominator,Y,PDF p.10; Table V caption,每个岩块与地面条件20次，来自5个策略和4个位置,每个岩块与地面条件20次，来自5个策略和4个位置 20次并非单个策略重复20次；已视觉核对,Reported outcome
-R028,time_throughput,U,PDF p.10; VI.F–G,时间效率比较针对模拟训练计算；实体表给成功数,时间效率比较针对模拟训练计算；实体表给成功数 训练加速不等于实体挖掘耗时降低,Unresolved source assessment
+R028,time_throughput,N,PDF pp.10–11; VI.F–G; VII.C; Table V,时间效率比较及90/600分钟明确属于策略学习与仿真计算；实体迁移表报告成功数，没有物理作业时长或吞吐结果。,时间效率比较及90/600分钟明确属于策略学习与仿真计算；实体迁移表报告成功数，没有物理作业时长或吞吐结果。,Not reported in the assessed primary physical evaluation
 R030,failed_aborted_count,Y,PDF p.1 abstract and p.13 Fig.13 safety evaluation,摘要明确训练后128次连续挖掘成功；第13页另报告无安全越限或其他异常,摘要明确训练后128次连续挖掘成功；第13页另报告无安全越限或其他异常 该运行序列全成功可推得零未成功；不能仅从无安全越限推出零任务失败；候选U不表示没有结局证据,Derived uniquely from successful outcomes and denominator
 R030,human_effort_intervention,Y,PDF p.13; Fig.13 and accompanying text,追加运行的human ratio明确为零,追加运行的human ratio明确为零 零干预是已评价的人工投入结果，不是已触发接管或恢复响应,Reported outcome
 R030,motion_metric,Y,PDF p.13; Fig.13,训练后128回合记录桶、斗杆和动臂RMSE以及机身俯仰角范围,训练后128回合记录桶、斗杆和动臂RMSE以及机身俯仰角范围 图13为训练后的追加运行，不用训练曲线代替,Reported outcome
 R030,repeated_evaluation_denominator,Y,PDF pp.13–14; Fig.13 and evaluation task results,128个训练后追加安全评价回合；另明确每个目标BFR进行10次评价试验,128个训练后追加安全评价回合；另明确每个目标BFR进行10次评价试验 两类评价分开；10次为每个目标BFR而非全部试验；28618控制步不是试验分母,Reported outcome
-R030,time_throughput,U,PDF pp.13–14; Figs.13–14,训练后128回合持续安全运行38分钟共28618步；另有0至19秒的评价任务快照,The 38-minute/128-episode series characterizes extended safe operation. Snapshot timestamps and series duration are not counted as an explicit task-time or throughput outcome.,Unresolved source assessment
+R030,time_throughput,Y,PDF pp.13–14; Figs.13–14,训练后128回合持续安全运行38分钟共28618步；另有0至19秒的评价任务快照,128次实体挖掘对应38分钟总作业时间，符合已确认的连续物理作业时长定义。不推算净周期，不推断基线优势。,Reported physical operation time
 R037,failed_aborted_count,Y,PDF p.11; 6.3,明确25次均成功装料并抬起,明确25次均成功装料并抬起 可确定该最终评价零失败；早期双侧导纳不稳定另述,Derived uniquely from successful outcomes and denominator
-R037,human_effort_intervention,U,PDF p.11; 6.3,操作员实际控制前进并在动臂抬起时停止,操作员实际控制前进并在动臂抬起时停止 已实施人工参与，但是否满足表中outcome而非流程描述需统一,Unresolved source assessment
+R037,human_effort_intervention,Y,PDF p.11; 6.3 Sim-to-real results,实体实验明确操作员控制前进并在观察到动臂抬升时停车，属于实际执行中的人工控制与停止响应。仅支持定性人工参与结果，不报告工时、接管频次或人力节省。,实体实验明确操作员控制前进并在观察到动臂抬升时停车，属于实际执行中的人工控制与停止响应。仅支持定性人工参与结果，不报告工时、接管频次或人力节省。,Reported qualitative human involvement or burden
 R037,motion_metric,Y,PDF pp.11–12; Fig.13,本轮视觉确认Fig.13包含实测关节位置、前进距离、估计扭矩，以及另列的参考位置,"PDF pp. 11–12, Section 6.3/Fig. 13 identifies IMU-measured joint angles and GNSS-measured forward distance; the caption identifies each curve as one physical experiment.",Reported outcome
 R037,repeated_evaluation_denominator,Y,PDF p.11; 6.3,湿砂10次、石料15次，共25次,湿砂10次、石料15次，共25次 模拟五episode另计,Reported outcome
-R037,time_throughput,U,PDF pp.11–12,主要给装料率与实体状态,主要给装料率与实体状态 未确认实体作业耗时结果,Unresolved source assessment
-R038,failed_aborted_count,U,PDF p.18; Table 3,抓取成功率100%，但该表明确分母未定位,抓取成功率100%，但该表明确分母未定位 不将其他实验20次分母搬来推失败数,Unresolved source assessment
-R038,human_effort_intervention,U,PDF pp.21–23,人工司机表现作为基线；人工准备料堆,人工司机表现作为基线；人工准备料堆 未直接测量自动流程所需人工投入,Unresolved source assessment
+R037,time_throughput,N,PDF pp.11–12; 6.3; Fig.13; Table 3,报告15次石料试验的状态时序和填充率，没有另行报告任务完成时长或吞吐指标。普通时轴不作为时间结果。,报告15次石料试验的状态时序和填充率，没有另行报告任务完成时长或吞吐指标。普通时轴不作为时间结果。,Not reported in the assessed primary physical evaluation
+R038,failed_aborted_count,N,"PDF pp.18,21–23; Table 3; Tables 6–7",抓取100%是报告的百分比，未给该表匹配的整数分母；约20个转运循环不能借给抓取表。完整转运和装车未给失败总数，不从圆整百分比推零失败。,抓取100%是报告的百分比，未给该表匹配的整数分母；约20个转运循环不能借给抓取表。完整转运和装车未给失败总数，不从圆整百分比推零失败。,Not reported in the assessed primary physical evaluation
+R038,human_effort_intervention,N,PDF pp.21–23; bulk transfer and dump truck loading,人工设置堆料、目标位置和人工驾驶基线是试验准备与比较条件；未报告自主配置运行中的接管或人工劳动负担结果。,人工设置堆料、目标位置和人工驾驶基线是试验准备与比较条件；未报告自主配置运行中的接管或人工劳动负担结果。,Not reported in the assessed primary physical evaluation
 R038,motion_metric,Y,"PDF pp.19,21–23; Tables 4,6,7",实体约束偏差、位置误差、角速度和振荡,实体约束偏差、位置误差、角速度和振荡 不混入Table 2模拟MPC比较,Reported outcome
 R038,repeated_evaluation_denominator,Y,PDF p.22; Table 6 caption,20次连续转移评价,20次连续转移评价 正文另有约20次表述，按具体表注记录,Reported outcome
 R038,time_throughput,Y,PDF pp.22–23; Tables 6–7,报告完整循环时间及去除抓取时间,报告完整循环时间及去除抓取时间 两种时间分开，不把更集中料堆等同更快,Reported outcome
-R044,failed_aborted_count,U,PDF pp.6–7,讨论超调和误差,讨论超调和误差 未确认失败或中止次数,Unresolved source assessment
-R044,human_effort_intervention,U,PDF pp.6–7,人类司机性能比较,人类司机性能比较 未确认人工投入或接管结果,Unresolved source assessment
+R044,failed_aborted_count,N,PDF pp.6–7; Sections IV–VI; Tables IV–VI; Figs.6–8,报告控制误差与超调等连续量，没有学习配置的失败或中止次数。,IV–VI节及Tables IV–VI报告速度、超调、位置误差和工具角速度，未给失败或中止次数。PI控制器fails的定性描述、目标容差及各目标位置不用于推算学习配置的失败数。,Not reported for the assessed physical evaluation
+R044,human_effort_intervention,N,PDF pp.6–7; IV.B; Tables V–VI,操作员经验及人工驾驶表现用于性能基线比较，没有学习配置实际人工接管、用时或劳动负担结果。,操作员经验及人工驾驶表现用于性能基线比较，没有学习配置实际人工接管、用时或劳动负担结果。,Not reported in the assessed primary physical evaluation
 R044,motion_metric,Y,PDF pp.6–7; Tables IV–VI,实体速度、超调、终态误差和工具角速度,实体速度、超调、终态误差和工具角速度 人类司机比较不单独证明学习收益,Reported outcome
-R044,repeated_evaluation_denominator,U,PDF pp.6–7,表注称多次运行平均；图示四或五目标,表注称多次运行平均；图示四或五目标 目标数不自动等于重复运行数,Unresolved source assessment
-R044,time_throughput,U,PDF p.6,15秒目标切换周期,15秒目标切换周期 预设周期不是实测作业完成时间,Unresolved source assessment
+R044,repeated_evaluation_denominator,N,PDF pp.6–7; Section IV; Tables V–VI; Figs.6–8,报告运行平均值与目标序列，未明确重复运行次数。,IV节及Tables V–VI仅说明对不同运行取平均，未给运行次数。Fig.6四个目标与Fig.7五个目标为序列目标，不是重复试验分母。N不表示未进行重复实验。,Not reported in the assessed primary report
+R044,time_throughput,N,PDF pp.6–7; IV; Tables IV–VI,15秒是目标切换周期。报告的回转速度属于运动指标，没有另给实测任务完成时长或吞吐量，不能从目标周期推算。,15秒是目标切换周期。报告的回转速度属于运动指标，没有另给实测任务完成时长或吞吐量，不能从目标周期推算。,Not reported in the assessed primary physical evaluation
 R055,failed_aborted_count,Y,PDF p.4; Fig.4; pp.5–6 failure explanations,逐条件成功数与总数明确列出；Δ形实体试验0/21，正文说明扭矩越限失败,逐条件成功数与总数明确列出；Δ形实体试验0/21，正文说明扭矩越限失败 候选依据为完整整数结局分布，不是从四舍五入百分比反推；若规则要求单列failure count须统一裁决,Derived uniquely from successful outcomes and denominator
-R055,human_effort_intervention,U,PDF pp.4–6,训练用一次成功人工示范；实体采用传感器和腕部扭矩越限中止规则,训练用一次成功人工示范；实体采用传感器和腕部扭矩越限中止规则 示范属于训练；自动中止不等于人工投入或人工接管,Unresolved source assessment
-R055,motion_metric,U,PDF pp.5–6; Fig.7 and section 5.4,图7对比线性与角度动作的均值及范围,图7对比线性与角度动作的均值及范围 动作输出不自动等于实测机器人运动指标，需核实观测曲线和统一定义,Unresolved source assessment
+R055,human_effort_intervention,N,PDF pp.4–7; 4.6; 5.1–5.4; Appendix A.2,一次人类示范用于训练，定期更换磨损材料用于实验准备。未报告执行中的人工干预或劳动负担结果；自动力矩越限中止不等于人工接管。,一次人类示范用于训练，定期更换磨损材料用于实验准备。未报告执行中的人工干预或劳动负担结果；自动力矩越限中止不等于人工接管。,Not reported in the assessed primary physical evaluation
+R055,motion_metric,N,PDF pp.5–6; Fig.7; 5.4,Fig.7图注明确为线性与角动作。正文虽概括比较观察和动作，但未提供实测运动轨迹或误差结果，不能把策略输出当运动测量。,Fig.7图注明确为线性与角动作。正文虽概括比较观察和动作，但未提供实测运动轨迹或误差结果，不能把策略输出当运动测量。,Not reported in the assessed primary physical evaluation
 R055,repeated_evaluation_denominator,Y,PDF p.4; Fig.4 real rollout success rate column,实体逐条件成功数/试验数明确列出，包括7/7、2/3、0/21等,实体逐条件成功数/试验数明确列出，包括7/7、2/3、0/21等 已视觉核对实体列，不混入仿真列,Reported outcome
-R055,time_throughput,U,PDF pp.4–6; experiment results,所读实体结果未定位任务耗时或吞吐统计,所读实体结果未定位任务耗时或吞吐统计 训练步数和动作曲线步索引不能直接替代物理时间,Unresolved source assessment
-R060,failed_aborted_count,U,PDF p.7,描述硬件与模拟差别,描述硬件与模拟差别 未确认实体失败次数,Unresolved source assessment
-R060,human_effort_intervention,U,PDF p.7,描述竹材操作演示,描述竹材操作演示 未确认人工投入结果,Unresolved source assessment
-R060,motion_metric,U,PDF p.7; hardware evaluation,实体搬运和到达为概念验证,实体搬运和到达为概念验证 模拟成功率不能当实体运动指标,Unresolved source assessment
-R060,repeated_evaluation_denominator,U,PDF p.7,硬件概念验证未列重复次数,硬件概念验证未列重复次数 九米移动是IK任务，不移入学习配置,Unresolved source assessment
-R060,time_throughput,U,PDF p.7,将建造耗时列为未来评价,将建造耗时列为未来评价 训练速度不是实体工作时间,Unresolved source assessment
-R063,failed_aborted_count,U,PDF pp.6–7,给路径与工作负担结果,给路径与工作负担结果 未确认失败或中止次数,Unresolved source assessment
+R055,time_throughput,N,PDF pp.4–7; 4.6; 5.1–5.4; Appendix A,报告成功次数、训练迭代时间、控制频率与延迟，没有实体装配完成时长或吞吐量。训练步数上限也不能作为真实任务用时。,报告成功次数、训练迭代时间、控制频率与延迟，没有实体装配完成时长或吞吐量。训练步数上限也不能作为真实任务用时。,Not reported in the assessed primary physical evaluation
+R060,failed_aborted_count,N,PDF p.7; Proof of Concept Hardware Evaluation; VIII,成功搬运和可到达是定性结果，机械差异没有对应失败枚举，也没有可唯一确定失败次数的匹配成功数及分母。N不表示零失败。,成功搬运和可到达是定性结果，机械差异没有对应失败枚举，也没有可唯一确定失败次数的匹配成功数及分母。N不表示零失败。,Not reported in the assessed primary physical evaluation
+R060,human_effort_intervention,N,PDF p.7; Proof of Concept Hardware Evaluation; VIII,实体概念验证描述竹材搬运、到达及机械差异，没有报告实际人工干预或劳动负担结果；不据演示推断无人参与。,实体概念验证描述竹材搬运、到达及机械差异，没有报告实际人工干预或劳动负担结果；不据演示推断无人参与。,Not reported in the assessed primary physical evaluation
+R060,motion_metric,N,PDF p.7; Proof of Concept Hardware Evaluation; VIII,实体竹材搬运和到达为定性演示，没有实测路径或误差指标。9米移动明确由逆运动学完成，不能计入学习策略的运动评价。,实体竹材搬运和到达为定性演示，没有实测路径或误差指标。9米移动明确由逆运动学完成，不能计入学习策略的运动评价。,Not reported in the assessed primary physical evaluation
+R060,repeated_evaluation_denominator,N,PDF pp.6–8; Proof of Concept Hardware Evaluation,Proof of Concept Hardware Evaluation报告不同开发阶段策略的搬运与到达表现，未给实体重复次数。9米行走采用逆运动学控制，不能补学习配置的重复评价分母。,Proof of Concept Hardware Evaluation报告不同开发阶段策略的搬运与到达表现，未给实体重复次数。9米行走采用逆运动学控制，不能补学习配置的重复评价分母。,Not reported for the assessed hardware proof of concept
+R060,time_throughput,N,PDF p.7; Proof of Concept Hardware Evaluation; VIII,完整结构有效建造时间明确列为未来评价，已有学习速度曲线属于训练，不是实体作业时间。,完整结构有效建造时间明确列为未来评价，已有学习速度曲线属于训练，不是实体作业时间。,Not reported in the assessed primary physical evaluation
+R063,failed_aborted_count,N,Source text PDF pp.6–7; user study; Figs.10–11,五位参与者的路径和问卷说明操作困难与改善，没有明确完整任务成功失败枚举；参与者数不能推出零失败。,五位参与者的路径和问卷说明操作困难与改善，没有明确完整任务成功失败枚举；参与者数不能推出零失败。,Not reported in the assessed primary physical evaluation
 R063,human_effort_intervention,Y,PDF p.7; Fig.11,五名参与者NASA-TLX工作负荷与effort评分,五名参与者NASA-TLX工作负荷与effort评分 主观负担测量，不称人工接管次数,Reported outcome
 R063,motion_metric,Y,PDF p.7; Fig.10,记录实体末端三维轨迹，有实际坐标轴,记录实体末端三维轨迹，有实际坐标轴 属于量化轨迹展示，非误差汇总量,Reported outcome
 R063,repeated_evaluation_denominator,Y,PDF pp.6–7; V,五名参与者分别有无虚拟引导条件,五名参与者分别有无虚拟引导条件 参与者内比较，不冒称更多重复,Reported outcome
-R063,time_throughput,U,PDF pp.6–7,十分钟为参与者练习时间,十分钟为参与者练习时间 不能作为正式任务完成时间,Unresolved source assessment
-R065,failed_aborted_count,U,PDF p.7; Table IV,实体SAP-RL-E平均成功率93.9%，列分照明成功率,Aggregated rounded success percentages and an incompletely matched denominator do not uniquely determine an unsuccessful count.,Unresolved source assessment
-R065,human_effort_intervention,U,PDF pp.5–7,描述实体测试安排及自动搜索过程,描述实体测试安排及自动搜索过程 本轮所读结果未确认人工投入量或实际人工干预记录，不判N,Unresolved source assessment
-R065,motion_metric,U,PDF pp.6–7; Tables III–IV,报告成功率和完成时间；初始位置偏移用于设置测试条件,报告成功率和完成时间；初始位置偏移用于设置测试条件 初始偏移不是运动误差结果；图像重建不是运动指标,Unresolved source assessment
-R065,repeated_evaluation_denominator,Y,PDF p.6; III.C,测试设计给出12个未见孔、初始位置和照明条件，并说明重复10次,测试设计给出12个未见孔、初始位置和照明条件，并说明重复10次 各模型照明覆盖不完全相同；不将统一总试次数强加给所有模型,Reported outcome
+R063,time_throughput,N,Source text PDF pp.6–7; user study; Figs.10–11,十分钟是遥操作练习时间；NASA-TLX temporal demand为主观负担，不是实测完成时长。最终结果为路径与问卷。,十分钟是遥操作练习时间；NASA-TLX temporal demand为主观负担，不是实测完成时长。最终结果为路径与问卷。,Not reported in the assessed primary physical evaluation
+R065,failed_aborted_count,N,"PDF pp.5–7; III.A, III.C, IV.C; Table IV; Fig.9",III.C及IV.C/Table IV给出测试设计和四舍五入成功率，未明确失败整数。十次重复及5760的实体适用范围有歧义，即使假定5760，93.9%也不能唯一确定失败数。N表示没有可提取的合格计数，不表示零失败。,III.C及IV.C/Table IV给出测试设计和四舍五入成功率，未明确失败整数。十次重复及5760的实体适用范围有歧义，即使假定5760，93.9%也不能唯一确定失败数。N表示没有可提取的合格计数，不表示零失败。,No identifiable failure count in the assessed primary report
+R065,human_effort_intervention,N,"PDF pp.5–7; III.A, III.C, IV.C; Table IV; Fig.9",III.A的设备设置及训练回合初始化不构成最终实体评价中的人工投入结果。IV.C/Table IV未报告实际人工接管或劳动负担；N仅指本报告所评估实体试验未报告该指标。,III.A的设备设置及训练回合初始化不构成最终实体评价中的人工投入结果。IV.C/Table IV未报告实际人工接管或劳动负担；N仅指本报告所评估实体试验未报告该指标。,Not reported for the assessed physical hole-search evaluation
+R065,motion_metric,N,"PDF pp.5–7; III.A, III.C, IV.C; Table IV; Fig.9",III.A、III.C及IV.C/Table IV报告实体寻孔程序、成功率和完成时间。Fig.9为视觉注意结果，动作方向及步长是策略输出，不是实测运动轨迹或误差。所核对实体评价未报告合格运动指标。,III.A、III.C及IV.C/Table IV报告实体寻孔程序、成功率和完成时间。Fig.9为视觉注意结果，动作方向及步长是策略输出，不是实测运动轨迹或误差。所核对实体评价未报告合格运动指标。,Not reported for the assessed physical hole-search evaluation
+R065,repeated_evaluation_denominator,Y,"PDF pp.5–7; III.A, III.C, IV.C; Table IV; Fig.9",III.C共同评价设计明确离线和实体两类测试、12个未见孔、图7初态及三种照明，并报告每初态十次重复。保留已报告重复评价设计的Y；5760紧邻离线孔图说明，不将其作为无争议实体总试次，也不据此反推失败数。,III.C共同评价设计明确离线和实体两类测试、12个未见孔、图7初态及三种照明，并报告每初态十次重复。保留已报告重复评价设计的Y；5760紧邻离线孔图说明，不将其作为无争议实体总试次，也不据此反推失败数。,Reported repeated evaluation design; exact physical total not asserted
 R065,time_throughput,Y,PDF p.7; Table IV and IV.C,真实机器人SAP-RL-E平均完成时间8.21秒，误差项0.22秒,真实机器人SAP-RL-E平均完成时间8.21秒，误差项0.22秒 不能用离线Table III的7.65秒替代；已视觉核对,Reported outcome
-R066,failed_aborted_count,U,PDF p.13; 4.2.2,描述成功且避碰,描述成功且避碰 没有完整实体试验分母，不能推零失败,Unresolved source assessment
-R066,human_effort_intervention,U,PDF pp.13–14,示范收集用于训练,示范收集用于训练 训练示范不是最终人工投入结果,Unresolved source assessment
-R066,motion_metric,U,PDF p.13; 4.2.2 and Fig.10,实体玻璃放置演示，以3厘米作为完成阈值,实体玻璃放置演示，以3厘米作为完成阈值 阈值不是测量误差分布,Unresolved source assessment
-R066,repeated_evaluation_denominator,U,PDF p.13; 4.2.2,展示真实机器人执行,展示真实机器人执行 未确认重复次数,Unresolved source assessment
-R066,time_throughput,U,PDF pp.13–14,实体演示未在该段给耗时,实体演示未在该段给耗时 模拟AEL不替代实体时间,Unresolved source assessment
+R066,failed_aborted_count,N,PDF pp.12–14; Sections 4.2.1–4.2.3; Table 4; Fig.10,实机段报告成功演示，但没有实体失败计数或可唯一反推该数的匹配数据。,4.2.2及Fig.10展示成功实机玻璃搬运，没有明确失败或中止次数。4.2.1的100次测试及Table 4的97%不可转作实机失败计数；成功演示不等于完整评价零失败。,Not reported for the assessed real robot test
+R066,human_effort_intervention,N,PDF pp.13–14; 4.2.2–4.2.3; Conclusion,VR操作及专家动作采集服务于训练示范，不是最终玻璃搬运中的人工负担或接管结果；实机段没有报告相应指标。,VR操作及专家动作采集服务于训练示范，不是最终玻璃搬运中的人工负担或接管结果；实机段没有报告相应指标。,Not reported in the assessed primary physical evaluation
+R066,motion_metric,N,PDF pp.13–14; 4.2.2; Fig.10,Fig.10为实机过程快照，文字说明目标关节角及执行次序，没有带数值的实测轨迹或运动误差。0.03米是完成阈值，不是测量结果。,Fig.10为实机过程快照，文字说明目标关节角及执行次序，没有带数值的实测轨迹或运动误差。0.03米是完成阈值，不是测量结果。,Not reported in the assessed primary physical evaluation
+R066,repeated_evaluation_denominator,N,PDF pp.11–14; Sections 4.2.1–4.2.3; Table 4; Fig.10,实机测试展示玻璃搬运过程，没有明确重复数；100次策略测试属于前面的消融评价。,Section 4.2.2及Fig.10未明确实体重复试验数。Section 4.2.1的各策略100次测试与Table 4是此前消融评价，不转作实机分母；五张过程图不等于五次试验。N限于所核对报告，不声称额外来源均不存在。,Not reported for the assessed real robot test
+R066,time_throughput,N,PDF pp.13–14; 4.2.2; Conclusion,实体玻璃搬运段报告完成与避碰，没有实际完成时长或吞吐量；前面的学习效率和episode length不移作实体作业时间。,实体玻璃搬运段报告完成与避碰，没有实际完成时长或吞吐量；前面的学习效率和episode length不移作实体作业时间。,Not reported in the assessed primary physical evaluation
 R067,failed_aborted_count,Y,PDF pp.14–15; Table 3,每条件四次；FSTR-Net在16毫米粗控制50%，精控制100%,每条件四次；FSTR-Net在16毫米粗控制50%，精控制100% 整数可唯一还原为2/4与4/4；推导次数与原文百分比分开,Derived uniquely from successful outcomes and denominator
-R067,human_effort_intervention,U,PDF pp.14–15,两种夹持控制条件,两种夹持控制条件 rough control不等于人工接管,Unresolved source assessment
+R067,human_effort_intervention,N,PDF pp.14–15; real-world evaluation; Table 3,精控制与粗控制由鱼带直径及夹持条件构成，不能解释成人工与自动控制。实体结果未报告实际人工干预或劳动负担；更换损坏弹性体是维护建议。,精控制与粗控制由鱼带直径及夹持条件构成，不能解释成人工与自动控制。实体结果未报告实际人工干预或劳动负担；更换损坏弹性体是维护建议。,Not reported in the assessed primary physical evaluation
 R067,motion_metric,Y,PDF pp.14–15; Fig.16,本轮视觉确认Fig.16有米制XYZ坐标和实体末端路径，但不是误差或速度汇总指标,"PDF p. 14, Fig. 16 plots the robot trajectory corresponding to the physical sequence in Fig. 15(d–m), with metric spatial coordinates. A scalar tracking-error summary is not required for this reporting indicator.",Reported outcome
 R067,repeated_evaluation_denominator,Y,PDF p.14,每系统、管径、控制模式四次实体实验,每系统、管径、控制模式四次实体实验 不将四次理解为全部实验总数,Reported outcome
-R067,time_throughput,U,PDF pp.14–15,比较感知适配方法与安装成功率,比较感知适配方法与安装成功率 未确认实体工作耗时,Unresolved source assessment
-R072,failed_aborted_count,U,PDF pp.11–12; Fig.14 and 4.3.2,给49构件装配错误定义及平均准确率99.6%,给49构件装配错误定义及平均准确率99.6% 构件错误比例不直接等于失败或中止的任务次数,Unresolved source assessment
+R067,time_throughput,N,PDF pp.14–15; Fig.16; Table 3,实体评价报告轨迹和分条件成功率，没有任务用时或吞吐结果。轨迹步数不是实测秒数。,实体评价报告轨迹和分条件成功率，没有任务用时或吞吐结果。轨迹步数不是实测秒数。,Not reported in the assessed primary physical evaluation
+R072,failed_aborted_count,N,"PDF pp.10–12,17–20; Section 4.3; Fig.14; Appendix D",报告10名MMCR组参与者、构件准确率、完成时间和求助频次，没有完整任务失败次数。,已核对4.3实体设计与结果、Fig.14及Appendix D。99.6%是49个构件的装配准确率，不是完整任务成功比例；未提供失败任务数或能唯一确定该数的结果。N限于被评估报告，不表示系统没有失败。,Not reported in the assessed primary report
 R072,human_effort_intervention,Y,PDF pp.11–12; 4.3.1–2,统计任务理解困难导致的求助次数；MMCR平均每次0.8次,统计任务理解困难导致的求助次数；MMCR平均每次0.8次 求助频次属于人工交互负担，不等于安全接管或恢复事件,Reported outcome
-R072,motion_metric,U,PDF pp.10–12; 4.2–4.3,实体结果给装配准确率、时间和求助次数,实体结果给装配准确率、时间和求助次数 装配准确率不直接当作机器人运动指标；训练奖励不替代实体结果,Unresolved source assessment
+R072,motion_metric,N,PDF pp.11–12; 4.3.1–4.3.2; Fig.14,实体评价明确为完成时间、求助频次和49个构件的装配准确率。构件装配错误属于产出，不是机器人运动误差；训练episode长度也不属于实体运动结果。,实体评价明确为完成时间、求助频次和49个构件的装配准确率。构件装配错误属于产出，不是机器人运动误差；训练episode长度也不属于实体运动结果。,Not reported in the assessed primary physical evaluation
 R072,repeated_evaluation_denominator,Y,PDF pp.10–11; 4.3.1,四组各10名参与者；记录相同装配任务结果,四组各10名参与者；记录相同装配任务结果 49个构件是装配准确率分母，不混作49次独立整任务试验,Reported outcome
 R072,time_throughput,Y,PDF pp.11–12; 4.3.2 and Fig.14,MMCR平均装配时间5分钟,MMCR平均装配时间5分钟 完整MR与学习控制系统结果，不能单独归因于DRL,Reported outcome
-R090,failed_aborted_count,U,PDF p.14; Fig.17,报告构件自转失败案例,报告构件自转失败案例 案例证明失败发生，不能确定总失败次数,Unresolved source assessment
-R090,human_effort_intervention,U,PDF pp.13–14,有人值守、急停可用，建议工人纠正朝向,有人值守、急停可用，建议工人纠正朝向 未报告急停触发；建议人工协助不等于已实施,Unresolved source assessment
-R090,motion_metric,U,PDF pp.13–14,BIM定位更新与成功放置,BIM定位更新与成功放置 模型几何精度不是机器人运动误差,Unresolved source assessment
-R090,repeated_evaluation_denominator,U,PDF pp.13–14,多天气演示,多天气演示 未确认重复实体试验总数,Unresolved source assessment
-R090,time_throughput,U,PDF p.14,BIM每0.5秒更新,BIM每0.5秒更新 刷新频率不是作业时间,Unresolved source assessment
-R091,failed_aborted_count,U,PDF p.11; 3.4,比较PID较高失败率与改进后的表现,比较PID较高失败率与改进后的表现 没有在该结果段找到失败或中止整数次数,Unresolved source assessment
-R091,human_effort_intervention,U,PDF p.11; 3.4,通信等待时停止运行的机制被描述,通信等待时停止运行的机制被描述 自动等待不等于人工接管；未确认实际人工投入量,Unresolved source assessment
-R091,motion_metric,Y,PDF pp.9–11; 3.3; Figs.13–14 and Table 3,实体关节跟踪比较使用RMSE,实体关节跟踪比较使用RMSE 属于执行控制器比较，不证明RL单独改善跟踪；本轮不抄录表与结论可能错位的具体RMSE值,Reported outcome
-R091,repeated_evaluation_denominator,U,PDF pp.10–12; 3.4 and Fig.15,展示多个混凝土块的挡墙施工,展示多个混凝土块的挡墙施工 未找到明确重复试验数；不能把照片构件数直接当试验分母,Unresolved source assessment
-R091,time_throughput,U,PDF pp.10–12; 3.4,现场挡墙施工给放置误差及结果,现场挡墙施工给放置误差及结果 曲线时间轴不是明确报告的作业耗时指标,Unresolved source assessment
+R090,failed_aborted_count,N,PDF p.14; Fig.17 and accompanying discussion,原文明示观察到构件自转失败案例，但未给完整试验集失败总数或能唯一反推的成功数及分母。保留失败确曾发生的事实，N仅指完整失败计数未报告。,原文明示观察到构件自转失败案例，但未给完整试验集失败总数或能唯一反推的成功数及分母。保留失败确曾发生的事实，N仅指完整失败计数未报告。,Not reported in the assessed primary physical evaluation
+R090,human_effort_intervention,N,PDF pp.13–14; 4.3; Fig.17 discussion,安全人员职责、预先连接构件及急停可用性属于设置；工人修正朝向明确为建议办法。未报告实际人工接管或劳动负担结果，不称零人工。,安全人员职责、预先连接构件及急停可用性属于设置；工人修正朝向明确为建议办法。未报告实际人工接管或劳动负担结果，不称零人工。,Not reported in the assessed primary physical evaluation
+R090,motion_metric,N,PDF pp.13–14; 4.2–4.3; Table 4; Figs.15–17,Table 4比较现场与模型尺寸，属于环境重建；FK坐标更新是执行系统机制。现场展示未报告机器人实测运动轨迹或误差指标。,Table 4比较现场与模型尺寸，属于环境重建；FK坐标更新是执行系统机制。现场展示未报告机器人实测运动轨迹或误差指标。,Not reported in the assessed primary physical evaluation
+R090,repeated_evaluation_denominator,N,PDF pp.11–15; Sections 3.4 and 4.1–4.4; Table 3; Figs.15–17,现场实验报告单块运输及不同天气实施，没有明确重复实体试验总数；9600任务属于前面的模型评价。,Section 4报告多天气下单块运输演示但未给实体重复次数；Section 3.4的9600任务及Table 3的episode数属于另一评价范围，不转作现场分母。N限于所核对报告。,Not reported for the assessed full-scale physical evaluation
+R090,time_throughput,N,PDF pp.13–14; 4.3; Figs.15–16,1000Hz采集控制频率及0.5秒BIM更新间隔不是运输完成时间。该现场评价未报告实际作业耗时或吞吐量。,1000Hz采集控制频率及0.5秒BIM更新间隔不是运输完成时间。该现场评价未报告实际作业耗时或吞吐量。,Not reported in the assessed primary physical evaluation
+R091,failed_aborted_count,N,PDF pp.10–12; Section 3.4; Fig.15,定性比较成功和失败率，未报告明确计数及匹配分母。,Section 3.4描述PID较高失败率与改进控制后成功率改善，但未给失败计数或成对的明确成功数及试验总数。等待通信信号的停机机制未给触发次数，不推算失败或中止数。,Not reported for the assessed on-site construction
+R091,human_effort_intervention,N,PDF pp.10–12; 3.4; Fig.15,远程计算及等待通信信号时停止属于系统执行逻辑，未报告人员实际接管或劳动负担。远程部署不自动等于人工遥操作评价。,远程计算及等待通信信号时停止属于系统执行逻辑，未报告人员实际接管或劳动负担。远程部署不自动等于人工遥操作评价。,Not reported in the assessed primary physical evaluation
+R091,motion_metric,N,PDF pp.9–12; Sections 3.3–3.4; Table 3; Fig.15,3.4现场建墙报告构件放置误差与施工完成，没有独立机器人运动测量结果。3.3关节RMSE属于此前跟踪评价，不移入最高暴露等级建墙评价。N不否认论文另有控制器跟踪实验。,3.4现场建墙报告构件放置误差与施工完成，没有独立机器人运动测量结果。3.3关节RMSE属于此前跟踪评价，不移入最高暴露等级建墙评价。N不否认论文另有控制器跟踪实验。,Not reported for the assessed on-site wall construction
+R091,repeated_evaluation_denominator,N,PDF pp.9–13; Sections 3.3–3.4; Table 3; Fig.15; Conclusion,现场建墙描述多个构件及放置误差，未明确重复次数；正弦跟踪测试是另一评价。,Section 3.4及Fig.15展示多块构件的现场建墙，但没有明确重复试验次数。Section 3.3正弦跟踪与Table 3的RMSE不能提供建墙分母；照片构件数不作试验数。N限于所核对报告。,Not reported for the assessed on-site wall construction
+R091,time_throughput,N,PDF pp.10–12; 3.4; Fig.15,现场建墙报告完成与放置误差，没有实测作业时间或吞吐量。此前跟踪时序和通信等待机制不能作为建墙用时结果。,现场建墙报告完成与放置误差，没有实测作业时间或吞吐量。此前跟踪时序和通信等待机制不能作为建墙用时结果。,Not reported in the assessed primary physical evaluation
 R108,failed_aborted_count,Y,PDF p.4; IV.B,原文报告35次实验中约6次失败,PDF p. 4 reports approximately six failures in 35 experiments. Preserve approximately; this is not an exact reconstructed count.,"Reported count, with original precision retained"
-R108,human_effort_intervention,U,PDF pp.4–5; IV.B and Fig.5,人工辅助定位只描述为可行办法；实体停机与人员进入区域对应,人工辅助定位只描述为可行办法；实体停机与人员进入区域对应 人员触发安全停机不自动等于人工接管；未观察到的人工辅助不得计为已执行,Unresolved source assessment
-R108,motion_metric,U,PDF p.4; IV.B,未放置到目标位置的构件误差约1–3cm,未放置到目标位置的构件误差约1–3cm 构件放置误差是否属于work output而非robot motion须一致区分,Unresolved source assessment
+R108,human_effort_intervention,N,PDF pp.4–5; IV.B,人工辅助定位以can be eliminated的可能办法提出，没有报告实际实施。人员进入后系统暂停、离开后继续是外部安全监测事件，不是操作员接管或劳动负担结果。,人工辅助定位以can be eliminated的可能办法提出，没有报告实际实施。人员进入后系统暂停、离开后继续是外部安全监测事件，不是操作员接管或劳动负担结果。,Not reported in the assessed primary physical evaluation
+R108,motion_metric,N,PDF pp.4–5; IV.A–B; Figs.4–5,1–3厘米明确为构件未完全放到目标位置的误差，属于物理产出。传感器与PID机制说明不构成另一个实测机器人运动结果。,1–3厘米明确为构件未完全放到目标位置的误差，属于物理产出。传感器与PID机制说明不构成另一个实测机器人运动结果。,Not reported in the assessed primary physical evaluation
 R108,repeated_evaluation_denominator,Y,PDF p.4; IV.B,35次实体实验,35次实体实验 保留实验单位，不当作35个独立系统,Reported outcome
 R108,time_throughput,Y,PDF p.4; IV.B,每次运输任务约4分钟,每次运输任务约4分钟 物理任务时间，不是模型推理时间,Reported outcome
 R109,failed_aborted_count,N,PDF pp.7–11; Experiment Results and Fig.13,未明确报告实体失败或中止次数,未明确报告实体失败或中止次数 成功展示不能推出零失败,Outside criterion or not explicitly established
@@ -129,23 +129,23 @@ R109,human_effort_intervention,N,PDF pp.7–11; Experiment Results and Fig.13,�
 R109,motion_metric,N,PDF pp.7–11; Experiment Results and Fig.13,未明确报告实体运动或控制性能量,未明确报告实体运动或控制性能量 FK定位和低速运行描述不等于测量结果,Outside criterion or not explicitly established
 R109,repeated_evaluation_denominator,N,PDF pp.7–11; Experiment Results and Fig.13,实体展示重复吊装但未给试验总数,实体展示重复吊装但未给试验总数 每类障碍1000次属于模型评价，不以墙体块数推实体分母,Outside criterion or not explicitly established
 R109,time_throughput,N,PDF pp.7–11; Experiment Results and Fig.13,未明确报告实体完成时间或吞吐量,未明确报告实体完成时间或吞吐量 模型评价动作步数不当作现场实测时间,Outside criterion or not explicitly established
-R111,failed_aborted_count,U,PDF pp.14–18,讨论重叠、断点和材料堆积,讨论重叠、断点和材料堆积 打印缺陷与失败次数不同,Unresolved source assessment
-R111,human_effort_intervention,U,"PDF pp.12,14–18",导入G-code后打印,导入G-code后打印 未确认人工投入结果,Unresolved source assessment
-R111,motion_metric,U,"PDF pp.12,14–18; Table 4",路径长度、断点等由算法计算；另有打印演示,路径长度、断点等由算法计算；另有打印演示 规划路径量不自动成为实体测得运动指标,Unresolved source assessment
-R111,repeated_evaluation_denominator,U,PDF pp.14–18,不同方法和多层打印案例,不同方法和多层打印案例 十层是一个构件的层数，不等于十次独立实验,Unresolved source assessment
-R111,time_throughput,U,"PDF pp.12,14–18",20毫米每秒为设置打印速度,20毫米每秒为设置打印速度 设置速度不等于实测时间或吞吐,Unresolved source assessment
-R124,failed_aborted_count,U,PDF pp.14 and 17; Fig.13,RL组40次运行；图13成功率1.00，另报告每次冻结0.10及碰撞0.05,"Sandbox success results cannot determine site failures. A site malfunction is described, but no complete site task-outcome count is enumerated.",Unresolved source assessment
-R124,human_effort_intervention,U,PDF pp.14–15; 5.2–5.3,舒适性交互判据包括迫使工人改变路径；讨论减少搬运负担,舒适性交互判据包括迫使工人改变路径；讨论减少搬运负担 舒适率并非直接记录的人工作业量或接管次数,Unresolved source assessment
-R124,motion_metric,U,PDF pp.14–17; 5.2–5.3 and Fig.13,给舒适性、碰撞和冻结频次及路径图,Sandbox freezing/collision metrics are not transplanted to the site evaluation; a stated operating speed is not a measured motion-performance result.,Unresolved source assessment
-R124,repeated_evaluation_denominator,U,PDF p.14; 5.3,两场景各10测试案例，每例4次运行，RL与非RL各2次，共80次,The 80 sandbox runs in Section 5.3 are not the highest-exposure site evaluation in Section 5.1. Three activity prompts are not a repeated-trial denominator.,Unresolved source assessment
-R124,time_throughput,U,PDF pp.14–17,讨论减少往返与延迟，图13未给作业时间结果,The three-hour site session is not task completion time or measured throughput.,Unresolved source assessment
-R126,failed_aborted_count,U,PDF pp.14–16,比较方法规划碰撞；本方法实机完成,比较方法规划碰撞；本方法实机完成 不把规划测试失败搬入实体运行,Unresolved source assessment
-R126,human_effort_intervention,U,PDF p.16; real-world application,两工作区实机转移,两工作区实机转移 未确认人工投入结果,Unresolved source assessment
-R126,motion_metric,U,PDF pp.14–16; 4.2 real application,规划距离与转弯指标源于实地感知数据测试；真正运行另述,规划距离与转弯指标源于实地感知数据测试；真正运行另述 未确认表中数值是实体执行轨迹测量,Unresolved source assessment
-R126,repeated_evaluation_denominator,U,PDF p.16,明确两个实机工作区,明确两个实机工作区 工作区数与各区重复运行数需区分,Unresolved source assessment
-R126,time_throughput,U,PDF pp.14–16,规划图节点数表示时间,规划图节点数表示时间 不能当实际推土机耗时,Unresolved source assessment
-R160,failed_aborted_count,U,作者仓库PDF p.8,指出深挖和更大接触负荷下方法不适用,指出深挖和更大接触负荷下方法不适用 能力边界不等于实体失败次数,Unresolved source assessment
-R160,human_effort_intervention,U,作者仓库PDF p.7,适配期间人工调整参考保证安全,适配期间人工调整参考保证安全 适配监督不是最终评价的人工投入结果,Unresolved source assessment
+R111,failed_aborted_count,N,"PDF pp.14–18,20; Sections 6.2–6.4; Table 4; Figs.15,23",报告路径缺陷与打印结果，没有失败或中止试次数；断点数不是失败次数。,6.2–6.4及Table 4描述路径断点、交叉点、填充误差和打印表现，没有实体失败或中止试次计数。路径中断与材料堆积不自动等于一次任务失败，十层打印完成不等于零失败。,Not reported for the assessed physical printing evaluation
+R111,human_effort_intervention,N,"PDF pp.12,14,17–18; 6.2–6.4; Figs.14,19",导入G-code和预览是实验流程，没有实际人工接管、人工用时或负担结果，不由自动打印措辞推断零人工。,导入G-code和预览是实验流程，没有实际人工接管、人工用时或负担结果，不由自动打印措辞推断零人工。,Not reported in the assessed primary physical evaluation
+R111,motion_metric,N,"PDF pp.12,14,17–18; Tables 2–3; 6.2–6.4",0.08毫米是设备定位精度参数；优化和连接路径是规划结果。实体打印段未报告对应实测运动轨迹或跟踪误差。,0.08毫米是设备定位精度参数；优化和连接路径是规划结果。实体打印段未报告对应实测运动轨迹或跟踪误差。,Not reported in the assessed primary physical evaluation
+R111,repeated_evaluation_denominator,N,PDF pp.10–20; Sections 6.1–6.4; Tables 2–4; Figs.10–23,打印参数、方法比较及十层构件展示未给实体重复试验次数；Fig.23图注明确为整体十层打印结果。,Section 6列出方法、几何案例与十层打印过程，但未明确实体重复次数。十层属于一个多层构件，三种方法或三个案例不构成重复试验分母。N限于所核对报告。,Not reported for the assessed physical printing evaluation
+R111,time_throughput,N,"PDF pp.12,14,17–18; Table 3; 6.2–6.4",20毫米/秒是设定打印速度；方法效率讨论针对路径计算。实体结果未报告实测打印时长或单位时间产出。,20毫米/秒是设定打印速度；方法效率讨论针对路径计算。实体结果未报告实测打印时长或单位时间产出。,Not reported in the assessed primary physical evaluation
+R124,failed_aborted_count,N,PDF pp.13–15; 5.1 versus 5.2–5.3,第三活动提示受技术故障阻碍是明确负面案例，但没有完整现场试验集失败计数。80次沙盒运行不能作为现场失败分母，不删除故障事实。,第三活动提示受技术故障阻碍是明确负面案例，但没有完整现场试验集失败计数。80次沙盒运行不能作为现场失败分母，不删除故障事实。,Not reported in the assessed primary physical evaluation
+R124,human_effort_intervention,Y,PDF pp.13–14; 5.1 The prototype in context,现场观察与半结构访谈直接评价装卸操作、舒适性及人工装载负担，包含工人对仍需手动装载的意见。支持定性劳动负担评价，不支持工时节省或实验室舒适率作为现场量化结果。,现场观察与半结构访谈直接评价装卸操作、舒适性及人工装载负担，包含工人对仍需手动装载的意见。支持定性劳动负担评价，不支持工时节省或实验室舒适率作为现场量化结果。,Reported qualitative human involvement or burden
+R124,motion_metric,N,PDF pp.13–15; 5.1–5.3,最高等级现场部分是观察与访谈，没有量化实测运动轨迹或误差。冻结和碰撞频次来自实验室沙盒，不能移到现场评价。,最高等级现场部分是观察与访谈，没有量化实测运动轨迹或误差。冻结和碰撞频次来自实验室沙盒，不能移到现场评价。,Not reported in the assessed primary physical evaluation
+R124,repeated_evaluation_denominator,N,PDF pp.13–19; Sections 5.1–5.3; Figs.11–14; Data availability,现场活动未给重复分母；80次运行在实验室沙盒完成，三小时与三个活动提示均不构成现场试验次数。,Section 5.1的现场评价给出三小时活动时段和三个活动提示，未明确重复运行分母。Sections 5.2–5.3的80次运行属于实体实验室沙盒，其中RL与非RL各40次，不转入最高暴露等级现场评价。N限于所核对报告。,Not reported for the assessed on-site evaluation
+R124,time_throughput,N,PDF pp.13–15; 5.1–5.3,三小时是演示评价活动时段，不是定义明确的持续作业时间。减少往返是效益解释，没有实测现场任务时长。,三小时是演示评价活动时段，不是定义明确的持续作业时间。减少往返是效益解释，没有实测现场任务时长。,Not reported in the assessed primary physical evaluation
+R126,failed_aborted_count,N,PDF pp.16–19; Real-world application; Fig.21,现场转场完成与轨迹展示没有配套失败或中止计数。,Real-world application及Fig.21描述两个工作区的现场完成与运行轨迹，没有明确现场失败或中止计数。前面的路径规划碰撞、场景完成与方法比较不移植为现场次数。,Not reported for the assessed field application
+R126,human_effort_intervention,N,PDF p.16; (5) Real-world application; Fig.21,两个工作区现场转场报告完成与轨迹，没有实际人工接管或劳动负担结果；自主运行描述不等于零人工的测量。,两个工作区现场转场报告完成与轨迹，没有实际人工接管或劳动负担结果；自主运行描述不等于零人工的测量。,Not reported in the assessed primary physical evaluation
+R126,motion_metric,Y,"PDF pp.16,19; Real-world application; Fig.21",Fig.21显示两个现场工作区内带数值坐标的推土机运行轨迹；第16页正文明确对应实机应用。,PDF第16页实机应用段对应第19页Fig.21，图例标出推土机运行轨迹并有数值坐标及现场照片。按既定定义支持实体运动指标；不借用Table 7规划指标，不推断跟踪误差或重复次数。,Reported physical trajectory
+R126,repeated_evaluation_denominator,N,PDF pp.16–19; Real-world application; Fig.21; Data availability,两个现场工作区有实际运行轨迹，但未给重复试验总数；数据声明为保密。,PDF第16页Real-world application及第19页Fig.21仅明确两个工作区并展示轨迹，未明确重复运行总数。两工作区、四个观察位置和规划比较次数均不作为现场分母。N限于所核对报告。,Not reported for the assessed field application
+R126,time_throughput,N,PDF p.16; (5) Real-world application; Fig.21,现场转场描述没有实测任务耗时。此前以节点数表示spending time属于规划评价，steering times指次数，均不能替代现场完成时间。,现场转场描述没有实测任务耗时。此前以节点数表示spending time属于规划评价，steering times指次数，均不能替代现场完成时间。,Not reported in the assessed primary physical evaluation
+R160,failed_aborted_count,N,Author PDF pp.7–8; V.A; Fig.10,更深接土情况下不适用是能力限制，原文未列HEAP整平失败次数或能推算的完整成功分母，不能推零失败。,更深接土情况下不适用是能力限制，原文未列HEAP整平失败次数或能推算的完整成功分母，不能推零失败。,Not reported in the assessed primary physical evaluation
+R160,human_effort_intervention,N,Author PDF pp.7–8; V; V.A,人工调整参考明确发生在适配阶段，最终整平评价没有实际人工接管或劳动负担结果。用户指定轨迹不等于报告人工投入量。,人工调整参考明确发生在适配阶段，最终整平评价没有实际人工接管或劳动负担结果。用户指定轨迹不等于报告人工投入量。,Not reported in the assessed primary physical evaluation
 R160,motion_metric,Y,作者仓库PDF pp.7–8; V.A; Table I,HEAP实测速度、跟踪误差、铲刃角速度,HEAP实测速度、跟踪误差、铲刃角速度 仅该配置，SAHA结果不转入,Reported outcome
-R160,repeated_evaluation_denominator,U,作者仓库PDF pp.7–8,HEAP多高度轨迹双向执行；SAHA明确三次,The explicit three repetitions belong to SAHA. The HEAP grading configuration does not inherit that denominator.,Unresolved source assessment
-R160,time_throughput,U,作者仓库PDF pp.7–8,十分钟为适配时间,十分钟为适配时间 不当作最终实体任务耗时,Unresolved source assessment
+R160,repeated_evaluation_denominator,N,Author PDF pp.7–8; V.A–B; Figs.9–12,HEAP整平未列重复数；三次重复明确属于SAHA试验，不转用于HEAP。,V.A及Fig.10的HEAP接土整平未给重复次数。Fig.9双向空中跟踪不能补整平分母，Fig.12明确三次属于SAHA而非HEAP。N限于被评估配置及评价范围。,Not reported for the assessed HEAP grading evaluation
+R160,time_throughput,N,Author PDF pp.7–8; V.A; Fig.10,十分钟是适配时间；整平轨迹参考速度为设置。HEAP接土整平未报告实测任务耗时或吞吐量。,十分钟是适配时间；整平轨迹参考速度为设置。HEAP接土整平未报告实测任务耗时或吞吐量。,Not reported in the assessed primary physical evaluation

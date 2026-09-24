@@ -42,7 +42,7 @@ Original database exports, abstracts, and third-party full texts are not redistr
 
 The physical-outcome supplement can be reproduced with `python physical_outcomes/reproduce.py` from this directory. It reports 28 configurations with physical task-endpoint evidence, 12 with physical work-output evaluation, and 3 with a characterized post-operation state explicitly connected to subsequent work (denominator 30 for each). These are separately assessed reporting indicators, not nested categories or success rates. Work-output evidence includes qualitative comparisons of physical outputs.
 
-The [additional reporting measures](physical_outcomes/additional_measures.csv) document motion results (14), task time or throughput (9), human effort or enacted intervention (4), explicit evaluation denominators (17), and reported or uniquely determinable unsuccessful counts (10). Run `python physical_outcomes/reproduce_additional.py` to reproduce these totals. The records retain source locations and interpretation notes. Recovery is assessed separately.
+The [additional reporting measures](physical_outcomes/additional_measures.csv) document motion results (14), physical time or throughput (10), human effort or enacted intervention (6), explicit evaluation denominators (17), and reported or uniquely determinable unsuccessful counts (10). Run `python physical_outcomes/reproduce_additional.py` to reproduce these totals. The records retain source locations and interpretation notes. Recovery is assessed separately.
 
 ## Alternative grouping analysis
 
