@@ -1,6 +1,6 @@
 # Reader-facing figures
 
-These figures accompany the review. The configuration-count figure was updated from the manuscript on 18 September 2026 and describes 103 configurations. The other figures were synchronized on 15 September 2026. PDFs are copies of the manuscript figures; PNGs provide browser previews.
+These figures accompany the review. The configuration-count figure was updated from the manuscript on 24 September 2026 and describes 102 configurations. The other figures were synchronized on 15 September 2026. PDFs are copies of the manuscript figures; PNGs provide browser previews.
 
 | Repository asset | Manuscript source | Purpose |
 | --- | --- | --- |

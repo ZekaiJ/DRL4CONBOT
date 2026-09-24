@@ -8,7 +8,7 @@
 
 > A curated collection of papers and research resources related to **Deep Reinforcement Learning for Construction Robotics (DRL4CONBOT)**.
 >
-> This repository serves as the online companion to our survey **Learning to Shape the World: A Systematic Review of Deep Reinforcement Learning for Construction Robotics**. The review synthesizes 136 eligible reports and compares 103 executing configurations across five construction task regimes.
+> This repository serves as the online companion to our survey **Learning to Shape the World: A Systematic Review of Deep Reinforcement Learning for Construction Robotics**. The review synthesizes 134 eligible reports and compares 102 executing configurations across five construction task regimes.
 >
 > 📢 Deep reinforcement learning offers opportunities to improve construction decisions through experience with materials, machines, and changing workspaces. This repository brings together research on learning formulations, robot execution, and construction outcomes, serving as a resource for researchers, practitioners, and students interested in construction robot learning. Contributions and suggestions are welcome!
 >
@@ -35,7 +35,7 @@
 
 ## Review Data and Reproducibility
 
-The [supplementary data and analysis package](Supplementary/README.md) provides search strategies, screening decisions, report and configuration data, recovery source pointers, and a script for reproducing the descriptive statistics. It covers **136 eligible reports and 103 executing configurations**. Original database exports and abstracts are not redistributed. The package documents the scope and limitations of the available records.
+The [supplementary data and analysis package](Supplementary/README.md) provides search strategies, screening decisions, report and configuration data, recovery source pointers, and a script for reproducing the descriptive statistics. It covers **134 eligible reports and 102 executing configurations**. Original database exports and abstracts are not redistributed. The package documents the scope and limitations of the available records.
 
 <a id="news-updates"></a>
 
@@ -47,7 +47,7 @@ The [supplementary data and analysis package](Supplementary/README.md) provides 
 
 ## 📚 Papers by Category
 
-The complete eligible corpus is listed below: **136 reports**, comprising **103 structured-comparison reports** and **33 contextual reports**. The structured reports describe **103 executing configurations**, with one companion-report pair counted together and two distinct configurations reported in one study.
+The complete eligible corpus is listed below: **134 reports**, comprising **102 structured-comparison reports** and **32 contextual reports**. The structured reports describe **102 executing configurations**, with one companion-report pair counted together and two distinct configurations reported in one study.
 
 Papers are organized using the five construction task regimes in the review. **Structured** and **Contextual** identify their evidence roles; contextual reports do not enter the configuration-level statistics. Each report appears once. Cross-regime references retain a note, and reports without an explicit regime mapping in the extraction or appendix are listed separately rather than assigned a new classification.
 
@@ -78,7 +78,7 @@ Papers are organized using the five construction task regimes in the review. **S
 - [Human-in-the-Loop Reinforcement Learning to Track Excavation Paths for a Hydraulic Excavator in a Short Period of Time](https://doi.org/10.1109/access.2025.3585182). **2025** · Structured · `R030`.
 - [Enhanced Hydraulic Excavator Control via Semi-automatic Grading Control Using Reinforcement Learning](https://doi.org/10.1007/s12555-024-0213-9). **2025** · Structured · `R029`.
 - [Cooperative Work Simulation of Construction Equipment using Multi-Agent Deep Reinforcement Learning](https://doi.org/10.1109/aihcir67580.2025.11405210). **2025** · Contextual · `R045`.
-- [Autonomous loading of ore piles with Load-Haul-Dump machines using deep reinforcement learning](https://doi.org/10.1016/j.eswa.2024.125770). **2025** · Contextual · `R047`.
+- [Autonomous loading of ore piles with Load-Haul-Dump machines using deep reinforcement learning](https://doi.org/10.1016/j.eswa.2024.125770). **2025** · Related study · `R047`.
 - [Adaptive Excavation Automation in Complex Soil Environments Using Reinforcement Learning](https://doi.org/10.1109/tase.2025.3611032). **2025** · Structured · `R032`.
 - [Task Space Control of Hydraulic Construction Machines Using Reinforcement Learning](https://doi.org/10.1007/978-3-031-55000-3_13). **2024** · Structured · `R019`.
 - [Simulation of Coherent Excavator Operations in Earthmoving Tasks Based on Reinforcement Learning](https://doi.org/10.3390/buildings14103270). **2024** · Structured · `R144`.
@@ -204,7 +204,7 @@ Papers are organized using the five construction task regimes in the review. **S
 - [Prediction-Based Path Planning for Safe and Efficient Human-Robot Collaboration in Construction via Deep Reinforcement Learning](https://doi.org/10.1061/(asce)cp.1943-5487.0001056). **2023** · Structured · `R116`.
 - [Deep Reinforcement Learning-based Task Assignment and Path Planning for Multi-agent Construction Robots](https://doi.org/10.22260/icra2023/0008). **2023** · Structured · `R117`.
 - [Autonomous Navigation of Wheel Loaders using Task Decomposition and Reinforcement Learning](https://doi.org/10.1109/case56687.2023.10260481). **2023** · Contextual · `R130`.
-- [Study on the Autonomous Walking of an Underground Definite Route LHD Machine Based on Reinforcement Learning](https://doi.org/10.3390/app12105052). **2022** · Structured · `R156`.
+- [Study on the Autonomous Walking of an Underground Definite Route LHD Machine Based on Reinforcement Learning](https://doi.org/10.3390/app12105052). **2022** · Related study · `R156`.
 - [Digital twin-driven deep reinforcement learning for adaptive task allocation in robotic construction](https://doi.org/10.1016/j.aei.2022.101710). **2022** · Structured · `R115`.
 - [Terrain Adaption Controller for a Walking Excavator Robot using Deep Reinforcement Learning](https://doi.org/10.1109/icar53236.2021.9659399). **2021** · Structured · `R114`.
 - [Autonomous construction hoist system based on deep reinforcement learning in high-rise building construction](https://doi.org/10.1016/j.autcon.2021.103737). **2021** · Contextual · `R129`.
@@ -264,18 +264,18 @@ These are task groupings, not a ranking of autonomy or readiness. Configurations
 ## Evidence at a glance
 
 <p align="center">
-  <a href="Assets/overview/evidence.pdf"><img src="Assets/overview/evidence.png" width="100%" alt="Distribution of 103 executing configurations across five task regimes and their reported validation exposure."></a>
+  <a href="Assets/overview/evidence.pdf"><img src="Assets/overview/evidence.png" width="100%" alt="Distribution of 102 executing configurations across five task regimes and their reported validation exposure."></a>
 </p>
 
 *Evidence distribution from the manuscript. Percentages within each regime use that regime's configuration count.*
 
 | Evidence base | Count |
 | :--- | ---: |
-| Eligible reports | 136 |
-| Reports supporting structured comparison | 103 |
-| Executing configurations | 103 |
-| Contextual reports outside the quantitative distributions | 33 |
-| Configurations evaluated in simulation or controlled laboratories, L0–L2 | 73 |
+| Eligible reports | 134 |
+| Reports supporting structured comparison | 102 |
+| Executing configurations | 102 |
+| Contextual reports outside the quantitative distributions | 32 |
+| Configurations evaluated in simulation or controlled laboratories, L0–L2 | 72 |
 | Configurations reaching construction-representative or broader conditions, L3–L5 | 30 |
 
 **Read the evidence along separate dimensions.** Validation exposure describes where and under what operating conditions a configuration was evaluated. Execution-time protection describes mechanisms that monitor or intervene during execution. Neither is a safety certification or a general maturity score.
@@ -285,7 +285,7 @@ These are task groupings, not a ranking of autonomy or readiness. Configurations
 
 | Level | Highest demonstrated exposure | Configurations |
 | :--- | :--- | ---: |
-| L0 | Simulation-only evaluation | 63 |
+| L0 | Simulation-only evaluation | 62 |
 | L1 | Isolated laboratory hardware | 4 |
 | L2 | Systematically varied laboratory hardware | 6 |
 | L3 | Construction-representative testbed | 22 |

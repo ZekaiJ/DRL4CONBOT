@@ -19,7 +19,7 @@ def build():
     shutil.copy2(ROOT / 'docs/styles.css', OUTPUT / 'styles.css')
     shutil.copytree(ROOT / 'Assets/overview', OUTPUT / 'assets/overview', dirs_exist_ok=True)
     rows=records((ROOT/'README.md').read_text(encoding='utf-8'))
-    library_html=page(rows).replace('<p id="count"', '<p><a href="reports.csv" download="drl4conbot-all-reports.csv">Download all 136 reports as CSV</a> · Bibliographic metadata only</p><p id="count"')
+    library_html=page(rows).replace('<p id="count"', '<p><a href="reports.csv" download="drl4conbot-all-reports.csv">Download all 134 reports as CSV</a> · Bibliographic metadata only</p><p id="count"')
     (OUTPUT/'papers.html').write_text(library_html,encoding='utf-8')
     (OUTPUT/'reports.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2),encoding='utf-8')
     with (OUTPUT/'reports.csv').open('w',encoding='utf-8-sig',newline='') as stream:

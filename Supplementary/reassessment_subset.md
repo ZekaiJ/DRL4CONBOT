@@ -1,6 +1,6 @@
 # Independent reassessment subset
 
-Two investigators independently reassessed validation exposure and execution-time protection in 20 of the 103 configurations. Agreement was calculated before discussion. This assessment did not cover screening, physical outcomes or recovery indicators.
+Two investigators independently reassessed validation exposure and execution-time protection in 20 configurations selected from the 103-configuration version available at the time. The later application-scope clarification removed one configuration outside this subset, leaving the selected 20 and their agreement estimates unchanged. Agreement was calculated before discussion. This assessment did not cover screening, physical outcomes or recovery indicators.
 
 The subset was selected by a fixed, reproducible ordering of configuration identifiers. For each identifier, the selection procedure calculated the SHA-256 value of `DRL4CONBOT-independent-subset-2026-09-18-v1|configuration_id`, sorted these values in ascending order, and selected the first 20. Selection did not use exposure or protection labels. This procedure is a deterministic subset selection, not stratified sampling.
 

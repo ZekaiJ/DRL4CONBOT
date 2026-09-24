@@ -1,6 +1,6 @@
 # Supplementary data
 
-This package supports the review of deep reinforcement learning for construction robotics. The search cutoff is 28 August 2026. The review includes 136 reports: 103 structured reports describing 103 executing configurations, and 33 contextual reports.
+This package supports the review of deep reinforcement learning for construction robotics. The search cutoff is 28 August 2026. The review includes 134 reports: 102 structured reports describing 102 executing configurations, and 32 contextual reports.
 
 The configuration table includes two configurations from R094 (horizontal transportation and final positioning/sway suppression) and one from R097 (learned trajectory planning executed on laboratory crane hardware). These reports were transferred from contextual to structured synthesis after source-level reassessment. Report counts and configuration counts are distinct: consolidation of the companion-report pair and the two-configuration split of R094 offset each other in the totals.
 
@@ -11,9 +11,9 @@ The configuration table includes two configurations from R094 (horizontal transp
 | search_strategies.md | Database search strategies and search scope |
 | data/title_abstract_screening.csv | Decisions for 3,138 screened records; abstracts omitted |
 | data/S1_fulltext_eligibility_decisions.csv | Eligibility decisions for 175 assessed reports |
-| data/S2_included_reports.csv | The 136 included reports and synthesis roles |
+| data/S2_included_reports.csv | The 134 included reports and synthesis roles |
 | data/S3_report_lineages.csv | Report-to-lineage mappings |
-| data/S4_configuration_characteristics.csv | The 103 executing configurations |
+| data/S4_configuration_characteristics.csv | The 102 executing configurations |
 | data/S5_recovery_transitions.csv | Recovery assessments for 30 configurations |
 | data/S12_recovery_source_locations.csv | Source pointers and explicit limitations of indicator-specific anchors |
 | [recovery_assessment.md](recovery_assessment.md) | Event-based recovery assessment and changes from the earlier interpretation |
@@ -50,10 +50,10 @@ The main reproduction script also recomputes the descriptive protection comparis
 
 | Grouping rule | Higher-exposure group meeting criterion | Lower-exposure group meeting criterion | Difference (percentage points) |
 |---|---|---|---|
-| Original groups and criterion | 13/30 (43.3%) | 9/73 (12.3%) | 31.0 |
-| Include L2 in the higher-exposure group | 15/36 (41.7%) | 7/67 (10.4%) | 31.2 |
-| Include boundary monitoring in the protection criterion | 16/30 (53.3%) | 12/73 (16.4%) | 36.9 |
-| Apply both changes | 19/36 (52.8%) | 9/67 (13.4%) | 39.3 |
+| Original groups and criterion | 13/30 (43.3%) | 9/72 (12.5%) | 30.8 |
+| Include L2 in the higher-exposure group | 15/36 (41.7%) | 7/66 (10.6%) | 31.1 |
+| Include boundary monitoring in the protection criterion | 16/30 (53.3%) | 12/72 (16.7%) | 36.7 |
+| Apply both changes | 19/36 (52.8%) | 9/66 (13.6%) | 39.1 |
 
 Differences are calculated from unrounded fractions. The direction is retained under these specified alternatives. These calculations do not measure inter-reviewer agreement or resolve uncertainty in individual classifications.
 
@@ -80,3 +80,7 @@ The original field names below are retained to help readers interpret the downlo
 </details>
 
 S1–S5 and S12 retain the numbering used in the supporting records. The omitted intermediate tables are not required inputs to this minimal package. S12 preserves available page locations and verification limitations; source passages must be consulted before interpreting a page location as support for a particular recovery indicator.
+
+## Application scope
+
+During final source checking, mining-production-only evaluations were separated from the construction corpus. R047 and R156 remain available as related studies but are excluded from the report and configuration counts. The full-text decisions retain these records and explain the change. Studies addressing construction-site rock removal or civil tunnelling remain eligible. The 30 higher-exposure configurations and the original independent reassessment subset are unchanged.

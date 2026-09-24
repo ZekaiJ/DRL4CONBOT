@@ -39,7 +39,6 @@ R043,U01441,Azulay202124145,Wheel loader scooping controller using deep reinforc
 R044,U00719,spinelli2024reinforcement,Reinforcement learning control for autonomous hydraulic material handling machines with underactuated tools,Structured comparative,L006_SPINELLI_MATERIAL_HANDLER_PLATFORM,2
 R045,U00664,CoopWorkSim2025,Cooperative Work Simulation of Construction Equipment using Multi-Agent Deep Reinforcement Learning,Eligible contextual,SINGLETON_R045,1
 R046,U00200,morais2025reinforcement,Reinforcement Learning with World Models for Autonomous Excavation Optimization in Wheel Loaders,Eligible contextual,SINGLETON_R046,1
-R047,U00682,salas2025autonomous,Autonomous loading of ore piles with Load-Haul-Dump machines using deep reinforcement learning,Eligible contextual,SINGLETON_R047,1
 R048,U00337,hu2026bayesian,Bayesian reinforcement learning for adaptive control of energy recuperation in hydraulic excavator arms,Eligible contextual,SINGLETON_R048,1
 R049,U00365,liu2026wheel_loader_unloading,Autonomous Unloading Control of a Wheel Loader Based on Dump-Truck Bed Perception,Eligible contextual,SINGLETON_R049,1
 R050,U00233,molaei2026data,Data-driven rock capture with a standard excavator via model-free reinforcement learning,Structured comparative,SINGLETON_R050,1
@@ -131,7 +130,6 @@ R150,U01008,crane_ddpg_collision_2023,Enhancing Crane Handling Safety: A Deep De
 R151,U01040,SlurryShield2023,Coordinated Tuning of Slurry Shield Control Parameters based on Reinforcement Learning,Structured comparative,L034_WU_SLURRY_SHIELD_SAC,1
 R153,U01170,passivity_crane_2022,Passivity-Based Online Reinforcement Learning for Real Time Model-Free Overhead Crane System Control,Eligible contextual,L019_ZHANG_PASSIVITY_ONLINE_RL_CRANE,1
 R154,U01377,cai2023integrated,An Integrated Approach Combining Virtual Environments and Reinforcement Learning to Train Construction Robots for Conducting Tasks Under Uncertainties,Structured comparative,L020_CAI_UNITY_CONSTRUCTION_ROBOT_PPO,2
-R156,U01418,zhao2022lhd,Study on the Autonomous Walking of an Underground Definite Route LHD Machine Based on Reinforcement Learning,Structured comparative,L037_ZHAO_LHD_TCB_DQN,1
 R158,U01485,crane_trajectory_2024,A real-time trajectory planning method for overhead crane based on deep reinforcement learning,Eligible contextual,L038_LIU_OVERHEAD_CRANE_TD3_TRAJECTORY,1
 R159,U159,xiao2023crane_ppo,A reinforcement learning based construction material supply strategy using robotic crane and computer vision for building reconstruction after an earthquake,Structured comparative,L002_XIAO_ROBOTIZED_CRANE_PLATFORM,5
 R160,U00532,nan2024adaptive,Learning Adaptive Controller for Hydraulic Machinery Automation,Structured comparative,L004_HEAP_EXCAVATOR_EGLI_PLATFORM,4

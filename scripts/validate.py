@@ -17,10 +17,10 @@ class Links(HTMLParser):
 
 def validate():
     text=(ROOT/'README.md').read_text(encoding='utf-8')
-    ids=re.findall(r'`(R\d+)`',text)
-    assert len(ids)==len(set(ids))==136, 'Report membership count/duplicates'
-    assert len(re.findall(r'· Structured ·',text))==103
-    assert len(re.findall(r'· Contextual ·',text))==33
+    ids=re.findall(r'· (?:Structured|Contextual) · `(R\d+)`',text)
+    assert len(ids)==len(set(ids))==134, 'Report membership count/duplicates'
+    assert len(re.findall(r'· Structured ·',text))==102
+    assert len(re.findall(r'· Contextual ·',text))==32
     sections=text.split('### ')
     assert any(s.startswith('Structural Assembly') and '`R063`' in s for s in sections)
     assert any(s.startswith('Earthwork') and '`R019`' in s for s in sections)
@@ -37,15 +37,15 @@ def validate():
     assert (OUTPUT/'index.html').exists()
     rows=json.loads((OUTPUT/'reports.json').read_text(encoding='utf-8'))
     assert {r['id'] for r in rows}==set(ids)
-    assert len(rows)==136
+    assert len(rows)==134
     with (OUTPUT/'reports.csv').open(encoding='utf-8-sig',newline='') as stream:
         exported=list(csv.DictReader(stream))
-    assert len(exported)==136
+    assert len(exported)==134
     assert {r['id'] for r in exported}==set(ids)
-    assert sum(r['role']=='Structured' for r in exported)==103
-    assert sum(r['role']=='Contextual' for r in exported)==33
+    assert sum(r['role']=='Structured' for r in exported)==102
+    assert sum(r['role']=='Contextual' for r in exported)==32
     library=Links(); library.feed((OUTPUT/'papers.html').read_text(encoding='utf-8'))
     assert set(ids).issubset(library.ids)
-    print('PASS: 136 unique reports, 103/33 roles, corrected mappings, deployable internal links')
+    print('PASS: 134 unique reports, 102/32 roles, corrected mappings, deployable internal links')
 
 if __name__=='__main__': validate()

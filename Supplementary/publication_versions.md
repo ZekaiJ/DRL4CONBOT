@@ -13,9 +13,9 @@ The protection comparison was repeated after excluding the three reports without
 
 | Reports excluded | Configurations retained | Higher exposure | Lower exposure | Difference (percentage points) |
 |---|---:|---:|---:|---:|
-| None | 103 | 13/30 (43.3%) | 9/73 (12.3%) | 31.0 |
-| R012, R024, R159 | 100 | 12/29 (41.4%) | 9/71 (12.7%) | 28.7 |
-| R012, R024, R026, R159 | 99 | 11/28 (39.3%) | 9/71 (12.7%) | 26.6 |
+| None | 102 | 13/30 (43.3%) | 9/72 (12.5%) | 30.8 |
+| R012, R024, R159 | 99 | 12/29 (41.4%) | 9/70 (12.9%) | 28.5 |
+| R012, R024, R026, R159 | 98 | 11/28 (39.3%) | 9/70 (12.9%) | 26.4 |
 
 The contrast remains positive in both analyses. These exclusions test sensitivity to the cited versions, not publication bias or restriction to a fully verified peer-reviewed corpus. Failure to identify a formal version does not establish that none exists.
 

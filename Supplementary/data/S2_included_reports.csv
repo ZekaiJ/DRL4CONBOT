@@ -54,7 +54,6 @@ U00664,R045,Cooperative Work Simulation of Construction Equipment using Multi-Ag
 U00666,R119,Adaptive Intelligence for Robot Navigation Efficiency with a Deep Reinforcement Learning-Based Cyber-Physical System,10.1061/9780784486115.088,2024,database retrieved,Structured comparative
 U00676,R018,Optimizing bucket-filling strategies for wheel loaders inside a dream environment,10.1016/j.autcon.2024.105804,2024,database retrieved,Structured comparative
 U00681,R076,Substructure-Preserving Generalization for on-site robotic construction planning,10.1109/iscipt61983.2024.10672942,2024,database retrieved,Eligible contextual
-U00682,R047,Autonomous loading of ore piles with Load-Haul-Dump machines using deep reinforcement learning,10.1016/j.eswa.2024.125770,2025,database retrieved,Eligible contextual
 U00690,R088,Deep Reinforcement Learning for Tower Crane Layout Planning in Dense Multi-Building Sites,10.1109/aihcir67580.2025.11404849,2025,database retrieved,Structured comparative
 U00719,R044,Reinforcement Learning Control for Autonomous Hydraulic Material Handling Machines with Underactuated Tools,10.1109/iros58592.2024.10802199,2024,database retrieved,Structured comparative
 U00746,R021,Automated position control of tunnel boring machine during excavation using deep reinforcement learning,10.1016/j.asoc.2024.112234,2024,database retrieved,Structured comparative
@@ -100,7 +99,6 @@ U01371,R095,A Real-time Smooth Lifting Path Planning for Tower Crane Based on TD
 U01377,R154,An Integrated Approach Combining Virtual Environments and Reinforcement Learning to Train Construction Robots for Conducting Tasks Under Uncertainties,10.1007/978-3-031-34593-7_17,2023,database retrieved,Structured comparative
 U01403,R054,Teaching robots to perform quasi-repetitive construction tasks through human demonstration,10.1016/j.autcon.2020.103370,2020,database retrieved,Structured comparative
 U01411,R009,Towards autonomous and optimal excavation of shield machine: a deep reinforcement learning-based approach; [题目:迈向盾构机自主最优掘进:一种基于深度强化学习的方法],10.1631/jzus.a2100325,2022,database retrieved,Structured comparative
-U01418,R156,Study on the Autonomous Walking of an Underground Definite Route LHD Machine Based on Reinforcement Learning,10.3390/app12105052,2022,database retrieved,Structured comparative
 U01422,R065,Visual Spatial Attention and Proprioceptive Data-Driven Reinforcement Learning for Robust Peg-in-Hole Task Under Variable Conditions,10.1109/lra.2023.3243526,2023,database retrieved,Structured comparative
 U01438,R003,Route optimization for autonomous bulldozer by distributed deep reinforcement learning,10.1109/icm46511.2021.9385686,2021,database retrieved,Structured comparative
 U01440,R023,Generalized Framework for Wheel Loader Automatic Shoveling Task with Expert Initialized Reinforcement Learning,10.1109/sii58957.2024.10417575,2024,database retrieved,Structured comparative
