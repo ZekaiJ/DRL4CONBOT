@@ -21,6 +21,8 @@ The configuration table includes two configurations from R094 (horizontal transp
 
 ## Reproduction
 
+R025 (Chen et al., 2025) is classified as command intervention in both the configuration and recovery tables. The controller gains used in the reported experiments do not satisfy one condition of the theoretical constraint-preservation result, so that result does not establish formal enforcement for the evaluated configuration. This classification follows the manuscript appendix and does not change the recovery indicators.
+
 Run `python reproduce.py` with Python 3.10 or later. No third-party packages are required. The script writes results.json beside the script; that file is generated, not an additional input. Recovery indicator counts are 13, 4, 2, and 2. Reports, lineages, and configurations are distinct units.
 
 The database route assessed 159 reports and included 121; supplementary searching assessed 16 and included 15. Four database reports could not be retrieved. Search results comprised 6,255 records before deduplication, 3,138 screened records, and 2,975 screening exclusions.
