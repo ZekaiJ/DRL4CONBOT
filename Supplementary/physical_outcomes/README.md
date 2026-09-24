@@ -14,10 +14,16 @@ Y denotes qualifying evidence in the inspected physical evaluation. N denotes th
 
 `physical_outcomes.csv` contains configuration identifiers, source links, locations and evidence-scope notes. PDF page numbers refer to the inspected PDF sequence and may differ from printed pagination. R109 uses publisher HTML section and figure references. Bibliographic details should be read with the linked source.
 
-Run `python reproduce.py` from this directory to calculate the counts and percentages, both overall and by validation exposure. No additional software packages are needed. The calculation uses the classifications in the table; it does not replace reading the original studies. This supplement covers E/W/D only. The other five reporting features and recovery assessment are reported separately.
+Run `python reproduce.py` from this directory to calculate E/W/D counts and percentages, both overall and by validation exposure. No additional software packages are needed. The calculation uses the classifications in the table; it does not replace reading the original studies.
+
+`additional_measures.csv` records the other five reporting features in Table 8. Run `python reproduce_additional.py` to reproduce motion results (14/30), task time or throughput (9/30), human effort or enacted intervention (4/30), explicit evaluation denominators (17/30), and reported or uniquely determinable unsuccessful counts (10/30). Source notes are retained in their original English or Chinese wording.
+
+Measured trajectories with numerical coordinates qualify as motion results; commands and planned paths alone do not. Evaluation denominators retain their original units, including cycles within workflows and participants in comparisons. Unsuccessful counts may be derived only when reported outcomes and denominators uniquely determine them. Approximate counts remain approximate. Evidence from a lower-exposure test is not transferred to the highest-exposure evaluation.
+
+For these additional measures, N means the criterion was not established in the assessed source passages. It does not establish absence of a capability or exhaustive review of all supplementary media.
 
 ## Review process and scope
 
-The authors checked and approved all 30 outcome records. This process was not independent duplicate assessment, and no agreement statistic was calculated before discussion. Supplementary videos and other media were not reviewed exhaustively.
+The authors checked and approved the 30 E/W/D outcome records. This process was not independent duplicate assessment, and no agreement statistic was calculated before discussion. The additional five measures were subsequently reassessed against source notes and disputed passages on 24 September 2026; they are not covered by the independent exposure/protection reassessment. Supplementary videos and other media were not reviewed exhaustively.
 
 The supplement provides bibliographic links and evidence summaries rather than reproducing publisher full texts, figures or restricted database records.

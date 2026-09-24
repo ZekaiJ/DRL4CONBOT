@@ -16,6 +16,7 @@ The configuration table includes two configurations from R094 (horizontal transp
 | data/S4_configuration_characteristics.csv | The 103 executing configurations |
 | data/S5_recovery_transitions.csv | Recovery assessments for 30 configurations |
 | data/S12_recovery_source_locations.csv | Source pointers and explicit limitations of indicator-specific anchors |
+| [recovery_assessment.md](recovery_assessment.md) | Event-based recovery assessment and changes from the earlier interpretation |
 | reproduce.py | Regenerates descriptive counts and cross-tabulations |
 | [publication_versions.md](publication_versions.md) | Cited publication versions and sensitivity to excluding arXiv reports |
 | [reassessment_subset.md](reassessment_subset.md) | Selection procedure and configuration identifiers for the independent reassessment |
@@ -25,7 +26,7 @@ The configuration table includes two configurations from R094 (horizontal transp
 
 R025 (Chen et al., 2025) is classified as command intervention in both the configuration and recovery tables. The controller gains used in the reported experiments do not satisfy one condition of the theoretical constraint-preservation result, so that result does not establish formal enforcement for the evaluated configuration. This classification follows the manuscript appendix and does not change the recovery indicators.
 
-Run `python reproduce.py` with Python 3.10 or later. No third-party packages are required. The script writes results.json beside the script; that file is generated, not an additional input. Recovery indicator counts are 13, 4, 2, and 2. Reports, lineages, and configurations are distinct units.
+Run `python reproduce.py` with Python 3.10 or later. No third-party packages are required. The script writes results.json beside the script. Recovery indicator counts are 6, 5, 2, and 2. Reports, lineages, and configurations are distinct units.
 
 The database route assessed 159 reports and included 121; supplementary searching assessed 16 and included 15. Four database reports could not be retrieved. Search results comprised 6,255 records before deduplication, 3,138 screened records, and 2,975 screening exclusions.
 
@@ -39,7 +40,9 @@ Original database exports, abstracts, and third-party full texts are not redistr
 
 ## Physical outcome evidence
 
-The additional physical-outcome supplement can be reproduced with `python physical_outcomes/reproduce.py` from this directory. It reports 28 configurations with physical task-endpoint evidence, 12 with physical work-output evaluation, and 3 with a characterized post-operation state explicitly connected to subsequent work (denominator 30 for each). These are separately assessed reporting indicators, not nested categories or success rates. Work-output evidence includes qualitative comparisons of physical outputs. The supplement does not reassess the other five reporting features or the recovery indicators.
+The physical-outcome supplement can be reproduced with `python physical_outcomes/reproduce.py` from this directory. It reports 28 configurations with physical task-endpoint evidence, 12 with physical work-output evaluation, and 3 with a characterized post-operation state explicitly connected to subsequent work (denominator 30 for each). These are separately assessed reporting indicators, not nested categories or success rates. Work-output evidence includes qualitative comparisons of physical outputs.
+
+The [additional reporting measures](physical_outcomes/additional_measures.csv) document motion results (14), task time or throughput (9), human effort or enacted intervention (4), explicit evaluation denominators (17), and reported or uniquely determinable unsuccessful counts (10). Run `python physical_outcomes/reproduce_additional.py` to reproduce these totals. The records retain source locations and interpretation notes. Recovery is assessed separately.
 
 ## Alternative grouping analysis
 
