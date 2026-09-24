@@ -16,11 +16,13 @@ Y denotes qualifying evidence in the inspected physical evaluation. N denotes th
 
 Run `python reproduce.py` from this directory to calculate E/W/D counts and percentages, both overall and by validation exposure. No additional software packages are needed. The calculation uses the classifications in the table; it does not replace reading the original studies.
 
-`additional_measures.csv` records the other five reporting features in Table 8. Run `python reproduce_additional.py` to reproduce motion results (14/30), task time or throughput (9/30), human effort or enacted intervention (4/30), explicit evaluation denominators (17/30), and reported or uniquely determinable unsuccessful counts (10/30). Source notes are retained in their original English or Chinese wording.
+`additional_measures.csv` contains candidate assessments for the other five reporting features in Table 8. Their source review is incomplete. Run `python reproduce_additional.py` to list positive, negative and unresolved assessments separately. These results must not be used as finalized reporting frequencies. Source notes are retained in their original English or Chinese wording.
 
 Measured trajectories with numerical coordinates qualify as motion results; commands and planned paths alone do not. Evaluation denominators retain their original units, including cycles within workflows and participants in comparisons. Unsuccessful counts may be derived only when reported outcomes and denominators uniquely determine them. Approximate counts remain approximate. Evidence from a lower-exposure test is not transferred to the highest-exposure evaluation.
 
-For these additional measures, N means the criterion was not established in the assessed source passages. It does not establish absence of a capability or exhaustive review of all supplementary media.
+For these additional measures, U means that assessment remains unresolved. N retains an earlier negative assessment, not absence of a system capability. Candidate counts remain provisional until source review and scope decisions are complete.
+
+Correction, 24 September 2026: an earlier export converted unresolved source notes to N. Those records have been restored to U. Three proposed changes from earlier positive assessments also remain U pending adjudication. This correction does not change the separately assessed E/W/D records.
 
 ## Review process and scope
 
