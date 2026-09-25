@@ -28,7 +28,7 @@ R025 (Chen et al., 2025) is classified as command intervention in both the confi
 
 Run `python reproduce.py` with Python 3.10 or later. No third-party packages are required. The script writes results.json beside the script. Recovery indicator counts are 6, 5, 2, and 2. Reports, lineages, and configurations are distinct units.
 
-The database route assessed 159 reports and included 121; supplementary searching assessed 16 and included 15. Four database reports could not be retrieved. Search results comprised 6,255 records before deduplication, 3,138 screened records, and 2,975 screening exclusions.
+The database route assessed 159 reports and included 119; supplementary searching assessed 16 and included 15. Four database reports could not be retrieved. Search results comprised 6,255 records before deduplication, 3,138 screened records, and 2,975 screening exclusions.
 
 ## Study selection and assessment
 
